@@ -4,6 +4,88 @@ from sqlalchemy import exc
 from app.utils.llm import get_llm
 from app.graph.state import AgentState
 
+"""
+================================================================================
+【学习指南】reviewer.py - 质量审查员
+================================================================================
+
+📚 核心概念:
+Reviewer 是整个工作流的"审核员",负责检查 Writer 生成的报告是否充分回答了用户的问题,
+质量是否合格。这是 Agentic Workflow 实现自我修正的核心机制。
+
+🎯 为什么需要 Reviewer?
+1. 质量控制: 避免低质量报告直接输出给用户
+2. 自我修正: FAIL 时回到 planner 重新规划,形成"生成-审查-修正"循环
+3. 防幻觉: 通过审查发现编造的内容,要求补充真实证据
+
+💡 类比理解:
+想象论文投稿流程:
+- Writer 写完论文提交
+- Reviewer (审稿人)检查:
+  ├─ 是否回答了研究问题? → PASS
+  └─ 缺少实验数据 → FAIL,返回修改意见
+- 作者根据意见修改后重新提交
+
+🔑 关键函数说明:
+
+1. _clean_json_text(s: str) -> str:
+   - 作用: 清理 LLM 输出的 JSON 字符串
+   - 逻辑: 移除 Markdown 代码块标记(```json),提取 {} 之间的内容
+   - 场景: LLM 经常不按格式输出,需要容错处理
+
+2. review_node(state: AgentState) -> Dict:
+   - 作用: 审查报告质量,给出通过/不通过的判定
+   - 输入: state["query"] (用户问题) + state["final_report"] (待审查报告)
+   - 输出: {"critique": str, "revision_number": int, "review_status": str}
+   
+   - 工作流程:
+     Step 1: 构造 Prompt,包含用户问题和报告内容
+     Step 2: 调用 LLM 进行审查,要求返回 JSON 格式
+             {
+               "status": "PASS" 或 "FAIL",
+               "feedback": "改进建议"
+             }
+     Step 3: 清理并解析 JSON
+     Step 4: 如果解析失败,重试一次
+     Step 5: 如果仍然失败,使用兜底策略(强制 FAIL)
+     Step 6: 返回审查结果,revision_number +1
+   
+   - JSON 解析容错机制:
+     * 第一次尝试: 直接解析 LLM 输出
+     * 第二次尝试: 构造重试 Prompt,要求只输出一行合法 JSON
+     * 兜底策略: 如果两次都失败,返回强制 FAIL,避免系统崩溃
+   
+   - 典型场景:
+     * 场景1: 报告质量合格
+       → status="PASS", feedback="", revision_number+1
+       → graph.py 中 should_continue 返回 END
+     
+     * 场景2: 报告缺少关键信息
+       → status="FAIL", feedback="缺少对 Multi-Agent 协作模式的讨论"
+       → graph.py 中 should_continue 返回 planner,带着 critique 重新规划
+     
+     * 场景3: LLM 输出格式错误
+       → 重试一次 → 仍失败 → 兜底 FAIL
+
+🎓 学习要点:
+1. 结构化输出: 要求 LLM 返回 JSON,便于程序化处理
+2. 多层容错: 清理 → 解析 → 重试 → 兜底,保证系统稳定性
+3. 反馈驱动: critique 作为下一轮规划的输入,实现针对性改进
+4. 循环控制: revision_number 防止无限循环(最多 3 次)
+5. 严格性: temperature=0,要求绝对理性,不要创造力
+
+⚠️ 注意事项:
+- LLM 可能不按要求输出 JSON,必须有完善的容错机制
+- feedback 应该具体明确,如"缺少案例分析",而不是"质量不好"
+- 可以根据实际需求调整最大重试次数(当前是 3)
+
+🔗 与其他模块的关系:
+- graph.py: reviewer → [should_continue] → planner(FAIL) 或 END(PASS)
+- writer.py: 提供 final_report 供审查
+- planner.py: 接收 critique,指导下一次规划
+================================================================================
+"""
+
 llm = get_llm(model_type="smart")
 
 
@@ -23,6 +105,7 @@ REVIEW_PROMPT = ChatPromptTemplate.from_template(
 )
 
 def _clean_json_text(s: str) -> str:
+    """清理 LLM 输出的 JSON 字符串:移除 Markdown 代码块标记,提取 {} 之间的内容。"""
     s = (s or "").strip()
     s = s.replace("```json", "").replace("```", "").strip()
     l = s.find("{")
@@ -32,6 +115,25 @@ def _clean_json_text(s: str) -> str:
     return s
 
 def review_node(state: AgentState):
+    """
+    质量审查节点:审查报告质量,给出通过/不通过的判定
+    
+    检查 Writer 生成的报告是否充分回答了用户的问题,质量是否合格。
+    
+    参数:
+    - state: 当前的 AgentState,包含 query、final_report 和 revision_number
+    
+    返回:
+    - {"critique": str, "revision_number": int, "review_status": str}
+    
+    工作流程:
+    1. 构造 Prompt,包含用户问题和报告内容
+    2. 调用 LLM 进行审查,要求返回 JSON 格式
+    3. 清理并解析 JSON
+    4. 如果解析失败,重试一次
+    5. 如果仍然失败,使用兜底策略(强制 FAIL)
+    6. 返回审查结果,revision_number +1
+    """
     print("--- [节点] 正在审查报告质量 ---")
     query = state["query"]
     report = state["final_report"]
@@ -75,6 +177,7 @@ def review_node(state: AgentState):
 
 # 测试函数
 def test_review_node():
+    """测试函数:验证 Reviewer 的功能"""
     print("\n========== [TEST] review_node ==========\n")
 
     # -----------------------------
