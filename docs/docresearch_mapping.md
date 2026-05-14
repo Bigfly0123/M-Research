@@ -466,28 +466,6 @@ Repair 动作
 
 ---
 
-## 12. 最终简历定位
-
-不要写：
-
-```text
-复现 IRIS 项目
-```
-
-应该写：
-
-```text
-独立设计并实现 DocResearch-Agent，一个面向技术文档的 Agentic RAG 评测与自修复系统。
-```
-
-可以在面试中自然说明：
-
-```text
-我前期通过一个小型 Agentic RAG 学习项目熟悉了 LangGraph 状态机、RAG 检索、Reviewer 自审和前后端流式交互。之后我重新定义了技术文档 QA 场景，设计了 DocResearch-Agent，重点实现 Hybrid Retrieval、Answer Judge、Self-Repair 和 Evaluation Report。
-```
-
----
-
 ## 13. 最终迁移原则
 
 ### 13.1 可以借鉴

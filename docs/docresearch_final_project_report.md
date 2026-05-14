@@ -974,63 +974,14 @@ extra_token_cost
 11. 后续计划
 ```
 
-注意：不要把项目写成“复现 IRIS”。
-
-可以写：
-
 ```text
 本项目在学习早期 Agentic RAG 工程结构的基础上，重新面向技术文档 QA 场景设计，重点实现 Hybrid Retrieval、Answer Judge、Self-Repair 和 Evaluation Report。
 ```
 
 ---
 
-## 13. 简历描述建议
-
-### 项目名称
-
-**DocResearch-Agent：面向技术文档的 Agentic RAG 评测与自修复系统**
-
-### 简历 bullet
-
-```text
-独立设计并实现面向技术文档的 Agentic RAG 系统，基于 LangGraph 构建 Query Planner、Hybrid Retriever、Answer Generator、Answer Judge 与 Repair Router，实现从文档解析、证据检索、引用生成、质量判断到自动修复的闭环。
-```
-
-```text
-实现 Dense Retrieval + BM25 的混合检索策略，并保留 source、section、page、chunk_id 等 metadata，用于生成可追溯引用和检索 trace。
-```
-
-```text
-设计结构化 Answer Judge，对 answer relevance、faithfulness、citation support 等维度进行检查，并基于 citation_error、weak_evidence、incomplete_answer 等失败类型触发自动修复。
-```
-
-```text
-构建小型 RAG 评测集，对比 baseline RAG、hybrid retrieval 和 agentic repair 三种策略在检索命中、引用准确性和修复成功率上的表现，并输出 eval_report.md 进行失败案例分析。
-```
-
-```text
-持续调研 Claude、阿里云、华为云等技术博客中的 Agent / RAG 工程实践，将 rerank、failure attribution、trace logging 等方法转化为项目设计决策和实验模块。
-```
-
----
-
-## 14. 面试讲述逻辑
-
-可以这样讲：
-
-```text
-我之前通过一个小型 Agentic RAG 学习项目熟悉了 LangGraph 状态机、RAG 检索和 Reviewer 自审循环。但我发现普通报告生成项目不太适合直接作为简历主项目，所以重新定义了一个技术文档 QA 场景。
-
-DocResearch-Agent 的重点不是生成长报告，而是解决 RAG 在技术文档问答中的可靠性问题：检索是否准确、引用是否支持答案、答案是否忠于证据、出错后能不能自动修复。
-
-因此我设计了 Hybrid Retriever、Answer Judge 和 Repair Router，并通过 eval_runner 对 baseline、hybrid 和 self-repair 策略做对比。
-```
-
----
-
 ## 15. MVP 验收标准
 
-一周 MVP 完成标准：
 
 ```text
 [ ] 能加载 Markdown / TXT / PDF 中至少两类文档
@@ -1119,11 +1070,3 @@ DocResearch-Agent 的最终价值在于：
 3. Self-Repair + Eval：让系统能发现问题、修复问题，并用评测证明改进。
 ```
 
-与 TruckDrivers-Agent 搭配后，简历项目组合会形成互补：
-
-```text
-TruckDrivers-Agent：决策型 Agent
-DocResearch-Agent：知识型 / RAG 型 Agent
-```
-
-这能体现你不仅做过 Agent 决策系统，也做过 Agentic RAG 和 LLM 应用可靠性工程。
