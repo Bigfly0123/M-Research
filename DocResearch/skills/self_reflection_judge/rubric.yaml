@@ -1,0 +1,39 @@
+answer_relevance:
+  description: "答案是否直接回答了用户问题"
+  threshold: 0.75
+  high: "答案完全针对问题，覆盖所有关键点"
+  medium: "答案部分相关，遗漏或偏移部分"
+  low: "答案与问题关联度低"
+
+citation_support:
+  description: "引用的 chunk 是否支撑了声明"
+  threshold: 0.75
+  high: "所有引用准确支撑对应声明"
+  medium: "大部分引用支撑，少量引用不直接相关"
+  low: "引用与声明不匹配或引用缺失"
+
+faithfulness:
+  description: "答案是否忠实于证据，无幻觉"
+  threshold: 0.75
+  high: "每个声明都有证据支撑"
+  medium: "少量声明缺乏直接支撑"
+  low: "存在明显幻觉"
+
+context_sufficiency:
+  description: "可用证据是否足够回答问题"
+  threshold: 0.65
+  high: "证据充分，能完整回答"
+  medium: "证据部分不足，答案可能不完整"
+  low: "证据严重不足"
+
+failure_type_accuracy:
+  description: "failure_type 诊断是否准确"
+  high: "failure_type 准确反映实际失败原因"
+  medium: "failure_type 大致合理但有更精确选项"
+  low: "failure_type 误判"
+
+repair_action_appropriateness:
+  description: "repair_action 是否是最佳修复策略"
+  high: "修复策略针对性强且可行"
+  medium: "修复策略可行但非最优"
+  low: "修复策略不当"

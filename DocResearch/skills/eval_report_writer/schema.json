@@ -1,0 +1,19 @@
+{
+  "name": "eval_report_writer",
+  "version": "0.2.0",
+  "description": "Generate evaluation report comparing retrieval strategies from multiple results.jsonl.",
+  "inputs": ["input_paths", "output_path"],
+  "outputs": ["eval_report.md"],
+  "fields": {
+    "report_sections": {
+      "dataset": {"type": "str", "description": "数据集名称"},
+      "sample_size": {"type": "int", "description": "样本量"},
+      "configs": {"type": "List[str]", "description": "对比配置列表"},
+      "metrics": {"type": "List[str]", "description": "评测指标列表"},
+      "results_table": {"type": "dict", "description": "各组配置的指标汇总"},
+      "failure_cases": {"type": "List[dict]", "description": "失败案例"},
+      "findings": {"type": "List[str]", "description": "关键发现"},
+      "conclusion": {"type": "List[str]", "description": "结论"}
+    }
+  }
+}

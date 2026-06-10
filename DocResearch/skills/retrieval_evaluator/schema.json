@@ -1,0 +1,14 @@
+{
+  "name": "retrieval_evaluator",
+  "version": "0.2.0",
+  "description": "Evaluate retrieval quality and recommend corrective action.",
+  "inputs": ["question", "chunks", "use_llm"],
+  "outputs": ["evidence_quality", "confidence", "reason", "missing_evidence", "recommended_action"],
+  "fields": {
+    "evidence_quality": {"type": "Literal[strong, weak, irrelevant, conflicting]", "description": "证据质量等级", "default": "irrelevant"},
+    "confidence": {"type": "float", "description": "置信度分数 0.0-1.0", "default": 0.0},
+    "reason": {"type": "str", "description": "评估理由", "default": ""},
+    "missing_evidence": {"type": "List[str]", "description": "缺失的证据描述", "default": []},
+    "recommended_action": {"type": "Literal[continue, rewrite_query, graph_expand, fallback_bm25]", "description": "推荐行动", "default": "rewrite_query"}
+  }
+}

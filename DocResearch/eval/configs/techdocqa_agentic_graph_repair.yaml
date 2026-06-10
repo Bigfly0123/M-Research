@@ -1,0 +1,17 @@
+name: techdocqa_agentic_graph_repair
+dataset: techdocqa
+corpus_path: data/processed/techdocqa/chunks.jsonl
+index_dir: data/indexes/techdocqa
+retriever:
+  use_dense: true
+  use_bm25: true
+  use_graph: true
+  graph_hops: 1
+  top_k: 10
+pipeline:
+  use_context_planner: true
+  use_retrieval_evaluator: true
+  use_evidence_composer: true
+  use_judge: true
+  use_repair: true
+mode: full_qa

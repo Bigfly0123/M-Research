@@ -1,0 +1,7131 @@
+{
+  "term_to_chunks": {
+    "PPTH": [
+      "sr_doc_000255-c000"
+    ],
+    "TV": [
+      "sr_doc_000255-c000",
+      "sr_doc_000976-c000",
+      "sr_doc_001016-c000",
+      "sr_doc_001584-c000",
+      "sr_doc_002374-c000",
+      "sr_doc_003986-c000",
+      "sr_doc_005082-c000",
+      "sr_doc_008436-c000",
+      "sr_doc_013647-c000",
+      "sr_doc_015240-c000",
+      "sr_doc_015646-c000",
+      "sr_doc_017148-c000",
+      "sr_doc_023291-c000",
+      "sr_doc_025091-c000"
+    ],
+    "twenty-fourth": [
+      "sr_doc_000256-c000"
+    ],
+    "FINA": [
+      "sr_doc_001015-c000"
+    ],
+    "GB": [
+      "sr_doc_001016-c000"
+    ],
+    "ITV": [
+      "sr_doc_001016-c000",
+      "sr_doc_003928-c000",
+      "sr_doc_013142-c000",
+      "sr_doc_015646-c000"
+    ],
+    "UK": [
+      "sr_doc_001016-c000",
+      "sr_doc_001183-c000",
+      "sr_doc_002494-c000",
+      "sr_doc_003928-c000",
+      "sr_doc_011033-c000",
+      "sr_doc_012743-c000",
+      "sr_doc_014704-c000",
+      "sr_doc_015526-c000",
+      "sr_doc_016378-c000",
+      "sr_doc_021465-c000",
+      "sr_doc_022564-c000"
+    ],
+    "grass-like": [
+      "sr_doc_001755-c000"
+    ],
+    "sap-suckers": [
+      "sr_doc_001755-c000"
+    ],
+    "strap-shaped": [
+      "sr_doc_001755-c000"
+    ],
+    "pea-like": [
+      "sr_doc_001756-c000"
+    ],
+    "US": [
+      "sr_doc_001033-c000",
+      "sr_doc_001183-c000",
+      "sr_doc_001841-c000",
+      "sr_doc_008162-c000",
+      "sr_doc_011373-c000",
+      "sr_doc_012743-c000",
+      "sr_doc_013896-c000",
+      "sr_doc_014939-c000",
+      "sr_doc_023046-c000",
+      "sr_doc_023081-c000"
+    ],
+    "runner-up": [
+      "sr_doc_001841-c000",
+      "sr_doc_009684-c000",
+      "sr_doc_013648-c000",
+      "sr_doc_014029-c000"
+    ],
+    "best-selling": [
+      "sr_doc_001993-c000",
+      "sr_doc_022764-c000"
+    ],
+    "singer-songwriter": [
+      "sr_doc_000282-c000",
+      "sr_doc_001993-c000",
+      "sr_doc_004021-c000",
+      "sr_doc_005803-c000",
+      "sr_doc_006709-c000",
+      "sr_doc_012628-c000",
+      "sr_doc_013391-c000",
+      "sr_doc_015801-c000",
+      "sr_doc_019843-c000"
+    ],
+    "McCartney": [
+      "sr_doc_001183-c000",
+      "sr_doc_002158-c000",
+      "sr_doc_003558-c000",
+      "sr_doc_015801-c000"
+    ],
+    "multi-artist": [
+      "sr_doc_002158-c000"
+    ],
+    "GMT": [
+      "sr_doc_002494-c000"
+    ],
+    "UT1": [
+      "sr_doc_002494-c000"
+    ],
+    "UTC": [
+      "sr_doc_002494-c000"
+    ],
+    "four-storey": [
+      "sr_doc_002495-c000"
+    ],
+    "civil-military": [
+      "sr_doc_002616-c000"
+    ],
+    "JAM8": [
+      "sr_doc_002693-c000"
+    ],
+    "DBE": [
+      "sr_doc_003282-c000"
+    ],
+    "longest-running": [
+      "sr_doc_003282-c000"
+    ],
+    "NBA": [
+      "sr_doc_003606-c000",
+      "sr_doc_003774-c000",
+      "sr_doc_009854-c000",
+      "sr_doc_017900-c000",
+      "sr_doc_019961-c000",
+      "sr_doc_022119-c000"
+    ],
+    "SuperSonics": [
+      "sr_doc_003774-c000"
+    ],
+    "NCAA": [
+      "sr_doc_003775-c000",
+      "sr_doc_003786-c000",
+      "sr_doc_003788-c000",
+      "sr_doc_004870-c000",
+      "sr_doc_006875-c000",
+      "sr_doc_013320-c000",
+      "sr_doc_019426-c000",
+      "sr_doc_019490-c000"
+    ],
+    "II": [
+      "sr_doc_001725-c000",
+      "sr_doc_003934-c000",
+      "sr_doc_004129-c000",
+      "sr_doc_006986-c000",
+      "sr_doc_007411-c000",
+      "sr_doc_008369-c000",
+      "sr_doc_010697-c000",
+      "sr_doc_010761-c000",
+      "sr_doc_013885-c000",
+      "sr_doc_016497-c000",
+      "sr_doc_017423-c000",
+      "sr_doc_019167-c000",
+      "sr_doc_019866-c000",
+      "sr_doc_020206-c000",
+      "sr_doc_020740-c000",
+      "sr_doc_023688-c000",
+      "sr_doc_023942-c000"
+    ],
+    "DeMunn": [
+      "sr_doc_003935-c000"
+    ],
+    "McBride": [
+      "sr_doc_003935-c000",
+      "sr_doc_013582-c000"
+    ],
+    "science-fiction": [
+      "sr_doc_003935-c000",
+      "sr_doc_011976-c000"
+    ],
+    "after-dinner": [
+      "sr_doc_003961-c000"
+    ],
+    "mint-flavored": [
+      "sr_doc_003961-c000"
+    ],
+    "long-running": [
+      "sr_doc_003987-c000"
+    ],
+    "semi-regular": [
+      "sr_doc_003987-c000"
+    ],
+    "twenty-two": [
+      "sr_doc_004193-c000"
+    ],
+    "multi-use": [
+      "sr_doc_004194-c000",
+      "sr_doc_013425-c000"
+    ],
+    "TKO": [
+      "sr_doc_004207-c000"
+    ],
+    "WBA": [
+      "sr_doc_004208-c000"
+    ],
+    "hard-hitting": [
+      "sr_doc_004208-c000"
+    ],
+    "super-heavyweight": [
+      "sr_doc_004208-c000"
+    ],
+    "four-time": [
+      "sr_doc_004236-c000",
+      "sr_doc_004237-c000"
+    ],
+    "co-produced": [
+      "sr_doc_002775-c000",
+      "sr_doc_004941-c000",
+      "sr_doc_014077-c000",
+      "sr_doc_019843-c000",
+      "sr_doc_025091-c000"
+    ],
+    "co-production": [
+      "sr_doc_004941-c000",
+      "sr_doc_013582-c000"
+    ],
+    "co-written": [
+      "sr_doc_004941-c000",
+      "sr_doc_006709-c000",
+      "sr_doc_010298-c000",
+      "sr_doc_011853-c000",
+      "sr_doc_012844-c000",
+      "sr_doc_014077-c000",
+      "sr_doc_015881-c000",
+      "sr_doc_016407-c000",
+      "sr_doc_016481-c000",
+      "sr_doc_016628-c000",
+      "sr_doc_023081-c000"
+    ],
+    "comedy-drama": [
+      "sr_doc_001637-c000",
+      "sr_doc_004941-c000",
+      "sr_doc_018684-c000"
+    ],
+    "coming-of-age": [
+      "sr_doc_004941-c000",
+      "sr_doc_011853-c000",
+      "sr_doc_021809-c000"
+    ],
+    "composer": [
+      "sr_doc_004225-c000",
+      "sr_doc_004591-c000",
+      "sr_doc_005362-c000",
+      "sr_doc_006495-c000",
+      "sr_doc_016689-c000",
+      "sr_doc_017160-c000",
+      "sr_doc_021210-c000",
+      "sr_doc_022913-c000",
+      "sr_doc_023023-c000",
+      "sr_doc_024045-c000"
+    ],
+    "editor-in-chief": [
+      "sr_doc_005564-c000"
+    ],
+    "peer-reviewed": [
+      "sr_doc_005564-c000"
+    ],
+    "ClinicalKey": [
+      "sr_doc_005565-c000"
+    ],
+    "RELX": [
+      "sr_doc_005565-c000"
+    ],
+    "ScienceDirect": [
+      "sr_doc_005565-c000"
+    ],
+    "citation": [
+      "sr_doc_005565-c000"
+    ],
+    "data-management": [
+      "sr_doc_005565-c000"
+    ],
+    "SNL": [
+      "sr_doc_005802-c000"
+    ],
+    "slow-tempo": [
+      "sr_doc_005802-c000"
+    ],
+    "NBC": [
+      "sr_doc_004409-c000",
+      "sr_doc_005018-c000",
+      "sr_doc_006122-c000",
+      "sr_doc_006123-c000",
+      "sr_doc_025096-c000"
+    ],
+    "ALF": [
+      "sr_doc_006123-c000"
+    ],
+    "co-producing": [
+      "sr_doc_006709-c000"
+    ],
+    "co-wrote": [
+      "sr_doc_006709-c000",
+      "sr_doc_015526-c000",
+      "sr_doc_021717-c000",
+      "sr_doc_022159-c000",
+      "sr_doc_025130-c000"
+    ],
+    "YG": [
+      "sr_doc_007909-c000"
+    ],
+    "DJ": [
+      "sr_doc_001038-c000",
+      "sr_doc_005370-c000",
+      "sr_doc_005371-c000",
+      "sr_doc_007910-c000",
+      "sr_doc_012714-c000",
+      "sr_doc_013896-c000"
+    ],
+    "hip-hop": [
+      "sr_doc_007910-c000",
+      "sr_doc_013895-c000"
+    ],
+    "CHIP": [
+      "sr_doc_008068-c000",
+      "sr_doc_008069-c000"
+    ],
+    "HFP": [
+      "sr_doc_008068-c000"
+    ],
+    "no-cost": [
+      "sr_doc_008068-c000"
+    ],
+    "SCHIP": [
+      "sr_doc_008069-c000"
+    ],
+    "large-wheeled": [
+      "sr_doc_008210-c000"
+    ],
+    "voice-dubbing": [
+      "sr_doc_008436-c000"
+    ],
+    "CBS": [
+      "sr_doc_008876-c000",
+      "sr_doc_019866-c000",
+      "sr_doc_019895-c000",
+      "sr_doc_020206-c000",
+      "sr_doc_024085-c000"
+    ],
+    "TNT": [
+      "sr_doc_008876-c000"
+    ],
+    "guest-starred": [
+      "sr_doc_008876-c000"
+    ],
+    "DGSI": [
+      "sr_doc_009052-c000"
+    ],
+    "IATA": [
+      "sr_doc_005542-c000",
+      "sr_doc_009052-c000",
+      "sr_doc_010390-c000",
+      "sr_doc_010391-c000"
+    ],
+    "ICAO": [
+      "sr_doc_005542-c000",
+      "sr_doc_009052-c000",
+      "sr_doc_010390-c000",
+      "sr_doc_010391-c000"
+    ],
+    "KMS": [
+      "sr_doc_009052-c000"
+    ],
+    "KU": [
+      "sr_doc_009656-c000"
+    ],
+    "CDP": [
+      "sr_doc_009738-c000",
+      "sr_doc_014831-c000"
+    ],
+    "census-designated": [
+      "sr_doc_009738-c000",
+      "sr_doc_014831-c000"
+    ],
+    "computer-animated": [
+      "sr_doc_009755-c000",
+      "sr_doc_013582-c000"
+    ],
+    "TVA": [
+      "sr_doc_009084-c000",
+      "sr_doc_009796-c000"
+    ],
+    "make-up": [
+      "sr_doc_009826-c000"
+    ],
+    "novelists-activists": [
+      "sr_doc_009827-c000"
+    ],
+    "mid-late": [
+      "sr_doc_010369-c000"
+    ],
+    "EP": [
+      "sr_doc_011145-c000",
+      "sr_doc_012743-c000",
+      "sr_doc_015286-c000",
+      "sr_doc_017102-c000"
+    ],
+    "ODI": [
+      "sr_doc_011248-c000"
+    ],
+    "T20I": [
+      "sr_doc_011248-c000"
+    ],
+    "BT": [
+      "sr_doc_011633-c000"
+    ],
+    "co-owner": [
+      "sr_doc_011633-c000"
+    ],
+    "FA": [
+      "sr_doc_004204-c000",
+      "sr_doc_006595-c000",
+      "sr_doc_011634-c000",
+      "sr_doc_019648-c000",
+      "sr_doc_022309-c000"
+    ],
+    "shoot-out": [
+      "sr_doc_011634-c000"
+    ],
+    "multiple-fatality": [
+      "sr_doc_011854-c000"
+    ],
+    "McChord": [
+      "sr_doc_011976-c000"
+    ],
+    "neo-noir": [
+      "sr_doc_011976-c000"
+    ],
+    "two-thirds": [
+      "sr_doc_012036-c000"
+    ],
+    "CSN": [
+      "sr_doc_012037-c000"
+    ],
+    "four-year": [
+      "sr_doc_010664-c000",
+      "sr_doc_012037-c000"
+    ],
+    "two-year": [
+      "sr_doc_012037-c000"
+    ],
+    "NIST": [
+      "sr_doc_012435-c000"
+    ],
+    "ground-breaking": [
+      "sr_doc_012435-c000",
+      "sr_doc_012436-c000"
+    ],
+    "VI": [
+      "sr_doc_012436-c000"
+    ],
+    "live-action": [
+      "sr_doc_012819-c000",
+      "sr_doc_012844-c000"
+    ],
+    "longest-lasting": [
+      "sr_doc_012819-c000"
+    ],
+    "post-time": [
+      "sr_doc_012820-c000"
+    ],
+    "MGM": [
+      "sr_doc_013425-c000",
+      "sr_doc_017148-c000"
+    ],
+    "WBC": [
+      "sr_doc_013426-c000"
+    ],
+    "CE": [
+      "sr_doc_013544-c000"
+    ],
+    "see-gi-ri": [
+      "sr_doc_013544-c000"
+    ],
+    "fair-trade": [
+      "sr_doc_013671-c000"
+    ],
+    "feature-length": [
+      "sr_doc_002523-c000",
+      "sr_doc_013672-c000"
+    ],
+    "CBC": [
+      "sr_doc_013812-c000",
+      "sr_doc_015526-c000",
+      "sr_doc_022276-c000"
+    ],
+    "ATP": [
+      "sr_doc_004525-c000",
+      "sr_doc_013813-c000"
+    ],
+    "HUD": [
+      "sr_doc_013884-c000"
+    ],
+    "SS": [
+      "sr_doc_013885-c000"
+    ],
+    "DMC": [
+      "sr_doc_013895-c000",
+      "sr_doc_013896-c000"
+    ],
+    "LL": [
+      "sr_doc_013895-c000"
+    ],
+    "MTV": [
+      "sr_doc_008947-c000",
+      "sr_doc_013895-c000"
+    ],
+    "McDaniels": [
+      "sr_doc_013895-c000"
+    ],
+    "AC": [
+      "sr_doc_013896-c000",
+      "sr_doc_015706-c000"
+    ],
+    "MC": [
+      "sr_doc_013896-c000"
+    ],
+    "world-wide": [
+      "sr_doc_013896-c000"
+    ],
+    "four-chambered": [
+      "sr_doc_013967-c000"
+    ],
+    "hard-shelled": [
+      "sr_doc_013967-c000"
+    ],
+    "SU": [
+      "sr_doc_014263-c000"
+    ],
+    "UTEP": [
+      "sr_doc_014371-c000",
+      "sr_doc_019347-c000"
+    ],
+    "self-titled": [
+      "sr_doc_002681-c000",
+      "sr_doc_010761-c000",
+      "sr_doc_014867-c000"
+    ],
+    "AXIS": [
+      "sr_doc_015264-c000"
+    ],
+    "USA": [
+      "sr_doc_014939-c000",
+      "sr_doc_015264-c000",
+      "sr_doc_015516-c000",
+      "sr_doc_017178-c000",
+      "sr_doc_019241-c000",
+      "sr_doc_019326-c000",
+      "sr_doc_024839-c000"
+    ],
+    "mid-sized": [
+      "sr_doc_015264-c000"
+    ],
+    "second-most": [
+      "sr_doc_010157-c000",
+      "sr_doc_015801-c000"
+    ],
+    "FM": [
+      "sr_doc_015878-c000"
+    ],
+    "KBSO": [
+      "sr_doc_015878-c000"
+    ],
+    "care-free": [
+      "sr_doc_015879-c000"
+    ],
+    "modern-day": [
+      "sr_doc_015924-c000",
+      "sr_doc_020448-c000",
+      "sr_doc_023893-c000"
+    ],
+    "romantic-fantasy": [
+      "sr_doc_015998-c000"
+    ],
+    "MW": [
+      "sr_doc_009810-c000",
+      "sr_doc_016589-c000"
+    ],
+    "non-ferrous": [
+      "sr_doc_016589-c000"
+    ],
+    "FY2015": [
+      "sr_doc_016590-c000"
+    ],
+    "HZL": [
+      "sr_doc_016590-c000"
+    ],
+    "PLC": [
+      "sr_doc_004110-c000",
+      "sr_doc_016590-c000"
+    ],
+    "REC": [
+      "sr_doc_016628-c000"
+    ],
+    "found-footage": [
+      "sr_doc_016628-c000"
+    ],
+    "front-runner": [
+      "sr_doc_017424-c000"
+    ],
+    "hybrid": [
+      "sr_doc_005370-c000",
+      "sr_doc_006883-c000",
+      "sr_doc_016377-c000",
+      "sr_doc_017772-c000"
+    ],
+    "DVD": [
+      "sr_doc_015238-c000",
+      "sr_doc_018136-c000"
+    ],
+    "stand-up": [
+      "sr_doc_018136-c000",
+      "sr_doc_022276-c000"
+    ],
+    "evidence": [
+      "sr_doc_013011-c000",
+      "sr_doc_018186-c000",
+      "sr_doc_024675-c000"
+    ],
+    "middle-aged": [
+      "sr_doc_018684-c000"
+    ],
+    "black-and-white": [
+      "sr_doc_019230-c000",
+      "sr_doc_019241-c000",
+      "sr_doc_022732-c000"
+    ],
+    "TDSB": [
+      "sr_doc_019347-c000"
+    ],
+    "inner-city": [
+      "sr_doc_006986-c000",
+      "sr_doc_019763-c000"
+    ],
+    "self-penned": [
+      "sr_doc_019843-c000"
+    ],
+    "FBI": [
+      "sr_doc_019866-c000"
+    ],
+    "short-lived": [
+      "sr_doc_019866-c000",
+      "sr_doc_021717-c000"
+    ],
+    "IRA": [
+      "sr_doc_020397-c000",
+      "sr_doc_022530-c000"
+    ],
+    "KBE": [
+      "sr_doc_020473-c000"
+    ],
+    "non-stop": [
+      "sr_doc_020473-c000"
+    ],
+    "trans-atlantic": [
+      "sr_doc_020474-c000"
+    ],
+    "in-depth": [
+      "sr_doc_020730-c000"
+    ],
+    "multi-faith": [
+      "sr_doc_021466-c000"
+    ],
+    "sci-fi": [
+      "sr_doc_010438-c000",
+      "sr_doc_021656-c000"
+    ],
+    "love-hate": [
+      "sr_doc_021718-c000"
+    ],
+    "NewsRadio": [
+      "sr_doc_022276-c000"
+    ],
+    "five-part": [
+      "sr_doc_022276-c000"
+    ],
+    "small-budget": [
+      "sr_doc_022425-c000"
+    ],
+    "book-sized": [
+      "sr_doc_022732-c000"
+    ],
+    "rock-and-roll": [
+      "sr_doc_023364-c000"
+    ],
+    "four-piece": [
+      "sr_doc_023718-c000"
+    ],
+    "two-person": [
+      "sr_doc_023718-c000"
+    ],
+    "McKinnon": [
+      "sr_doc_013582-c000"
+    ],
+    "white-leaf": [
+      "sr_doc_015735-c000"
+    ],
+    "generator": [
+      "sr_doc_009810-c000",
+      "sr_doc_024836-c000"
+    ],
+    "south-southwest": [
+      "sr_doc_013995-c000"
+    ],
+    "DeLuna": [
+      "sr_doc_004021-c000"
+    ],
+    "DeWyze": [
+      "sr_doc_004021-c000"
+    ],
+    "hyper-visual": [
+      "sr_doc_014380-c000"
+    ],
+    "left-over": [
+      "sr_doc_014380-c000"
+    ],
+    "spin-off": [
+      "sr_doc_007555-c000",
+      "sr_doc_008947-c000"
+    ],
+    "KTH": [
+      "sr_doc_022957-c000"
+    ],
+    "XVI": [
+      "sr_doc_022957-c000"
+    ],
+    "DuckTales": [
+      "sr_doc_015238-c000"
+    ],
+    "TaleSpin": [
+      "sr_doc_015238-c000"
+    ],
+    "created-for-syndication": [
+      "sr_doc_015238-c000"
+    ],
+    "mid-to-late": [
+      "sr_doc_015238-c000"
+    ],
+    "two-hour": [
+      "sr_doc_015238-c000"
+    ],
+    "pre-show": [
+      "sr_doc_017900-c000"
+    ],
+    "TLC": [
+      "sr_doc_016160-c000"
+    ],
+    "retrieval": [
+      "sr_doc_017780-c000"
+    ],
+    "ROTC": [
+      "sr_doc_019114-c000"
+    ],
+    "EPOC": [
+      "sr_doc_011195-c000"
+    ],
+    "FAA": [
+      "sr_doc_010390-c000",
+      "sr_doc_010391-c000"
+    ],
+    "KVPZ": [
+      "sr_doc_010391-c000"
+    ],
+    "LID": [
+      "sr_doc_010390-c000",
+      "sr_doc_010391-c000"
+    ],
+    "VPZ": [
+      "sr_doc_010391-c000"
+    ],
+    "CEO": [
+      "sr_doc_014101-c000",
+      "sr_doc_016815-c000",
+      "sr_doc_024339-c000"
+    ],
+    "ARIA": [
+      "sr_doc_002488-c000",
+      "sr_doc_016116-c000"
+    ],
+    "KC": [
+      "sr_doc_002488-c000"
+    ],
+    "number-one": [
+      "sr_doc_002488-c000"
+    ],
+    "one-week": [
+      "sr_doc_002488-c000"
+    ],
+    "CSB": [
+      "sr_doc_018926-c000"
+    ],
+    "CP": [
+      "sr_doc_020019-c000"
+    ],
+    "three-time": [
+      "sr_doc_004242-c000"
+    ],
+    "re-founded": [
+      "sr_doc_023154-c000"
+    ],
+    "re-elected": [
+      "sr_doc_010664-c000",
+      "sr_doc_024952-c000"
+    ],
+    "multi-hero": [
+      "sr_doc_003378-c000"
+    ],
+    "of-the": [
+      "sr_doc_013950-c000"
+    ],
+    "top-billed": [
+      "sr_doc_006652-c000"
+    ],
+    "ag-gag": [
+      "sr_doc_014159-c000"
+    ],
+    "anti-whistleblower": [
+      "sr_doc_014159-c000"
+    ],
+    "BMG": [
+      "sr_doc_022561-c000"
+    ],
+    "NFL": [
+      "sr_doc_005211-c000",
+      "sr_doc_010072-c000",
+      "sr_doc_011881-c000",
+      "sr_doc_013320-c000",
+      "sr_doc_015399-c000",
+      "sr_doc_020065-c000",
+      "sr_doc_021415-c000"
+    ],
+    "VP": [
+      "sr_doc_015337-c000"
+    ],
+    "newly-vacated": [
+      "sr_doc_015337-c000"
+    ],
+    "vice-presidential": [
+      "sr_doc_015337-c000"
+    ],
+    "McCormick": [
+      "sr_doc_006857-c000"
+    ],
+    "co-creator": [
+      "sr_doc_006857-c000"
+    ],
+    "long-time": [
+      "sr_doc_006857-c000"
+    ],
+    "oft-muffled": [
+      "sr_doc_006857-c000"
+    ],
+    "PR": [
+      "sr_doc_013580-c000"
+    ],
+    "multi-member": [
+      "sr_doc_013580-c000"
+    ],
+    "single-member": [
+      "sr_doc_013580-c000"
+    ],
+    "co-created": [
+      "sr_doc_013619-c000"
+    ],
+    "PD": [
+      "sr_doc_017358-c000"
+    ],
+    "social-liberal": [
+      "sr_doc_017358-c000"
+    ],
+    "OzGirl": [
+      "sr_doc_006449-c000"
+    ],
+    "north-east": [
+      "sr_doc_003977-c000",
+      "sr_doc_011784-c000"
+    ],
+    "south-west": [
+      "sr_doc_011784-c000"
+    ],
+    "DeBarge": [
+      "sr_doc_025130-c000"
+    ],
+    "MBE": [
+      "sr_doc_024207-c000"
+    ],
+    "co-star": [
+      "sr_doc_024207-c000"
+    ],
+    "longest-serving": [
+      "sr_doc_024207-c000"
+    ],
+    "south-southeast": [
+      "sr_doc_014831-c000"
+    ],
+    "E6": [
+      "sr_doc_019368-c000"
+    ],
+    "eighth-grader": [
+      "sr_doc_014029-c000"
+    ],
+    "CFTM": [
+      "sr_doc_009084-c000"
+    ],
+    "DT": [
+      "sr_doc_009084-c000",
+      "sr_doc_012994-c000"
+    ],
+    "highest-circulating": [
+      "sr_doc_009084-c000"
+    ],
+    "largest-circulating": [
+      "sr_doc_009084-c000"
+    ],
+    "ARCA": [
+      "sr_doc_005614-c000"
+    ],
+    "NASCAR": [
+      "sr_doc_005614-c000"
+    ],
+    "co-starred": [
+      "sr_doc_023291-c000"
+    ],
+    "made-for": [
+      "sr_doc_023291-c000"
+    ],
+    "ABC": [
+      "sr_doc_005018-c000",
+      "sr_doc_013647-c000",
+      "sr_doc_014235-c000",
+      "sr_doc_017747-c000",
+      "sr_doc_020485-c000"
+    ],
+    "MCU": [
+      "sr_doc_007555-c000",
+      "sr_doc_017747-c000"
+    ],
+    "OH": [
+      "sr_doc_024339-c000"
+    ],
+    "non-developed": [
+      "sr_doc_024339-c000"
+    ],
+    "short-story": [
+      "sr_doc_004929-c000",
+      "sr_doc_005741-c000"
+    ],
+    "ABA": [
+      "sr_doc_017200-c000"
+    ],
+    "JD": [
+      "sr_doc_017200-c000"
+    ],
+    "SC": [
+      "sr_doc_013248-c000",
+      "sr_doc_017200-c000"
+    ],
+    "full-time": [
+      "sr_doc_017200-c000"
+    ],
+    "long-term": [
+      "sr_doc_017200-c000",
+      "sr_doc_025183-c000"
+    ],
+    "non-profit": [
+      "sr_doc_009904-c000",
+      "sr_doc_017200-c000"
+    ],
+    "FAL": [
+      "sr_doc_020791-c000"
+    ],
+    "FN": [
+      "sr_doc_020791-c000"
+    ],
+    "NATO": [
+      "sr_doc_019594-c000",
+      "sr_doc_020791-c000"
+    ],
+    "FBS": [
+      "sr_doc_004789-c000",
+      "sr_doc_004870-c000",
+      "sr_doc_013320-c000"
+    ],
+    "McMackin": [
+      "sr_doc_004870-c000"
+    ],
+    "WAC": [
+      "sr_doc_004870-c000"
+    ],
+    "fourth-year": [
+      "sr_doc_004870-c000"
+    ],
+    "CD": [
+      "sr_doc_002607-c000",
+      "sr_doc_011950-c000",
+      "sr_doc_012743-c000",
+      "sr_doc_013367-c000",
+      "sr_doc_016378-c000",
+      "sr_doc_017972-c000",
+      "sr_doc_020365-c000",
+      "sr_doc_025040-c000"
+    ],
+    "guest-starring": [
+      "sr_doc_013180-c000"
+    ],
+    "prime-time": [
+      "sr_doc_013180-c000"
+    ],
+    "AM": [
+      "sr_doc_020169-c000"
+    ],
+    "McHenry": [
+      "sr_doc_020169-c000"
+    ],
+    "WCGO": [
+      "sr_doc_020169-c000"
+    ],
+    "WKKD": [
+      "sr_doc_020169-c000"
+    ],
+    "WMCW": [
+      "sr_doc_020169-c000"
+    ],
+    "WONX": [
+      "sr_doc_020169-c000"
+    ],
+    "WPW": [
+      "sr_doc_020169-c000"
+    ],
+    "DC": [
+      "sr_doc_003788-c000",
+      "sr_doc_011401-c000",
+      "sr_doc_012988-c000",
+      "sr_doc_025183-c000"
+    ],
+    "PBS": [
+      "sr_doc_010634-c000",
+      "sr_doc_018242-c000"
+    ],
+    "co-founder": [
+      "sr_doc_005009-c000",
+      "sr_doc_020106-c000",
+      "sr_doc_023772-c000"
+    ],
+    "CW": [
+      "sr_doc_015240-c000"
+    ],
+    "KidsClick": [
+      "sr_doc_015240-c000"
+    ],
+    "long-form": [
+      "sr_doc_015240-c000"
+    ],
+    "over-the-air": [
+      "sr_doc_015240-c000"
+    ],
+    "short-form": [
+      "sr_doc_015240-c000"
+    ],
+    "EGOT": [
+      "sr_doc_010450-c000"
+    ],
+    "real-life": [
+      "sr_doc_008693-c000"
+    ],
+    "A152": [
+      "sr_doc_003977-c000"
+    ],
+    "south-east": [
+      "sr_doc_003977-c000"
+    ],
+    "DNA": [
+      "sr_doc_024274-c000"
+    ],
+    "long-lived": [
+      "sr_doc_024274-c000"
+    ],
+    "phase-variable": [
+      "sr_doc_024274-c000"
+    ],
+    "re-infect": [
+      "sr_doc_024274-c000"
+    ],
+    "re-infection": [
+      "sr_doc_024274-c000"
+    ],
+    "site-specific": [
+      "sr_doc_024274-c000"
+    ],
+    "PGA": [
+      "sr_doc_024497-c000"
+    ],
+    "A56": [
+      "sr_doc_012057-c000"
+    ],
+    "B6383": [
+      "sr_doc_012057-c000"
+    ],
+    "XIII": [
+      "sr_doc_020105-c000"
+    ],
+    "XX": [
+      "sr_doc_020105-c000"
+    ],
+    "McElhenney": [
+      "sr_doc_006130-c000"
+    ],
+    "ACA": [
+      "sr_doc_017148-c000"
+    ],
+    "ACCA": [
+      "sr_doc_017148-c000"
+    ],
+    "ACM": [
+      "sr_doc_017148-c000"
+    ],
+    "CMA": [
+      "sr_doc_017148-c000"
+    ],
+    "CMT": [
+      "sr_doc_017148-c000"
+    ],
+    "major-awards": [
+      "sr_doc_017148-c000"
+    ],
+    "PJ": [
+      "sr_doc_000282-c000",
+      "sr_doc_025091-c000"
+    ],
+    "co-stars": [
+      "sr_doc_024085-c000",
+      "sr_doc_025091-c000"
+    ],
+    "care-for-life": [
+      "sr_doc_005654-c000"
+    ],
+    "not-for-profit": [
+      "sr_doc_005654-c000"
+    ],
+    "McCown": [
+      "sr_doc_005211-c000"
+    ],
+    "KSHD": [
+      "sr_doc_010390-c000"
+    ],
+    "SHD": [
+      "sr_doc_010390-c000"
+    ],
+    "thirty-three": [
+      "sr_doc_001033-c000"
+    ],
+    "BCS": [
+      "sr_doc_020316-c000"
+    ],
+    "USC": [
+      "sr_doc_020316-c000"
+    ],
+    "bulls-eye": [
+      "sr_doc_010761-c000"
+    ],
+    "multi-instrumentalist": [
+      "sr_doc_010761-c000"
+    ],
+    "four-day": [
+      "sr_doc_005030-c000"
+    ],
+    "multi-sport": [
+      "sr_doc_005030-c000"
+    ],
+    "ELCA": [
+      "sr_doc_009942-c000"
+    ],
+    "UELCA": [
+      "sr_doc_009942-c000"
+    ],
+    "RITA": [
+      "sr_doc_017178-c000"
+    ],
+    "PCL": [
+      "sr_doc_023405-c000"
+    ],
+    "self-attraction": [
+      "sr_doc_004451-c000"
+    ],
+    "sub-groups": [
+      "sr_doc_009169-c000"
+    ],
+    "McFarland": [
+      "sr_doc_019855-c000"
+    ],
+    "McFarlands": [
+      "sr_doc_019855-c000"
+    ],
+    "USTEM": [
+      "sr_doc_018436-c000"
+    ],
+    "BMX": [
+      "sr_doc_012743-c000"
+    ],
+    "SM1": [
+      "sr_doc_012743-c000"
+    ],
+    "CA": [
+      "sr_doc_000861-c000",
+      "sr_doc_018025-c000"
+    ],
+    "company-owned": [
+      "sr_doc_018025-c000"
+    ],
+    "EA": [
+      "sr_doc_002618-c000"
+    ],
+    "second-largest": [
+      "sr_doc_002618-c000",
+      "sr_doc_015516-c000"
+    ],
+    "manga-how-tos": [
+      "sr_doc_002775-c000"
+    ],
+    "co-directed": [
+      "sr_doc_004155-c000"
+    ],
+    "LaZar": [
+      "sr_doc_016407-c000"
+    ],
+    "McBroom": [
+      "sr_doc_016407-c000"
+    ],
+    "film-maker": [
+      "sr_doc_006495-c000"
+    ],
+    "co-founded": [
+      "sr_doc_002095-c000"
+    ],
+    "post-punk": [
+      "sr_doc_002095-c000"
+    ],
+    "MLS": [
+      "sr_doc_013248-c000"
+    ],
+    "USL": [
+      "sr_doc_013248-c000"
+    ],
+    "thirty-minute": [
+      "sr_doc_005018-c000"
+    ],
+    "BAFTA": [
+      "sr_doc_001584-c000"
+    ],
+    "BBC": [
+      "sr_doc_001584-c000",
+      "sr_doc_002374-c000",
+      "sr_doc_004304-c000",
+      "sr_doc_009904-c000",
+      "sr_doc_015526-c000",
+      "sr_doc_016161-c000",
+      "sr_doc_019905-c000"
+    ],
+    "automobile-centred": [
+      "sr_doc_014859-c000"
+    ],
+    "MCI": [
+      "sr_doc_003788-c000"
+    ],
+    "McDonough": [
+      "sr_doc_003788-c000"
+    ],
+    "VF": [
+      "sr_doc_014939-c000"
+    ],
+    "five-issue": [
+      "sr_doc_016708-c000"
+    ],
+    "UFC": [
+      "sr_doc_002929-c000"
+    ],
+    "post-fight": [
+      "sr_doc_002929-c000"
+    ],
+    "MacLucas": [
+      "sr_doc_009057-c000"
+    ],
+    "MacLugash": [
+      "sr_doc_009057-c000"
+    ],
+    "so-named": [
+      "sr_doc_009057-c000"
+    ],
+    "judge": [
+      "sr_doc_004508-c000",
+      "sr_doc_008249-c000"
+    ],
+    "late-night": [
+      "sr_doc_004409-c000"
+    ],
+    "LP": [
+      "sr_doc_011950-c000",
+      "sr_doc_024278-c000"
+    ],
+    "AFL": [
+      "sr_doc_009854-c000",
+      "sr_doc_013320-c000"
+    ],
+    "ISU": [
+      "sr_doc_013320-c000"
+    ],
+    "XLVII": [
+      "sr_doc_013320-c000"
+    ],
+    "AutoZone": [
+      "sr_doc_004789-c000"
+    ],
+    "CST": [
+      "sr_doc_004789-c000"
+    ],
+    "ESPN": [
+      "sr_doc_004789-c000"
+    ],
+    "post-season": [
+      "sr_doc_004789-c000"
+    ],
+    "MCA": [
+      "sr_doc_005020-c000"
+    ],
+    "MIT": [
+      "sr_doc_000917-c000"
+    ],
+    "post-date": [
+      "sr_doc_001717-c000"
+    ],
+    "AAH": [
+      "sr_doc_004867-c000"
+    ],
+    "AQ": [
+      "sr_doc_004867-c000"
+    ],
+    "far-reaching": [
+      "sr_doc_004867-c000"
+    ],
+    "FLEC": [
+      "sr_doc_001085-c000"
+    ],
+    "PM": [
+      "sr_doc_001085-c000"
+    ],
+    "little-known": [
+      "sr_doc_001085-c000"
+    ],
+    "LNBP": [
+      "sr_doc_019961-c000"
+    ],
+    "crime-drama": [
+      "sr_doc_017768-c000"
+    ],
+    "McKuen": [
+      "sr_doc_021340-c000"
+    ],
+    "USSR": [
+      "sr_doc_005083-c000"
+    ],
+    "DuBois": [
+      "sr_doc_008369-c000"
+    ],
+    "MechWarrior": [
+      "sr_doc_008369-c000"
+    ],
+    "PlayStation": [
+      "sr_doc_008369-c000"
+    ],
+    "MP": [
+      "sr_doc_000049-c000"
+    ],
+    "by-election": [
+      "sr_doc_000049-c000"
+    ],
+    "EASD": [
+      "sr_doc_018803-c000"
+    ],
+    "high-rise": [
+      "sr_doc_007010-c000"
+    ],
+    "row-housing": [
+      "sr_doc_007010-c000"
+    ],
+    "single-family": [
+      "sr_doc_007010-c000"
+    ],
+    "south-western": [
+      "sr_doc_007010-c000"
+    ],
+    "FC": [
+      "sr_doc_015706-c000"
+    ],
+    "HWV": [
+      "sr_doc_004222-c000",
+      "sr_doc_004225-c000",
+      "sr_doc_015828-c000"
+    ],
+    "B1A4": [
+      "sr_doc_023582-c000"
+    ],
+    "MBC": [
+      "sr_doc_023582-c000"
+    ],
+    "company-employed": [
+      "sr_doc_015453-c000"
+    ],
+    "McNamee": [
+      "sr_doc_000237-c000"
+    ],
+    "PSA": [
+      "sr_doc_020365-c000"
+    ],
+    "HRSG": [
+      "sr_doc_024836-c000"
+    ],
+    "McGreevey": [
+      "sr_doc_005491-c000"
+    ],
+    "majority-elected": [
+      "sr_doc_005491-c000"
+    ],
+    "ACO": [
+      "sr_doc_001882-c000"
+    ],
+    "FIA": [
+      "sr_doc_001882-c000"
+    ],
+    "IV": [
+      "sr_doc_021001-c000"
+    ],
+    "JB": [
+      "sr_doc_003515-c000"
+    ],
+    "made-for-television": [
+      "sr_doc_020206-c000"
+    ],
+    "year-old": [
+      "sr_doc_020206-c000"
+    ],
+    "III": [
+      "sr_doc_006538-c000",
+      "sr_doc_016497-c000"
+    ],
+    "NY": [
+      "sr_doc_002914-c000"
+    ],
+    "ODB": [
+      "sr_doc_023046-c000"
+    ],
+    "SCOOP": [
+      "sr_doc_023046-c000"
+    ],
+    "WSOP": [
+      "sr_doc_023046-c000"
+    ],
+    "grapefruit-flavored": [
+      "sr_doc_000724-c000"
+    ],
+    "tequila-based": [
+      "sr_doc_000724-c000"
+    ],
+    "third-largest": [
+      "sr_doc_011019-c000"
+    ],
+    "co-financed": [
+      "sr_doc_010438-c000"
+    ],
+    "co-produces": [
+      "sr_doc_010438-c000"
+    ],
+    "HVT": [
+      "sr_doc_018811-c000"
+    ],
+    "MDV": [
+      "sr_doc_018811-c000"
+    ],
+    "ever-present": [
+      "sr_doc_011033-c000"
+    ],
+    "line-up": [
+      "sr_doc_011033-c000",
+      "sr_doc_011373-c000"
+    ],
+    "NHL": [
+      "sr_doc_005630-c000"
+    ],
+    "WTA": [
+      "sr_doc_000078-c000",
+      "sr_doc_016328-c000"
+    ],
+    "CTR": [
+      "sr_doc_025179-c000"
+    ],
+    "IBM": [
+      "sr_doc_025179-c000"
+    ],
+    "north-western": [
+      "sr_doc_019220-c000"
+    ],
+    "point-and-click": [
+      "sr_doc_014578-c000"
+    ],
+    "NFU": [
+      "sr_doc_013674-c000"
+    ],
+    "well-being": [
+      "sr_doc_013674-c000"
+    ],
+    "ISBN": [
+      "sr_doc_004945-c000",
+      "sr_doc_010634-c000"
+    ],
+    "non-profits": [
+      "sr_doc_010634-c000"
+    ],
+    "UEFA": [
+      "sr_doc_006455-c000"
+    ],
+    "NJPW": [
+      "sr_doc_001029-c000"
+    ],
+    "PPV": [
+      "sr_doc_001029-c000"
+    ],
+    "WCW": [
+      "sr_doc_001029-c000"
+    ],
+    "pay-per-view": [
+      "sr_doc_001029-c000"
+    ],
+    "AIR": [
+      "sr_doc_019024-c000"
+    ],
+    "DaimlerChrysler": [
+      "sr_doc_024269-c000"
+    ],
+    "high-volume": [
+      "sr_doc_024269-c000"
+    ],
+    "low-priced": [
+      "sr_doc_024269-c000"
+    ],
+    "ex-husband": [
+      "sr_doc_017972-c000"
+    ],
+    "HP": [
+      "sr_doc_005370-c000"
+    ],
+    "HQ": [
+      "sr_doc_005370-c000"
+    ],
+    "EFL": [
+      "sr_doc_004204-c000"
+    ],
+    "play-off": [
+      "sr_doc_004204-c000"
+    ],
+    "re-election": [
+      "sr_doc_010666-c000",
+      "sr_doc_022779-c000"
+    ],
+    "MCC": [
+      "sr_doc_002211-c000"
+    ],
+    "RT": [
+      "sr_doc_009813-c000"
+    ],
+    "SAC": [
+      "sr_doc_009813-c000"
+    ],
+    "mezzo-soprano": [
+      "sr_doc_010198-c000"
+    ],
+    "two-player": [
+      "sr_doc_024650-c000"
+    ],
+    "sheep-goat": [
+      "sr_doc_006883-c000"
+    ],
+    "horse-drawn": [
+      "sr_doc_024839-c000"
+    ],
+    "AWCHA": [
+      "sr_doc_019490-c000"
+    ],
+    "PC": [
+      "sr_doc_023772-c000"
+    ],
+    "AFC": [
+      "sr_doc_011985-c000"
+    ],
+    "KNVB": [
+      "sr_doc_011985-c000"
+    ],
+    "PEC": [
+      "sr_doc_011985-c000"
+    ],
+    "VAK410": [
+      "sr_doc_011985-c000"
+    ],
+    "A484": [
+      "sr_doc_013011-c000"
+    ],
+    "first-round": [
+      "sr_doc_015399-c000"
+    ],
+    "NH": [
+      "sr_doc_015142-c000"
+    ],
+    "VooDoo": [
+      "sr_doc_009854-c000"
+    ],
+    "multi-purpose": [
+      "sr_doc_009854-c000"
+    ],
+    "all-star": [
+      "sr_doc_002001-c000"
+    ],
+    "blue-collar": [
+      "sr_doc_002001-c000"
+    ],
+    "co-starring": [
+      "sr_doc_002001-c000"
+    ],
+    "day-to-day": [
+      "sr_doc_006420-c000"
+    ],
+    "CTS": [
+      "sr_doc_011950-c000"
+    ],
+    "four-star": [
+      "sr_doc_022874-c000"
+    ],
+    "highest-ranking": [
+      "sr_doc_022874-c000"
+    ],
+    "re-titled": [
+      "sr_doc_023560-c000"
+    ],
+    "DI": [
+      "sr_doc_003928-c000"
+    ],
+    "MST": [
+      "sr_doc_003195-c000"
+    ],
+    "long-distance": [
+      "sr_doc_003195-c000"
+    ],
+    "eight-year": [
+      "sr_doc_009931-c000"
+    ],
+    "CFB": [
+      "sr_doc_005542-c000"
+    ],
+    "CYTR": [
+      "sr_doc_005542-c000"
+    ],
+    "RCAF": [
+      "sr_doc_005542-c000"
+    ],
+    "YTR": [
+      "sr_doc_005542-c000"
+    ],
+    "two-part": [
+      "sr_doc_004851-c000"
+    ],
+    "anti-war": [
+      "sr_doc_023511-c000"
+    ],
+    "one-time": [
+      "sr_doc_015041-c000"
+    ],
+    "USDA": [
+      "sr_doc_008037-c000"
+    ],
+    "rush-releasing": [
+      "sr_doc_008742-c000"
+    ],
+    "MMORPG": [
+      "sr_doc_011830-c000"
+    ],
+    "semi-religious": [
+      "sr_doc_023172-c000"
+    ],
+    "three-act": [
+      "sr_doc_012087-c000"
+    ],
+    "MILF": [
+      "sr_doc_008162-c000"
+    ],
+    "first-week": [
+      "sr_doc_008162-c000"
+    ],
+    "MLB": [
+      "sr_doc_004076-c000"
+    ],
+    "BPSL": [
+      "sr_doc_008133-c000"
+    ],
+    "GirderMusic": [
+      "sr_doc_013367-c000"
+    ],
+    "re-issue": [
+      "sr_doc_013367-c000"
+    ],
+    "re-issued": [
+      "sr_doc_013367-c000"
+    ],
+    "re-recording": [
+      "sr_doc_013367-c000"
+    ],
+    "SOVAS": [
+      "sr_doc_024990-c000"
+    ],
+    "VH": [
+      "sr_doc_024990-c000"
+    ],
+    "VandenHeuvel": [
+      "sr_doc_024990-c000"
+    ],
+    "C4H9": [
+      "sr_doc_000067-c000"
+    ],
+    "TBTO": [
+      "sr_doc_000067-c000"
+    ],
+    "McConaughey": [
+      "sr_doc_001637-c000"
+    ],
+    "planner": [
+      "sr_doc_001637-c000"
+    ],
+    "urban-type": [
+      "sr_doc_007919-c000"
+    ],
+    "coal-fired": [
+      "sr_doc_006986-c000"
+    ],
+    "four-chimney": [
+      "sr_doc_006986-c000"
+    ],
+    "long-recognized": [
+      "sr_doc_006986-c000"
+    ],
+    "McNairy": [
+      "sr_doc_007555-c000"
+    ],
+    "direct-to-video": [
+      "sr_doc_007555-c000"
+    ],
+    "pop-rock": [
+      "sr_doc_008220-c000"
+    ],
+    "A642": [
+      "sr_doc_004120-c000"
+    ],
+    "co-general": [
+      "sr_doc_019647-c000"
+    ],
+    "vice-president": [
+      "sr_doc_019647-c000"
+    ],
+    "SL": [
+      "sr_doc_006107-c000"
+    ],
+    "W198": [
+      "sr_doc_006107-c000"
+    ],
+    "gull-wing": [
+      "sr_doc_006107-c000"
+    ],
+    "two-seat": [
+      "sr_doc_006107-c000"
+    ],
+    "DX11": [
+      "sr_doc_014356-c000"
+    ],
+    "OPZ": [
+      "sr_doc_014356-c000"
+    ],
+    "OPZII": [
+      "sr_doc_014356-c000"
+    ],
+    "TX81Z": [
+      "sr_doc_014356-c000"
+    ],
+    "V50": [
+      "sr_doc_014356-c000"
+    ],
+    "YM2414": [
+      "sr_doc_014356-c000"
+    ],
+    "YM2424": [
+      "sr_doc_014356-c000"
+    ],
+    "YS200": [
+      "sr_doc_014356-c000"
+    ],
+    "Z3": [
+      "sr_doc_014356-c000"
+    ],
+    "eight-channel": [
+      "sr_doc_014356-c000"
+    ],
+    "mid-market": [
+      "sr_doc_014356-c000"
+    ],
+    "modulation-based": [
+      "sr_doc_014356-c000"
+    ],
+    "SM": [
+      "sr_doc_018612-c000"
+    ],
+    "mini-album": [
+      "sr_doc_015286-c000"
+    ],
+    "second-tallest": [
+      "sr_doc_017582-c000"
+    ],
+    "three-quarter": [
+      "sr_doc_016020-c000"
+    ],
+    "UNESCO": [
+      "sr_doc_017393-c000"
+    ],
+    "ACE": [
+      "sr_doc_021413-c000"
+    ],
+    "flash-frozen": [
+      "sr_doc_021413-c000"
+    ],
+    "par-baked": [
+      "sr_doc_021413-c000"
+    ],
+    "mini-series": [
+      "sr_doc_000976-c000"
+    ],
+    "R336": [
+      "sr_doc_005712-c000"
+    ],
+    "NFB": [
+      "sr_doc_015526-c000"
+    ],
+    "hand-wash": [
+      "sr_doc_024247-c000"
+    ],
+    "MOON": [
+      "sr_doc_015457-c000"
+    ],
+    "THE": [
+      "sr_doc_015457-c000"
+    ],
+    "WALK": [
+      "sr_doc_015457-c000"
+    ],
+    "joint-record": [
+      "sr_doc_006595-c000"
+    ],
+    "top-flight": [
+      "sr_doc_006595-c000"
+    ],
+    "JJ": [
+      "sr_doc_022159-c000"
+    ],
+    "McTeer": [
+      "sr_doc_022159-c000"
+    ],
+    "close-fisted": [
+      "sr_doc_022159-c000"
+    ],
+    "ill-meaning": [
+      "sr_doc_022159-c000"
+    ],
+    "joint-first": [
+      "sr_doc_022309-c000"
+    ],
+    "VIII": [
+      "sr_doc_021925-c000"
+    ],
+    "LAFCA": [
+      "sr_doc_008930-c000"
+    ],
+    "TTY": [
+      "sr_doc_008296-c000"
+    ],
+    "bro-country": [
+      "sr_doc_015881-c000"
+    ],
+    "one-word": [
+      "sr_doc_023304-c000"
+    ],
+    "MGB": [
+      "sr_doc_011427-c000"
+    ],
+    "loft-style": [
+      "sr_doc_020593-c000"
+    ],
+    "EMB": [
+      "sr_doc_001135-c000"
+    ],
+    "PADC": [
+      "sr_doc_001135-c000"
+    ],
+    "PAF": [
+      "sr_doc_001135-c000"
+    ],
+    "PASF": [
+      "sr_doc_001135-c000"
+    ],
+    "CFP": [
+      "sr_doc_011808-c000"
+    ],
+    "EMI": [
+      "sr_doc_024045-c000"
+    ],
+    "GoldenEye": [
+      "sr_doc_024045-c000"
+    ],
+    "tank-chase": [
+      "sr_doc_024045-c000"
+    ],
+    "micro-local": [
+      "sr_doc_009904-c000"
+    ],
+    "at-large": [
+      "sr_doc_001380-c000"
+    ],
+    "CNBLUE": [
+      "sr_doc_002858-c000"
+    ],
+    "money-for-competitions-entry": [
+      "sr_doc_016161-c000"
+    ],
+    "FAME": [
+      "sr_doc_019631-c000"
+    ],
+    "OK": [
+      "sr_doc_003558-c000"
+    ],
+    "U2": [
+      "sr_doc_003558-c000"
+    ],
+    "CIA": [
+      "sr_doc_010298-c000"
+    ],
+    "co-author": [
+      "sr_doc_010298-c000"
+    ],
+    "free-swimming": [
+      "sr_doc_003618-c000"
+    ],
+    "re-suspended": [
+      "sr_doc_003618-c000"
+    ],
+    "well-known": [
+      "sr_doc_003618-c000",
+      "sr_doc_017627-c000"
+    ],
+    "KCRC": [
+      "sr_doc_002565-c000"
+    ],
+    "fan-base": [
+      "sr_doc_000992-c000"
+    ],
+    "calendar-year": [
+      "sr_doc_000078-c000"
+    ],
+    "season-ending": [
+      "sr_doc_000078-c000"
+    ],
+    "twenty-five": [
+      "sr_doc_000078-c000"
+    ],
+    "IMU": [
+      "sr_doc_022430-c000"
+    ],
+    "TJX": [
+      "sr_doc_015516-c000"
+    ],
+    "off-price": [
+      "sr_doc_015516-c000"
+    ],
+    "zay-zee": [
+      "sr_doc_019195-c000"
+    ],
+    "half-brother": [
+      "sr_doc_008877-c000"
+    ],
+    "MTX": [
+      "sr_doc_019905-c000"
+    ],
+    "factory-based": [
+      "sr_doc_019905-c000"
+    ],
+    "SyFy": [
+      "sr_doc_008340-c000"
+    ],
+    "TCA": [
+      "sr_doc_006292-c000"
+    ],
+    "UCW": [
+      "sr_doc_000966-c000"
+    ],
+    "UWE": [
+      "sr_doc_000966-c000"
+    ],
+    "same-sex": [
+      "sr_doc_020009-c000"
+    ],
+    "office-holder": [
+      "sr_doc_017079-c000"
+    ],
+    "TPC": [
+      "sr_doc_024598-c000"
+    ],
+    "McCamant": [
+      "sr_doc_010534-c000"
+    ],
+    "decision-making": [
+      "sr_doc_010534-c000"
+    ],
+    "new-construction": [
+      "sr_doc_010534-c000"
+    ],
+    "privately-owned": [
+      "sr_doc_010534-c000"
+    ],
+    "ex-pro": [
+      "sr_doc_019648-c000"
+    ],
+    "BC": [
+      "sr_doc_019594-c000"
+    ],
+    "land-based": [
+      "sr_doc_019594-c000"
+    ],
+    "gaming-entitled": [
+      "sr_doc_000515-c000"
+    ],
+    "half-a-millionaire": [
+      "sr_doc_017627-c000"
+    ],
+    "strong-willed": [
+      "sr_doc_017627-c000"
+    ],
+    "writer-director": [
+      "sr_doc_010948-c000"
+    ],
+    "PAX": [
+      "sr_doc_018483-c000"
+    ],
+    "McCarthyism": [
+      "sr_doc_012418-c000"
+    ],
+    "non-graduate": [
+      "sr_doc_022955-c000"
+    ],
+    "AJ": [
+      "sr_doc_010182-c000"
+    ],
+    "four-lane": [
+      "sr_doc_003228-c000"
+    ],
+    "non-commercial": [
+      "sr_doc_003228-c000"
+    ],
+    "TCFTV": [
+      "sr_doc_006848-c000"
+    ],
+    "EAS": [
+      "sr_doc_011881-c000"
+    ],
+    "all-time": [
+      "sr_doc_011881-c000"
+    ],
+    "VH1": [
+      "sr_doc_010555-c000"
+    ]
+  },
+  "chunk_to_terms": {
+    "sr_doc_000255-c000": [
+      "PPTH",
+      "TV"
+    ],
+    "sr_doc_000256-c000": [
+      "twenty-fourth"
+    ],
+    "sr_doc_001015-c000": [
+      "FINA"
+    ],
+    "sr_doc_001016-c000": [
+      "GB",
+      "ITV",
+      "TV",
+      "UK"
+    ],
+    "sr_doc_001755-c000": [
+      "grass-like",
+      "sap-suckers",
+      "strap-shaped"
+    ],
+    "sr_doc_001756-c000": [
+      "pea-like"
+    ],
+    "sr_doc_001841-c000": [
+      "US",
+      "runner-up"
+    ],
+    "sr_doc_001993-c000": [
+      "best-selling",
+      "singer-songwriter"
+    ],
+    "sr_doc_002158-c000": [
+      "McCartney",
+      "multi-artist"
+    ],
+    "sr_doc_002494-c000": [
+      "GMT",
+      "UK",
+      "UT1",
+      "UTC"
+    ],
+    "sr_doc_002495-c000": [
+      "four-storey"
+    ],
+    "sr_doc_002616-c000": [
+      "civil-military"
+    ],
+    "sr_doc_002693-c000": [
+      "JAM8"
+    ],
+    "sr_doc_003282-c000": [
+      "DBE",
+      "longest-running"
+    ],
+    "sr_doc_003774-c000": [
+      "NBA",
+      "SuperSonics"
+    ],
+    "sr_doc_003775-c000": [
+      "NCAA"
+    ],
+    "sr_doc_003934-c000": [
+      "II"
+    ],
+    "sr_doc_003935-c000": [
+      "DeMunn",
+      "McBride",
+      "science-fiction"
+    ],
+    "sr_doc_003961-c000": [
+      "after-dinner",
+      "mint-flavored"
+    ],
+    "sr_doc_003986-c000": [
+      "TV"
+    ],
+    "sr_doc_003987-c000": [
+      "long-running",
+      "semi-regular"
+    ],
+    "sr_doc_004193-c000": [
+      "twenty-two"
+    ],
+    "sr_doc_004194-c000": [
+      "multi-use"
+    ],
+    "sr_doc_004207-c000": [
+      "TKO"
+    ],
+    "sr_doc_004208-c000": [
+      "WBA",
+      "hard-hitting",
+      "super-heavyweight"
+    ],
+    "sr_doc_004236-c000": [
+      "four-time"
+    ],
+    "sr_doc_004237-c000": [
+      "four-time"
+    ],
+    "sr_doc_004941-c000": [
+      "co-produced",
+      "co-production",
+      "co-written",
+      "comedy-drama",
+      "coming-of-age"
+    ],
+    "sr_doc_005362-c000": [
+      "composer"
+    ],
+    "sr_doc_005564-c000": [
+      "editor-in-chief",
+      "peer-reviewed"
+    ],
+    "sr_doc_005565-c000": [
+      "ClinicalKey",
+      "RELX",
+      "ScienceDirect",
+      "citation",
+      "data-management"
+    ],
+    "sr_doc_005802-c000": [
+      "SNL",
+      "slow-tempo"
+    ],
+    "sr_doc_005803-c000": [
+      "singer-songwriter"
+    ],
+    "sr_doc_006122-c000": [
+      "NBC"
+    ],
+    "sr_doc_006123-c000": [
+      "ALF",
+      "NBC"
+    ],
+    "sr_doc_006709-c000": [
+      "co-producing",
+      "co-written",
+      "co-wrote",
+      "singer-songwriter"
+    ],
+    "sr_doc_007909-c000": [
+      "YG"
+    ],
+    "sr_doc_007910-c000": [
+      "DJ",
+      "hip-hop"
+    ],
+    "sr_doc_008068-c000": [
+      "CHIP",
+      "HFP",
+      "no-cost"
+    ],
+    "sr_doc_008069-c000": [
+      "CHIP",
+      "SCHIP"
+    ],
+    "sr_doc_008210-c000": [
+      "large-wheeled"
+    ],
+    "sr_doc_008436-c000": [
+      "TV",
+      "voice-dubbing"
+    ],
+    "sr_doc_008876-c000": [
+      "CBS",
+      "TNT",
+      "guest-starred"
+    ],
+    "sr_doc_009052-c000": [
+      "DGSI",
+      "IATA",
+      "ICAO",
+      "KMS"
+    ],
+    "sr_doc_009656-c000": [
+      "KU"
+    ],
+    "sr_doc_009738-c000": [
+      "CDP",
+      "census-designated"
+    ],
+    "sr_doc_009755-c000": [
+      "computer-animated"
+    ],
+    "sr_doc_009796-c000": [
+      "TVA"
+    ],
+    "sr_doc_009826-c000": [
+      "make-up"
+    ],
+    "sr_doc_009827-c000": [
+      "novelists-activists"
+    ],
+    "sr_doc_010369-c000": [
+      "mid-late"
+    ],
+    "sr_doc_011145-c000": [
+      "EP"
+    ],
+    "sr_doc_011248-c000": [
+      "ODI",
+      "T20I"
+    ],
+    "sr_doc_011633-c000": [
+      "BT",
+      "co-owner"
+    ],
+    "sr_doc_011634-c000": [
+      "FA",
+      "shoot-out"
+    ],
+    "sr_doc_011853-c000": [
+      "co-written",
+      "coming-of-age"
+    ],
+    "sr_doc_011854-c000": [
+      "multiple-fatality"
+    ],
+    "sr_doc_011976-c000": [
+      "McChord",
+      "neo-noir",
+      "science-fiction"
+    ],
+    "sr_doc_012036-c000": [
+      "two-thirds"
+    ],
+    "sr_doc_012037-c000": [
+      "CSN",
+      "four-year",
+      "two-year"
+    ],
+    "sr_doc_012435-c000": [
+      "NIST",
+      "ground-breaking"
+    ],
+    "sr_doc_012436-c000": [
+      "VI",
+      "ground-breaking"
+    ],
+    "sr_doc_012819-c000": [
+      "live-action",
+      "longest-lasting"
+    ],
+    "sr_doc_012820-c000": [
+      "post-time"
+    ],
+    "sr_doc_012844-c000": [
+      "co-written",
+      "live-action"
+    ],
+    "sr_doc_013425-c000": [
+      "MGM",
+      "multi-use"
+    ],
+    "sr_doc_013426-c000": [
+      "WBC"
+    ],
+    "sr_doc_013544-c000": [
+      "CE",
+      "see-gi-ri"
+    ],
+    "sr_doc_013671-c000": [
+      "fair-trade"
+    ],
+    "sr_doc_013672-c000": [
+      "feature-length"
+    ],
+    "sr_doc_013812-c000": [
+      "CBC"
+    ],
+    "sr_doc_013813-c000": [
+      "ATP"
+    ],
+    "sr_doc_013884-c000": [
+      "HUD"
+    ],
+    "sr_doc_013885-c000": [
+      "II",
+      "SS"
+    ],
+    "sr_doc_013895-c000": [
+      "DMC",
+      "LL",
+      "MTV",
+      "McDaniels",
+      "hip-hop"
+    ],
+    "sr_doc_013896-c000": [
+      "AC",
+      "DJ",
+      "DMC",
+      "MC",
+      "US",
+      "world-wide"
+    ],
+    "sr_doc_013967-c000": [
+      "four-chambered",
+      "hard-shelled"
+    ],
+    "sr_doc_014263-c000": [
+      "SU"
+    ],
+    "sr_doc_014371-c000": [
+      "UTEP"
+    ],
+    "sr_doc_014867-c000": [
+      "self-titled"
+    ],
+    "sr_doc_015264-c000": [
+      "AXIS",
+      "USA",
+      "mid-sized"
+    ],
+    "sr_doc_015801-c000": [
+      "McCartney",
+      "second-most",
+      "singer-songwriter"
+    ],
+    "sr_doc_015878-c000": [
+      "FM",
+      "KBSO"
+    ],
+    "sr_doc_015879-c000": [
+      "care-free"
+    ],
+    "sr_doc_015924-c000": [
+      "modern-day"
+    ],
+    "sr_doc_015998-c000": [
+      "romantic-fantasy"
+    ],
+    "sr_doc_016589-c000": [
+      "MW",
+      "non-ferrous"
+    ],
+    "sr_doc_016590-c000": [
+      "FY2015",
+      "HZL",
+      "PLC"
+    ],
+    "sr_doc_016628-c000": [
+      "REC",
+      "co-written",
+      "found-footage"
+    ],
+    "sr_doc_016689-c000": [
+      "composer"
+    ],
+    "sr_doc_017423-c000": [
+      "II"
+    ],
+    "sr_doc_017424-c000": [
+      "front-runner"
+    ],
+    "sr_doc_017772-c000": [
+      "hybrid"
+    ],
+    "sr_doc_018136-c000": [
+      "DVD",
+      "stand-up"
+    ],
+    "sr_doc_018186-c000": [
+      "evidence"
+    ],
+    "sr_doc_018684-c000": [
+      "comedy-drama",
+      "middle-aged"
+    ],
+    "sr_doc_019230-c000": [
+      "black-and-white"
+    ],
+    "sr_doc_019347-c000": [
+      "TDSB",
+      "UTEP"
+    ],
+    "sr_doc_019763-c000": [
+      "inner-city"
+    ],
+    "sr_doc_019843-c000": [
+      "co-produced",
+      "self-penned",
+      "singer-songwriter"
+    ],
+    "sr_doc_019866-c000": [
+      "CBS",
+      "FBI",
+      "II",
+      "short-lived"
+    ],
+    "sr_doc_020397-c000": [
+      "IRA"
+    ],
+    "sr_doc_020473-c000": [
+      "KBE",
+      "non-stop"
+    ],
+    "sr_doc_020474-c000": [
+      "trans-atlantic"
+    ],
+    "sr_doc_020730-c000": [
+      "in-depth"
+    ],
+    "sr_doc_021465-c000": [
+      "UK"
+    ],
+    "sr_doc_021466-c000": [
+      "multi-faith"
+    ],
+    "sr_doc_021656-c000": [
+      "sci-fi"
+    ],
+    "sr_doc_021717-c000": [
+      "co-wrote",
+      "short-lived"
+    ],
+    "sr_doc_021718-c000": [
+      "love-hate"
+    ],
+    "sr_doc_022276-c000": [
+      "CBC",
+      "NewsRadio",
+      "five-part",
+      "stand-up"
+    ],
+    "sr_doc_022425-c000": [
+      "small-budget"
+    ],
+    "sr_doc_022732-c000": [
+      "black-and-white",
+      "book-sized"
+    ],
+    "sr_doc_022913-c000": [
+      "composer"
+    ],
+    "sr_doc_023023-c000": [
+      "composer"
+    ],
+    "sr_doc_023364-c000": [
+      "rock-and-roll"
+    ],
+    "sr_doc_023718-c000": [
+      "four-piece",
+      "two-person"
+    ],
+    "sr_doc_013582-c000": [
+      "McBride",
+      "McKinnon",
+      "co-production",
+      "computer-animated"
+    ],
+    "sr_doc_015735-c000": [
+      "white-leaf"
+    ],
+    "sr_doc_009810-c000": [
+      "MW",
+      "generator"
+    ],
+    "sr_doc_013995-c000": [
+      "south-southwest"
+    ],
+    "sr_doc_004021-c000": [
+      "DeLuna",
+      "DeWyze",
+      "singer-songwriter"
+    ],
+    "sr_doc_014380-c000": [
+      "hyper-visual",
+      "left-over"
+    ],
+    "sr_doc_008947-c000": [
+      "MTV",
+      "spin-off"
+    ],
+    "sr_doc_022957-c000": [
+      "KTH",
+      "XVI"
+    ],
+    "sr_doc_015238-c000": [
+      "DVD",
+      "DuckTales",
+      "TaleSpin",
+      "created-for-syndication",
+      "mid-to-late",
+      "two-hour"
+    ],
+    "sr_doc_017900-c000": [
+      "NBA",
+      "pre-show"
+    ],
+    "sr_doc_016160-c000": [
+      "TLC"
+    ],
+    "sr_doc_017780-c000": [
+      "retrieval"
+    ],
+    "sr_doc_019114-c000": [
+      "ROTC"
+    ],
+    "sr_doc_011195-c000": [
+      "EPOC"
+    ],
+    "sr_doc_010391-c000": [
+      "FAA",
+      "IATA",
+      "ICAO",
+      "KVPZ",
+      "LID",
+      "VPZ"
+    ],
+    "sr_doc_016815-c000": [
+      "CEO"
+    ],
+    "sr_doc_002488-c000": [
+      "ARIA",
+      "KC",
+      "number-one",
+      "one-week"
+    ],
+    "sr_doc_018926-c000": [
+      "CSB"
+    ],
+    "sr_doc_020019-c000": [
+      "CP"
+    ],
+    "sr_doc_016481-c000": [
+      "co-written"
+    ],
+    "sr_doc_004242-c000": [
+      "three-time"
+    ],
+    "sr_doc_023154-c000": [
+      "re-founded"
+    ],
+    "sr_doc_024952-c000": [
+      "re-elected"
+    ],
+    "sr_doc_015646-c000": [
+      "ITV",
+      "TV"
+    ],
+    "sr_doc_003378-c000": [
+      "multi-hero"
+    ],
+    "sr_doc_013950-c000": [
+      "of-the"
+    ],
+    "sr_doc_006652-c000": [
+      "top-billed"
+    ],
+    "sr_doc_014159-c000": [
+      "ag-gag",
+      "anti-whistleblower"
+    ],
+    "sr_doc_022561-c000": [
+      "BMG"
+    ],
+    "sr_doc_023688-c000": [
+      "II"
+    ],
+    "sr_doc_020065-c000": [
+      "NFL"
+    ],
+    "sr_doc_015337-c000": [
+      "VP",
+      "newly-vacated",
+      "vice-presidential"
+    ],
+    "sr_doc_006857-c000": [
+      "McCormick",
+      "co-creator",
+      "long-time",
+      "oft-muffled"
+    ],
+    "sr_doc_013580-c000": [
+      "PR",
+      "multi-member",
+      "single-member"
+    ],
+    "sr_doc_013619-c000": [
+      "co-created"
+    ],
+    "sr_doc_017358-c000": [
+      "PD",
+      "social-liberal"
+    ],
+    "sr_doc_006449-c000": [
+      "OzGirl"
+    ],
+    "sr_doc_011784-c000": [
+      "north-east",
+      "south-west"
+    ],
+    "sr_doc_025130-c000": [
+      "DeBarge",
+      "co-wrote"
+    ],
+    "sr_doc_024207-c000": [
+      "MBE",
+      "co-star",
+      "longest-serving"
+    ],
+    "sr_doc_014831-c000": [
+      "CDP",
+      "census-designated",
+      "south-southeast"
+    ],
+    "sr_doc_016116-c000": [
+      "ARIA"
+    ],
+    "sr_doc_019368-c000": [
+      "E6"
+    ],
+    "sr_doc_014029-c000": [
+      "eighth-grader",
+      "runner-up"
+    ],
+    "sr_doc_019241-c000": [
+      "USA",
+      "black-and-white"
+    ],
+    "sr_doc_009084-c000": [
+      "CFTM",
+      "DT",
+      "TVA",
+      "highest-circulating",
+      "largest-circulating"
+    ],
+    "sr_doc_005614-c000": [
+      "ARCA",
+      "NASCAR"
+    ],
+    "sr_doc_023291-c000": [
+      "TV",
+      "co-starred",
+      "made-for"
+    ],
+    "sr_doc_017747-c000": [
+      "ABC",
+      "MCU"
+    ],
+    "sr_doc_024339-c000": [
+      "CEO",
+      "OH",
+      "non-developed"
+    ],
+    "sr_doc_004929-c000": [
+      "short-story"
+    ],
+    "sr_doc_017200-c000": [
+      "ABA",
+      "JD",
+      "SC",
+      "full-time",
+      "long-term",
+      "non-profit"
+    ],
+    "sr_doc_020791-c000": [
+      "FAL",
+      "FN",
+      "NATO"
+    ],
+    "sr_doc_004870-c000": [
+      "FBS",
+      "McMackin",
+      "NCAA",
+      "WAC",
+      "fourth-year"
+    ],
+    "sr_doc_001038-c000": [
+      "DJ"
+    ],
+    "sr_doc_025040-c000": [
+      "CD"
+    ],
+    "sr_doc_013180-c000": [
+      "guest-starring",
+      "prime-time"
+    ],
+    "sr_doc_023893-c000": [
+      "modern-day"
+    ],
+    "sr_doc_020169-c000": [
+      "AM",
+      "McHenry",
+      "WCGO",
+      "WKKD",
+      "WMCW",
+      "WONX",
+      "WPW"
+    ],
+    "sr_doc_014235-c000": [
+      "ABC"
+    ],
+    "sr_doc_012988-c000": [
+      "DC"
+    ],
+    "sr_doc_018242-c000": [
+      "PBS"
+    ],
+    "sr_doc_020106-c000": [
+      "co-founder"
+    ],
+    "sr_doc_009684-c000": [
+      "runner-up"
+    ],
+    "sr_doc_017102-c000": [
+      "EP"
+    ],
+    "sr_doc_015240-c000": [
+      "CW",
+      "KidsClick",
+      "TV",
+      "long-form",
+      "over-the-air",
+      "short-form"
+    ],
+    "sr_doc_010450-c000": [
+      "EGOT"
+    ],
+    "sr_doc_001183-c000": [
+      "McCartney",
+      "UK",
+      "US"
+    ],
+    "sr_doc_008693-c000": [
+      "real-life"
+    ],
+    "sr_doc_003977-c000": [
+      "A152",
+      "north-east",
+      "south-east"
+    ],
+    "sr_doc_024274-c000": [
+      "DNA",
+      "long-lived",
+      "phase-variable",
+      "re-infect",
+      "re-infection",
+      "site-specific"
+    ],
+    "sr_doc_024497-c000": [
+      "PGA"
+    ],
+    "sr_doc_012057-c000": [
+      "A56",
+      "B6383"
+    ],
+    "sr_doc_005009-c000": [
+      "co-founder"
+    ],
+    "sr_doc_020105-c000": [
+      "XIII",
+      "XX"
+    ],
+    "sr_doc_020448-c000": [
+      "modern-day"
+    ],
+    "sr_doc_011401-c000": [
+      "DC"
+    ],
+    "sr_doc_006130-c000": [
+      "McElhenney"
+    ],
+    "sr_doc_017148-c000": [
+      "ACA",
+      "ACCA",
+      "ACM",
+      "CMA",
+      "CMT",
+      "MGM",
+      "TV",
+      "major-awards"
+    ],
+    "sr_doc_025091-c000": [
+      "PJ",
+      "TV",
+      "co-produced",
+      "co-stars"
+    ],
+    "sr_doc_005654-c000": [
+      "care-for-life",
+      "not-for-profit"
+    ],
+    "sr_doc_005211-c000": [
+      "McCown",
+      "NFL"
+    ],
+    "sr_doc_010390-c000": [
+      "FAA",
+      "IATA",
+      "ICAO",
+      "KSHD",
+      "LID",
+      "SHD"
+    ],
+    "sr_doc_001033-c000": [
+      "US",
+      "thirty-three"
+    ],
+    "sr_doc_020316-c000": [
+      "BCS",
+      "USC"
+    ],
+    "sr_doc_010761-c000": [
+      "II",
+      "bulls-eye",
+      "multi-instrumentalist",
+      "self-titled"
+    ],
+    "sr_doc_005030-c000": [
+      "four-day",
+      "multi-sport"
+    ],
+    "sr_doc_009942-c000": [
+      "ELCA",
+      "UELCA"
+    ],
+    "sr_doc_012714-c000": [
+      "DJ"
+    ],
+    "sr_doc_017178-c000": [
+      "RITA",
+      "USA"
+    ],
+    "sr_doc_023405-c000": [
+      "PCL"
+    ],
+    "sr_doc_005082-c000": [
+      "TV"
+    ],
+    "sr_doc_004451-c000": [
+      "self-attraction"
+    ],
+    "sr_doc_001725-c000": [
+      "II"
+    ],
+    "sr_doc_022564-c000": [
+      "UK"
+    ],
+    "sr_doc_009169-c000": [
+      "sub-groups"
+    ],
+    "sr_doc_019855-c000": [
+      "McFarland",
+      "McFarlands"
+    ],
+    "sr_doc_018436-c000": [
+      "USTEM"
+    ],
+    "sr_doc_012743-c000": [
+      "BMX",
+      "CD",
+      "EP",
+      "SM1",
+      "UK",
+      "US"
+    ],
+    "sr_doc_018025-c000": [
+      "CA",
+      "company-owned"
+    ],
+    "sr_doc_002618-c000": [
+      "EA",
+      "second-largest"
+    ],
+    "sr_doc_002775-c000": [
+      "co-produced",
+      "manga-how-tos"
+    ],
+    "sr_doc_020485-c000": [
+      "ABC"
+    ],
+    "sr_doc_004155-c000": [
+      "co-directed"
+    ],
+    "sr_doc_016407-c000": [
+      "LaZar",
+      "McBroom",
+      "co-written"
+    ],
+    "sr_doc_016378-c000": [
+      "CD",
+      "UK"
+    ],
+    "sr_doc_006495-c000": [
+      "composer",
+      "film-maker"
+    ],
+    "sr_doc_004129-c000": [
+      "II"
+    ],
+    "sr_doc_002095-c000": [
+      "co-founded",
+      "post-punk"
+    ],
+    "sr_doc_013248-c000": [
+      "MLS",
+      "SC",
+      "USL"
+    ],
+    "sr_doc_005018-c000": [
+      "ABC",
+      "NBC",
+      "thirty-minute"
+    ],
+    "sr_doc_001584-c000": [
+      "BAFTA",
+      "BBC",
+      "TV"
+    ],
+    "sr_doc_014859-c000": [
+      "automobile-centred"
+    ],
+    "sr_doc_003788-c000": [
+      "DC",
+      "MCI",
+      "McDonough",
+      "NCAA"
+    ],
+    "sr_doc_014939-c000": [
+      "US",
+      "USA",
+      "VF"
+    ],
+    "sr_doc_016708-c000": [
+      "five-issue"
+    ],
+    "sr_doc_012994-c000": [
+      "DT"
+    ],
+    "sr_doc_000861-c000": [
+      "CA"
+    ],
+    "sr_doc_002929-c000": [
+      "UFC",
+      "post-fight"
+    ],
+    "sr_doc_009057-c000": [
+      "MacLucas",
+      "MacLugash",
+      "so-named"
+    ],
+    "sr_doc_008249-c000": [
+      "judge"
+    ],
+    "sr_doc_004409-c000": [
+      "NBC",
+      "late-night"
+    ],
+    "sr_doc_024278-c000": [
+      "LP"
+    ],
+    "sr_doc_013320-c000": [
+      "AFL",
+      "FBS",
+      "ISU",
+      "NCAA",
+      "NFL",
+      "XLVII"
+    ],
+    "sr_doc_004789-c000": [
+      "AutoZone",
+      "CST",
+      "ESPN",
+      "FBS",
+      "post-season"
+    ],
+    "sr_doc_005020-c000": [
+      "MCA"
+    ],
+    "sr_doc_000917-c000": [
+      "MIT"
+    ],
+    "sr_doc_001717-c000": [
+      "post-date"
+    ],
+    "sr_doc_004867-c000": [
+      "AAH",
+      "AQ",
+      "far-reaching"
+    ],
+    "sr_doc_001085-c000": [
+      "FLEC",
+      "PM",
+      "little-known"
+    ],
+    "sr_doc_019961-c000": [
+      "LNBP",
+      "NBA"
+    ],
+    "sr_doc_021210-c000": [
+      "composer"
+    ],
+    "sr_doc_017768-c000": [
+      "crime-drama"
+    ],
+    "sr_doc_021340-c000": [
+      "McKuen"
+    ],
+    "sr_doc_005083-c000": [
+      "USSR"
+    ],
+    "sr_doc_022764-c000": [
+      "best-selling"
+    ],
+    "sr_doc_008369-c000": [
+      "DuBois",
+      "II",
+      "MechWarrior",
+      "PlayStation"
+    ],
+    "sr_doc_014704-c000": [
+      "UK"
+    ],
+    "sr_doc_000049-c000": [
+      "MP",
+      "by-election"
+    ],
+    "sr_doc_018803-c000": [
+      "EASD"
+    ],
+    "sr_doc_020740-c000": [
+      "II"
+    ],
+    "sr_doc_007010-c000": [
+      "high-rise",
+      "row-housing",
+      "single-family",
+      "south-western"
+    ],
+    "sr_doc_015706-c000": [
+      "AC",
+      "FC"
+    ],
+    "sr_doc_004225-c000": [
+      "HWV",
+      "composer"
+    ],
+    "sr_doc_023582-c000": [
+      "B1A4",
+      "MBC"
+    ],
+    "sr_doc_015453-c000": [
+      "company-employed"
+    ],
+    "sr_doc_000237-c000": [
+      "McNamee"
+    ],
+    "sr_doc_020365-c000": [
+      "CD",
+      "PSA"
+    ],
+    "sr_doc_024836-c000": [
+      "HRSG",
+      "generator"
+    ],
+    "sr_doc_019426-c000": [
+      "NCAA"
+    ],
+    "sr_doc_005491-c000": [
+      "McGreevey",
+      "majority-elected"
+    ],
+    "sr_doc_001882-c000": [
+      "ACO",
+      "FIA"
+    ],
+    "sr_doc_021001-c000": [
+      "IV"
+    ],
+    "sr_doc_012628-c000": [
+      "singer-songwriter"
+    ],
+    "sr_doc_010664-c000": [
+      "four-year",
+      "re-elected"
+    ],
+    "sr_doc_003515-c000": [
+      "JB"
+    ],
+    "sr_doc_020206-c000": [
+      "CBS",
+      "II",
+      "made-for-television",
+      "year-old"
+    ],
+    "sr_doc_014101-c000": [
+      "CEO"
+    ],
+    "sr_doc_016497-c000": [
+      "II",
+      "III"
+    ],
+    "sr_doc_002914-c000": [
+      "NY"
+    ],
+    "sr_doc_013647-c000": [
+      "ABC",
+      "TV"
+    ],
+    "sr_doc_023046-c000": [
+      "ODB",
+      "SCOOP",
+      "US",
+      "WSOP"
+    ],
+    "sr_doc_000724-c000": [
+      "grapefruit-flavored",
+      "tequila-based"
+    ],
+    "sr_doc_004304-c000": [
+      "BBC"
+    ],
+    "sr_doc_011019-c000": [
+      "third-largest"
+    ],
+    "sr_doc_013142-c000": [
+      "ITV"
+    ],
+    "sr_doc_010438-c000": [
+      "co-financed",
+      "co-produces",
+      "sci-fi"
+    ],
+    "sr_doc_018811-c000": [
+      "HVT",
+      "MDV"
+    ],
+    "sr_doc_011033-c000": [
+      "UK",
+      "ever-present",
+      "line-up"
+    ],
+    "sr_doc_005630-c000": [
+      "NHL"
+    ],
+    "sr_doc_016328-c000": [
+      "WTA"
+    ],
+    "sr_doc_025179-c000": [
+      "CTR",
+      "IBM"
+    ],
+    "sr_doc_019220-c000": [
+      "north-western"
+    ],
+    "sr_doc_014578-c000": [
+      "point-and-click"
+    ],
+    "sr_doc_013674-c000": [
+      "NFU",
+      "well-being"
+    ],
+    "sr_doc_010634-c000": [
+      "ISBN",
+      "PBS",
+      "non-profits"
+    ],
+    "sr_doc_006455-c000": [
+      "UEFA"
+    ],
+    "sr_doc_001029-c000": [
+      "NJPW",
+      "PPV",
+      "WCW",
+      "pay-per-view"
+    ],
+    "sr_doc_019024-c000": [
+      "AIR"
+    ],
+    "sr_doc_015828-c000": [
+      "HWV"
+    ],
+    "sr_doc_021809-c000": [
+      "coming-of-age"
+    ],
+    "sr_doc_000282-c000": [
+      "PJ",
+      "singer-songwriter"
+    ],
+    "sr_doc_024269-c000": [
+      "DaimlerChrysler",
+      "high-volume",
+      "low-priced"
+    ],
+    "sr_doc_017972-c000": [
+      "CD",
+      "ex-husband"
+    ],
+    "sr_doc_005370-c000": [
+      "DJ",
+      "HP",
+      "HQ",
+      "hybrid"
+    ],
+    "sr_doc_005741-c000": [
+      "short-story"
+    ],
+    "sr_doc_006538-c000": [
+      "III"
+    ],
+    "sr_doc_004204-c000": [
+      "EFL",
+      "FA",
+      "play-off"
+    ],
+    "sr_doc_022119-c000": [
+      "NBA"
+    ],
+    "sr_doc_010666-c000": [
+      "re-election"
+    ],
+    "sr_doc_002211-c000": [
+      "MCC"
+    ],
+    "sr_doc_009813-c000": [
+      "RT",
+      "SAC"
+    ],
+    "sr_doc_002374-c000": [
+      "BBC",
+      "TV"
+    ],
+    "sr_doc_010198-c000": [
+      "mezzo-soprano"
+    ],
+    "sr_doc_021415-c000": [
+      "NFL"
+    ],
+    "sr_doc_024650-c000": [
+      "two-player"
+    ],
+    "sr_doc_006883-c000": [
+      "hybrid",
+      "sheep-goat"
+    ],
+    "sr_doc_024839-c000": [
+      "USA",
+      "horse-drawn"
+    ],
+    "sr_doc_019490-c000": [
+      "AWCHA",
+      "NCAA"
+    ],
+    "sr_doc_023772-c000": [
+      "PC",
+      "co-founder"
+    ],
+    "sr_doc_019167-c000": [
+      "II"
+    ],
+    "sr_doc_011985-c000": [
+      "AFC",
+      "KNVB",
+      "PEC",
+      "VAK410"
+    ],
+    "sr_doc_022530-c000": [
+      "IRA"
+    ],
+    "sr_doc_013011-c000": [
+      "A484",
+      "evidence"
+    ],
+    "sr_doc_015399-c000": [
+      "NFL",
+      "first-round"
+    ],
+    "sr_doc_015142-c000": [
+      "NH"
+    ],
+    "sr_doc_009854-c000": [
+      "AFL",
+      "NBA",
+      "VooDoo",
+      "multi-purpose"
+    ],
+    "sr_doc_002523-c000": [
+      "feature-length"
+    ],
+    "sr_doc_002001-c000": [
+      "all-star",
+      "blue-collar",
+      "co-starring"
+    ],
+    "sr_doc_006420-c000": [
+      "day-to-day"
+    ],
+    "sr_doc_011950-c000": [
+      "CD",
+      "CTS",
+      "LP"
+    ],
+    "sr_doc_022874-c000": [
+      "four-star",
+      "highest-ranking"
+    ],
+    "sr_doc_023560-c000": [
+      "re-titled"
+    ],
+    "sr_doc_003928-c000": [
+      "DI",
+      "ITV",
+      "UK"
+    ],
+    "sr_doc_003195-c000": [
+      "MST",
+      "long-distance"
+    ],
+    "sr_doc_009931-c000": [
+      "eight-year"
+    ],
+    "sr_doc_024675-c000": [
+      "evidence"
+    ],
+    "sr_doc_005542-c000": [
+      "CFB",
+      "CYTR",
+      "IATA",
+      "ICAO",
+      "RCAF",
+      "YTR"
+    ],
+    "sr_doc_004851-c000": [
+      "two-part"
+    ],
+    "sr_doc_023511-c000": [
+      "anti-war"
+    ],
+    "sr_doc_015041-c000": [
+      "one-time"
+    ],
+    "sr_doc_008037-c000": [
+      "USDA"
+    ],
+    "sr_doc_008742-c000": [
+      "rush-releasing"
+    ],
+    "sr_doc_011830-c000": [
+      "MMORPG"
+    ],
+    "sr_doc_023172-c000": [
+      "semi-religious"
+    ],
+    "sr_doc_012087-c000": [
+      "three-act"
+    ],
+    "sr_doc_007411-c000": [
+      "II"
+    ],
+    "sr_doc_003606-c000": [
+      "NBA"
+    ],
+    "sr_doc_008162-c000": [
+      "MILF",
+      "US",
+      "first-week"
+    ],
+    "sr_doc_004076-c000": [
+      "MLB"
+    ],
+    "sr_doc_008133-c000": [
+      "BPSL"
+    ],
+    "sr_doc_004508-c000": [
+      "judge"
+    ],
+    "sr_doc_013367-c000": [
+      "CD",
+      "GirderMusic",
+      "re-issue",
+      "re-issued",
+      "re-recording"
+    ],
+    "sr_doc_004222-c000": [
+      "HWV"
+    ],
+    "sr_doc_024990-c000": [
+      "SOVAS",
+      "VH",
+      "VandenHeuvel"
+    ],
+    "sr_doc_000067-c000": [
+      "C4H9",
+      "TBTO"
+    ],
+    "sr_doc_001637-c000": [
+      "McConaughey",
+      "comedy-drama",
+      "planner"
+    ],
+    "sr_doc_007919-c000": [
+      "urban-type"
+    ],
+    "sr_doc_006986-c000": [
+      "II",
+      "coal-fired",
+      "four-chimney",
+      "inner-city",
+      "long-recognized"
+    ],
+    "sr_doc_007555-c000": [
+      "MCU",
+      "McNairy",
+      "direct-to-video",
+      "spin-off"
+    ],
+    "sr_doc_013391-c000": [
+      "singer-songwriter"
+    ],
+    "sr_doc_008220-c000": [
+      "pop-rock"
+    ],
+    "sr_doc_004120-c000": [
+      "A642"
+    ],
+    "sr_doc_002607-c000": [
+      "CD"
+    ],
+    "sr_doc_019647-c000": [
+      "co-general",
+      "vice-president"
+    ],
+    "sr_doc_006107-c000": [
+      "SL",
+      "W198",
+      "gull-wing",
+      "two-seat"
+    ],
+    "sr_doc_014356-c000": [
+      "DX11",
+      "OPZ",
+      "OPZII",
+      "TX81Z",
+      "V50",
+      "YM2414",
+      "YM2424",
+      "YS200",
+      "Z3",
+      "eight-channel",
+      "mid-market",
+      "modulation-based"
+    ],
+    "sr_doc_018612-c000": [
+      "SM"
+    ],
+    "sr_doc_015286-c000": [
+      "EP",
+      "mini-album"
+    ],
+    "sr_doc_017582-c000": [
+      "second-tallest"
+    ],
+    "sr_doc_025183-c000": [
+      "DC",
+      "long-term"
+    ],
+    "sr_doc_016020-c000": [
+      "three-quarter"
+    ],
+    "sr_doc_017393-c000": [
+      "UNESCO"
+    ],
+    "sr_doc_024085-c000": [
+      "CBS",
+      "co-stars"
+    ],
+    "sr_doc_021413-c000": [
+      "ACE",
+      "flash-frozen",
+      "par-baked"
+    ],
+    "sr_doc_000976-c000": [
+      "TV",
+      "mini-series"
+    ],
+    "sr_doc_005712-c000": [
+      "R336"
+    ],
+    "sr_doc_015526-c000": [
+      "BBC",
+      "CBC",
+      "NFB",
+      "UK",
+      "co-wrote"
+    ],
+    "sr_doc_024247-c000": [
+      "hand-wash"
+    ],
+    "sr_doc_015457-c000": [
+      "MOON",
+      "THE",
+      "WALK"
+    ],
+    "sr_doc_006595-c000": [
+      "FA",
+      "joint-record",
+      "top-flight"
+    ],
+    "sr_doc_022159-c000": [
+      "JJ",
+      "McTeer",
+      "close-fisted",
+      "co-wrote",
+      "ill-meaning"
+    ],
+    "sr_doc_022309-c000": [
+      "FA",
+      "joint-first"
+    ],
+    "sr_doc_004110-c000": [
+      "PLC"
+    ],
+    "sr_doc_022779-c000": [
+      "re-election"
+    ],
+    "sr_doc_004945-c000": [
+      "ISBN"
+    ],
+    "sr_doc_021925-c000": [
+      "VIII"
+    ],
+    "sr_doc_008930-c000": [
+      "LAFCA"
+    ],
+    "sr_doc_017160-c000": [
+      "composer"
+    ],
+    "sr_doc_008296-c000": [
+      "TTY"
+    ],
+    "sr_doc_002681-c000": [
+      "self-titled"
+    ],
+    "sr_doc_015881-c000": [
+      "bro-country",
+      "co-written"
+    ],
+    "sr_doc_023304-c000": [
+      "one-word"
+    ],
+    "sr_doc_011427-c000": [
+      "MGB"
+    ],
+    "sr_doc_020593-c000": [
+      "loft-style"
+    ],
+    "sr_doc_001135-c000": [
+      "EMB",
+      "PADC",
+      "PAF",
+      "PASF"
+    ],
+    "sr_doc_011373-c000": [
+      "US",
+      "line-up"
+    ],
+    "sr_doc_011808-c000": [
+      "CFP"
+    ],
+    "sr_doc_024045-c000": [
+      "EMI",
+      "GoldenEye",
+      "composer",
+      "tank-chase"
+    ],
+    "sr_doc_023081-c000": [
+      "US",
+      "co-written"
+    ],
+    "sr_doc_009904-c000": [
+      "BBC",
+      "micro-local",
+      "non-profit"
+    ],
+    "sr_doc_001380-c000": [
+      "at-large"
+    ],
+    "sr_doc_002858-c000": [
+      "CNBLUE"
+    ],
+    "sr_doc_016161-c000": [
+      "BBC",
+      "money-for-competitions-entry"
+    ],
+    "sr_doc_019631-c000": [
+      "FAME"
+    ],
+    "sr_doc_010072-c000": [
+      "NFL"
+    ],
+    "sr_doc_003558-c000": [
+      "McCartney",
+      "OK",
+      "U2"
+    ],
+    "sr_doc_010298-c000": [
+      "CIA",
+      "co-author",
+      "co-written"
+    ],
+    "sr_doc_003618-c000": [
+      "free-swimming",
+      "re-suspended",
+      "well-known"
+    ],
+    "sr_doc_002565-c000": [
+      "KCRC"
+    ],
+    "sr_doc_004525-c000": [
+      "ATP"
+    ],
+    "sr_doc_016377-c000": [
+      "hybrid"
+    ],
+    "sr_doc_000992-c000": [
+      "fan-base"
+    ],
+    "sr_doc_000078-c000": [
+      "WTA",
+      "calendar-year",
+      "season-ending",
+      "twenty-five"
+    ],
+    "sr_doc_010697-c000": [
+      "II"
+    ],
+    "sr_doc_022430-c000": [
+      "IMU"
+    ],
+    "sr_doc_015516-c000": [
+      "TJX",
+      "USA",
+      "off-price",
+      "second-largest"
+    ],
+    "sr_doc_019195-c000": [
+      "zay-zee"
+    ],
+    "sr_doc_008877-c000": [
+      "half-brother"
+    ],
+    "sr_doc_023942-c000": [
+      "II"
+    ],
+    "sr_doc_003786-c000": [
+      "NCAA"
+    ],
+    "sr_doc_019905-c000": [
+      "BBC",
+      "MTX",
+      "factory-based"
+    ],
+    "sr_doc_005371-c000": [
+      "DJ"
+    ],
+    "sr_doc_019326-c000": [
+      "USA"
+    ],
+    "sr_doc_010157-c000": [
+      "second-most"
+    ],
+    "sr_doc_008340-c000": [
+      "SyFy"
+    ],
+    "sr_doc_006292-c000": [
+      "TCA"
+    ],
+    "sr_doc_019895-c000": [
+      "CBS"
+    ],
+    "sr_doc_000966-c000": [
+      "UCW",
+      "UWE"
+    ],
+    "sr_doc_020009-c000": [
+      "same-sex"
+    ],
+    "sr_doc_017079-c000": [
+      "office-holder"
+    ],
+    "sr_doc_024598-c000": [
+      "TPC"
+    ],
+    "sr_doc_010534-c000": [
+      "McCamant",
+      "decision-making",
+      "new-construction",
+      "privately-owned"
+    ],
+    "sr_doc_019648-c000": [
+      "FA",
+      "ex-pro"
+    ],
+    "sr_doc_019594-c000": [
+      "BC",
+      "NATO",
+      "land-based"
+    ],
+    "sr_doc_000515-c000": [
+      "gaming-entitled"
+    ],
+    "sr_doc_014077-c000": [
+      "co-produced",
+      "co-written"
+    ],
+    "sr_doc_017627-c000": [
+      "half-a-millionaire",
+      "strong-willed",
+      "well-known"
+    ],
+    "sr_doc_010948-c000": [
+      "writer-director"
+    ],
+    "sr_doc_018483-c000": [
+      "PAX"
+    ],
+    "sr_doc_012418-c000": [
+      "McCarthyism"
+    ],
+    "sr_doc_025096-c000": [
+      "NBC"
+    ],
+    "sr_doc_022955-c000": [
+      "non-graduate"
+    ],
+    "sr_doc_010182-c000": [
+      "AJ"
+    ],
+    "sr_doc_003228-c000": [
+      "four-lane",
+      "non-commercial"
+    ],
+    "sr_doc_006875-c000": [
+      "NCAA"
+    ],
+    "sr_doc_006848-c000": [
+      "TCFTV"
+    ],
+    "sr_doc_011881-c000": [
+      "EAS",
+      "NFL",
+      "all-time"
+    ],
+    "sr_doc_004591-c000": [
+      "composer"
+    ],
+    "sr_doc_010555-c000": [
+      "VH1"
+    ],
+    "sr_doc_013648-c000": [
+      "runner-up"
+    ]
+  },
+  "term_graph": {
+    "PPTH": [
+      "TV"
+    ],
+    "TV": [
+      "ABC",
+      "ACA",
+      "ACCA",
+      "ACM",
+      "BAFTA",
+      "BBC",
+      "CMA",
+      "CMT",
+      "CW",
+      "GB",
+      "ITV",
+      "KidsClick",
+      "MGM",
+      "PJ",
+      "PPTH",
+      "UK",
+      "co-produced",
+      "co-starred",
+      "co-stars",
+      "long-form",
+      "made-for",
+      "major-awards",
+      "mini-series",
+      "over-the-air",
+      "short-form",
+      "voice-dubbing"
+    ],
+    "GB": [
+      "ITV",
+      "TV",
+      "UK"
+    ],
+    "ITV": [
+      "DI",
+      "GB",
+      "TV",
+      "UK"
+    ],
+    "UK": [
+      "BBC",
+      "BMX",
+      "CBC",
+      "CD",
+      "DI",
+      "EP",
+      "GB",
+      "GMT",
+      "ITV",
+      "McCartney",
+      "NFB",
+      "SM1",
+      "TV",
+      "US",
+      "UT1",
+      "UTC",
+      "co-wrote",
+      "ever-present",
+      "line-up"
+    ],
+    "grass-like": [
+      "sap-suckers",
+      "strap-shaped"
+    ],
+    "sap-suckers": [
+      "grass-like",
+      "strap-shaped"
+    ],
+    "strap-shaped": [
+      "grass-like",
+      "sap-suckers"
+    ],
+    "US": [
+      "AC",
+      "BMX",
+      "CD",
+      "DJ",
+      "DMC",
+      "EP",
+      "MC",
+      "MILF",
+      "McCartney",
+      "ODB",
+      "SCOOP",
+      "SM1",
+      "UK",
+      "USA",
+      "VF",
+      "WSOP",
+      "co-written",
+      "first-week",
+      "line-up",
+      "runner-up",
+      "thirty-three",
+      "world-wide"
+    ],
+    "runner-up": [
+      "US",
+      "eighth-grader"
+    ],
+    "best-selling": [
+      "singer-songwriter"
+    ],
+    "singer-songwriter": [
+      "DeLuna",
+      "DeWyze",
+      "McCartney",
+      "PJ",
+      "best-selling",
+      "co-produced",
+      "co-producing",
+      "co-written",
+      "co-wrote",
+      "second-most",
+      "self-penned"
+    ],
+    "McCartney": [
+      "OK",
+      "U2",
+      "UK",
+      "US",
+      "multi-artist",
+      "second-most",
+      "singer-songwriter"
+    ],
+    "multi-artist": [
+      "McCartney"
+    ],
+    "GMT": [
+      "UK",
+      "UT1",
+      "UTC"
+    ],
+    "UT1": [
+      "GMT",
+      "UK",
+      "UTC"
+    ],
+    "UTC": [
+      "GMT",
+      "UK",
+      "UT1"
+    ],
+    "DBE": [
+      "longest-running"
+    ],
+    "longest-running": [
+      "DBE"
+    ],
+    "NBA": [
+      "AFL",
+      "LNBP",
+      "SuperSonics",
+      "VooDoo",
+      "multi-purpose",
+      "pre-show"
+    ],
+    "SuperSonics": [
+      "NBA"
+    ],
+    "DeMunn": [
+      "McBride",
+      "science-fiction"
+    ],
+    "McBride": [
+      "DeMunn",
+      "McKinnon",
+      "co-production",
+      "computer-animated",
+      "science-fiction"
+    ],
+    "science-fiction": [
+      "DeMunn",
+      "McBride",
+      "McChord",
+      "neo-noir"
+    ],
+    "after-dinner": [
+      "mint-flavored"
+    ],
+    "mint-flavored": [
+      "after-dinner"
+    ],
+    "long-running": [
+      "semi-regular"
+    ],
+    "semi-regular": [
+      "long-running"
+    ],
+    "WBA": [
+      "hard-hitting",
+      "super-heavyweight"
+    ],
+    "hard-hitting": [
+      "WBA",
+      "super-heavyweight"
+    ],
+    "super-heavyweight": [
+      "WBA",
+      "hard-hitting"
+    ],
+    "co-produced": [
+      "PJ",
+      "TV",
+      "co-production",
+      "co-stars",
+      "co-written",
+      "comedy-drama",
+      "coming-of-age",
+      "manga-how-tos",
+      "self-penned",
+      "singer-songwriter"
+    ],
+    "co-production": [
+      "McBride",
+      "McKinnon",
+      "co-produced",
+      "co-written",
+      "comedy-drama",
+      "coming-of-age",
+      "computer-animated"
+    ],
+    "co-written": [
+      "CIA",
+      "LaZar",
+      "McBroom",
+      "REC",
+      "US",
+      "bro-country",
+      "co-author",
+      "co-produced",
+      "co-producing",
+      "co-production",
+      "co-wrote",
+      "comedy-drama",
+      "coming-of-age",
+      "found-footage",
+      "live-action",
+      "singer-songwriter"
+    ],
+    "comedy-drama": [
+      "McConaughey",
+      "co-produced",
+      "co-production",
+      "co-written",
+      "coming-of-age",
+      "middle-aged",
+      "planner"
+    ],
+    "coming-of-age": [
+      "co-produced",
+      "co-production",
+      "co-written",
+      "comedy-drama"
+    ],
+    "editor-in-chief": [
+      "peer-reviewed"
+    ],
+    "peer-reviewed": [
+      "editor-in-chief"
+    ],
+    "ClinicalKey": [
+      "RELX",
+      "ScienceDirect",
+      "citation",
+      "data-management"
+    ],
+    "RELX": [
+      "ClinicalKey",
+      "ScienceDirect",
+      "citation",
+      "data-management"
+    ],
+    "ScienceDirect": [
+      "ClinicalKey",
+      "RELX",
+      "citation",
+      "data-management"
+    ],
+    "citation": [
+      "ClinicalKey",
+      "RELX",
+      "ScienceDirect",
+      "data-management"
+    ],
+    "data-management": [
+      "ClinicalKey",
+      "RELX",
+      "ScienceDirect",
+      "citation"
+    ],
+    "SNL": [
+      "slow-tempo"
+    ],
+    "slow-tempo": [
+      "SNL"
+    ],
+    "ALF": [
+      "NBC"
+    ],
+    "NBC": [
+      "ABC",
+      "ALF",
+      "late-night",
+      "thirty-minute"
+    ],
+    "co-producing": [
+      "co-written",
+      "co-wrote",
+      "singer-songwriter"
+    ],
+    "co-wrote": [
+      "BBC",
+      "CBC",
+      "DeBarge",
+      "JJ",
+      "McTeer",
+      "NFB",
+      "UK",
+      "close-fisted",
+      "co-producing",
+      "co-written",
+      "ill-meaning",
+      "short-lived",
+      "singer-songwriter"
+    ],
+    "DJ": [
+      "AC",
+      "DMC",
+      "HP",
+      "HQ",
+      "MC",
+      "US",
+      "hip-hop",
+      "hybrid",
+      "world-wide"
+    ],
+    "hip-hop": [
+      "DJ",
+      "DMC",
+      "LL",
+      "MTV",
+      "McDaniels"
+    ],
+    "CHIP": [
+      "HFP",
+      "SCHIP",
+      "no-cost"
+    ],
+    "HFP": [
+      "CHIP",
+      "no-cost"
+    ],
+    "no-cost": [
+      "CHIP",
+      "HFP"
+    ],
+    "SCHIP": [
+      "CHIP"
+    ],
+    "voice-dubbing": [
+      "TV"
+    ],
+    "CBS": [
+      "FBI",
+      "II",
+      "TNT",
+      "co-stars",
+      "guest-starred",
+      "made-for-television",
+      "short-lived",
+      "year-old"
+    ],
+    "TNT": [
+      "CBS",
+      "guest-starred"
+    ],
+    "guest-starred": [
+      "CBS",
+      "TNT"
+    ],
+    "DGSI": [
+      "IATA",
+      "ICAO",
+      "KMS"
+    ],
+    "IATA": [
+      "CFB",
+      "CYTR",
+      "DGSI",
+      "FAA",
+      "ICAO",
+      "KMS",
+      "KSHD",
+      "KVPZ",
+      "LID",
+      "RCAF",
+      "SHD",
+      "VPZ",
+      "YTR"
+    ],
+    "ICAO": [
+      "CFB",
+      "CYTR",
+      "DGSI",
+      "FAA",
+      "IATA",
+      "KMS",
+      "KSHD",
+      "KVPZ",
+      "LID",
+      "RCAF",
+      "SHD",
+      "VPZ",
+      "YTR"
+    ],
+    "KMS": [
+      "DGSI",
+      "IATA",
+      "ICAO"
+    ],
+    "CDP": [
+      "census-designated",
+      "south-southeast"
+    ],
+    "census-designated": [
+      "CDP",
+      "south-southeast"
+    ],
+    "ODI": [
+      "T20I"
+    ],
+    "T20I": [
+      "ODI"
+    ],
+    "BT": [
+      "co-owner"
+    ],
+    "co-owner": [
+      "BT"
+    ],
+    "FA": [
+      "EFL",
+      "ex-pro",
+      "joint-first",
+      "joint-record",
+      "play-off",
+      "shoot-out",
+      "top-flight"
+    ],
+    "shoot-out": [
+      "FA"
+    ],
+    "McChord": [
+      "neo-noir",
+      "science-fiction"
+    ],
+    "neo-noir": [
+      "McChord",
+      "science-fiction"
+    ],
+    "CSN": [
+      "four-year",
+      "two-year"
+    ],
+    "four-year": [
+      "CSN",
+      "re-elected",
+      "two-year"
+    ],
+    "two-year": [
+      "CSN",
+      "four-year"
+    ],
+    "NIST": [
+      "ground-breaking"
+    ],
+    "ground-breaking": [
+      "NIST",
+      "VI"
+    ],
+    "VI": [
+      "ground-breaking"
+    ],
+    "live-action": [
+      "co-written",
+      "longest-lasting"
+    ],
+    "longest-lasting": [
+      "live-action"
+    ],
+    "MGM": [
+      "ACA",
+      "ACCA",
+      "ACM",
+      "CMA",
+      "CMT",
+      "TV",
+      "major-awards",
+      "multi-use"
+    ],
+    "multi-use": [
+      "MGM"
+    ],
+    "CE": [
+      "see-gi-ri"
+    ],
+    "see-gi-ri": [
+      "CE"
+    ],
+    "II": [
+      "CBS",
+      "DuBois",
+      "FBI",
+      "III",
+      "MechWarrior",
+      "PlayStation",
+      "SS",
+      "bulls-eye",
+      "coal-fired",
+      "four-chimney",
+      "inner-city",
+      "long-recognized",
+      "made-for-television",
+      "multi-instrumentalist",
+      "self-titled",
+      "short-lived",
+      "year-old"
+    ],
+    "SS": [
+      "II"
+    ],
+    "DMC": [
+      "AC",
+      "DJ",
+      "LL",
+      "MC",
+      "MTV",
+      "McDaniels",
+      "US",
+      "hip-hop",
+      "world-wide"
+    ],
+    "LL": [
+      "DMC",
+      "MTV",
+      "McDaniels",
+      "hip-hop"
+    ],
+    "MTV": [
+      "DMC",
+      "LL",
+      "McDaniels",
+      "hip-hop",
+      "spin-off"
+    ],
+    "McDaniels": [
+      "DMC",
+      "LL",
+      "MTV",
+      "hip-hop"
+    ],
+    "AC": [
+      "DJ",
+      "DMC",
+      "FC",
+      "MC",
+      "US",
+      "world-wide"
+    ],
+    "MC": [
+      "AC",
+      "DJ",
+      "DMC",
+      "US",
+      "world-wide"
+    ],
+    "world-wide": [
+      "AC",
+      "DJ",
+      "DMC",
+      "MC",
+      "US"
+    ],
+    "four-chambered": [
+      "hard-shelled"
+    ],
+    "hard-shelled": [
+      "four-chambered"
+    ],
+    "AXIS": [
+      "USA",
+      "mid-sized"
+    ],
+    "USA": [
+      "AXIS",
+      "RITA",
+      "TJX",
+      "US",
+      "VF",
+      "black-and-white",
+      "horse-drawn",
+      "mid-sized",
+      "off-price",
+      "second-largest"
+    ],
+    "mid-sized": [
+      "AXIS",
+      "USA"
+    ],
+    "second-most": [
+      "McCartney",
+      "singer-songwriter"
+    ],
+    "FM": [
+      "KBSO"
+    ],
+    "KBSO": [
+      "FM"
+    ],
+    "MW": [
+      "generator",
+      "non-ferrous"
+    ],
+    "non-ferrous": [
+      "MW"
+    ],
+    "FY2015": [
+      "HZL",
+      "PLC"
+    ],
+    "HZL": [
+      "FY2015",
+      "PLC"
+    ],
+    "PLC": [
+      "FY2015",
+      "HZL"
+    ],
+    "REC": [
+      "co-written",
+      "found-footage"
+    ],
+    "found-footage": [
+      "REC",
+      "co-written"
+    ],
+    "DVD": [
+      "DuckTales",
+      "TaleSpin",
+      "created-for-syndication",
+      "mid-to-late",
+      "stand-up",
+      "two-hour"
+    ],
+    "stand-up": [
+      "CBC",
+      "DVD",
+      "NewsRadio",
+      "five-part"
+    ],
+    "middle-aged": [
+      "comedy-drama"
+    ],
+    "TDSB": [
+      "UTEP"
+    ],
+    "UTEP": [
+      "TDSB"
+    ],
+    "self-penned": [
+      "co-produced",
+      "singer-songwriter"
+    ],
+    "FBI": [
+      "CBS",
+      "II",
+      "short-lived"
+    ],
+    "short-lived": [
+      "CBS",
+      "FBI",
+      "II",
+      "co-wrote"
+    ],
+    "KBE": [
+      "non-stop"
+    ],
+    "non-stop": [
+      "KBE"
+    ],
+    "CBC": [
+      "BBC",
+      "NFB",
+      "NewsRadio",
+      "UK",
+      "co-wrote",
+      "five-part",
+      "stand-up"
+    ],
+    "NewsRadio": [
+      "CBC",
+      "five-part",
+      "stand-up"
+    ],
+    "five-part": [
+      "CBC",
+      "NewsRadio",
+      "stand-up"
+    ],
+    "black-and-white": [
+      "USA",
+      "book-sized"
+    ],
+    "book-sized": [
+      "black-and-white"
+    ],
+    "four-piece": [
+      "two-person"
+    ],
+    "two-person": [
+      "four-piece"
+    ],
+    "McKinnon": [
+      "McBride",
+      "co-production",
+      "computer-animated"
+    ],
+    "computer-animated": [
+      "McBride",
+      "McKinnon",
+      "co-production"
+    ],
+    "generator": [
+      "HRSG",
+      "MW"
+    ],
+    "DeLuna": [
+      "DeWyze",
+      "singer-songwriter"
+    ],
+    "DeWyze": [
+      "DeLuna",
+      "singer-songwriter"
+    ],
+    "hyper-visual": [
+      "left-over"
+    ],
+    "left-over": [
+      "hyper-visual"
+    ],
+    "spin-off": [
+      "MCU",
+      "MTV",
+      "McNairy",
+      "direct-to-video"
+    ],
+    "KTH": [
+      "XVI"
+    ],
+    "XVI": [
+      "KTH"
+    ],
+    "DuckTales": [
+      "DVD",
+      "TaleSpin",
+      "created-for-syndication",
+      "mid-to-late",
+      "two-hour"
+    ],
+    "TaleSpin": [
+      "DVD",
+      "DuckTales",
+      "created-for-syndication",
+      "mid-to-late",
+      "two-hour"
+    ],
+    "created-for-syndication": [
+      "DVD",
+      "DuckTales",
+      "TaleSpin",
+      "mid-to-late",
+      "two-hour"
+    ],
+    "mid-to-late": [
+      "DVD",
+      "DuckTales",
+      "TaleSpin",
+      "created-for-syndication",
+      "two-hour"
+    ],
+    "two-hour": [
+      "DVD",
+      "DuckTales",
+      "TaleSpin",
+      "created-for-syndication",
+      "mid-to-late"
+    ],
+    "pre-show": [
+      "NBA"
+    ],
+    "FAA": [
+      "IATA",
+      "ICAO",
+      "KSHD",
+      "KVPZ",
+      "LID",
+      "SHD",
+      "VPZ"
+    ],
+    "KVPZ": [
+      "FAA",
+      "IATA",
+      "ICAO",
+      "LID",
+      "VPZ"
+    ],
+    "LID": [
+      "FAA",
+      "IATA",
+      "ICAO",
+      "KSHD",
+      "KVPZ",
+      "SHD",
+      "VPZ"
+    ],
+    "VPZ": [
+      "FAA",
+      "IATA",
+      "ICAO",
+      "KVPZ",
+      "LID"
+    ],
+    "ARIA": [
+      "KC",
+      "number-one",
+      "one-week"
+    ],
+    "KC": [
+      "ARIA",
+      "number-one",
+      "one-week"
+    ],
+    "number-one": [
+      "ARIA",
+      "KC",
+      "one-week"
+    ],
+    "one-week": [
+      "ARIA",
+      "KC",
+      "number-one"
+    ],
+    "ag-gag": [
+      "anti-whistleblower"
+    ],
+    "anti-whistleblower": [
+      "ag-gag"
+    ],
+    "VP": [
+      "newly-vacated",
+      "vice-presidential"
+    ],
+    "newly-vacated": [
+      "VP",
+      "vice-presidential"
+    ],
+    "vice-presidential": [
+      "VP",
+      "newly-vacated"
+    ],
+    "McCormick": [
+      "co-creator",
+      "long-time",
+      "oft-muffled"
+    ],
+    "co-creator": [
+      "McCormick",
+      "long-time",
+      "oft-muffled"
+    ],
+    "long-time": [
+      "McCormick",
+      "co-creator",
+      "oft-muffled"
+    ],
+    "oft-muffled": [
+      "McCormick",
+      "co-creator",
+      "long-time"
+    ],
+    "PR": [
+      "multi-member",
+      "single-member"
+    ],
+    "multi-member": [
+      "PR",
+      "single-member"
+    ],
+    "single-member": [
+      "PR",
+      "multi-member"
+    ],
+    "PD": [
+      "social-liberal"
+    ],
+    "social-liberal": [
+      "PD"
+    ],
+    "north-east": [
+      "A152",
+      "south-east",
+      "south-west"
+    ],
+    "south-west": [
+      "north-east"
+    ],
+    "DeBarge": [
+      "co-wrote"
+    ],
+    "MBE": [
+      "co-star",
+      "longest-serving"
+    ],
+    "co-star": [
+      "MBE",
+      "longest-serving"
+    ],
+    "longest-serving": [
+      "MBE",
+      "co-star"
+    ],
+    "south-southeast": [
+      "CDP",
+      "census-designated"
+    ],
+    "eighth-grader": [
+      "runner-up"
+    ],
+    "CFTM": [
+      "DT",
+      "TVA",
+      "highest-circulating",
+      "largest-circulating"
+    ],
+    "DT": [
+      "CFTM",
+      "TVA",
+      "highest-circulating",
+      "largest-circulating"
+    ],
+    "TVA": [
+      "CFTM",
+      "DT",
+      "highest-circulating",
+      "largest-circulating"
+    ],
+    "highest-circulating": [
+      "CFTM",
+      "DT",
+      "TVA",
+      "largest-circulating"
+    ],
+    "largest-circulating": [
+      "CFTM",
+      "DT",
+      "TVA",
+      "highest-circulating"
+    ],
+    "ARCA": [
+      "NASCAR"
+    ],
+    "NASCAR": [
+      "ARCA"
+    ],
+    "co-starred": [
+      "TV",
+      "made-for"
+    ],
+    "made-for": [
+      "TV",
+      "co-starred"
+    ],
+    "ABC": [
+      "MCU",
+      "NBC",
+      "TV",
+      "thirty-minute"
+    ],
+    "MCU": [
+      "ABC",
+      "McNairy",
+      "direct-to-video",
+      "spin-off"
+    ],
+    "CEO": [
+      "OH",
+      "non-developed"
+    ],
+    "OH": [
+      "CEO",
+      "non-developed"
+    ],
+    "non-developed": [
+      "CEO",
+      "OH"
+    ],
+    "ABA": [
+      "JD",
+      "SC",
+      "full-time",
+      "long-term",
+      "non-profit"
+    ],
+    "JD": [
+      "ABA",
+      "SC",
+      "full-time",
+      "long-term",
+      "non-profit"
+    ],
+    "SC": [
+      "ABA",
+      "JD",
+      "MLS",
+      "USL",
+      "full-time",
+      "long-term",
+      "non-profit"
+    ],
+    "full-time": [
+      "ABA",
+      "JD",
+      "SC",
+      "long-term",
+      "non-profit"
+    ],
+    "long-term": [
+      "ABA",
+      "DC",
+      "JD",
+      "SC",
+      "full-time",
+      "non-profit"
+    ],
+    "non-profit": [
+      "ABA",
+      "BBC",
+      "JD",
+      "SC",
+      "full-time",
+      "long-term",
+      "micro-local"
+    ],
+    "FAL": [
+      "FN",
+      "NATO"
+    ],
+    "FN": [
+      "FAL",
+      "NATO"
+    ],
+    "NATO": [
+      "BC",
+      "FAL",
+      "FN",
+      "land-based"
+    ],
+    "FBS": [
+      "AFL",
+      "AutoZone",
+      "CST",
+      "ESPN",
+      "ISU",
+      "McMackin",
+      "NCAA",
+      "NFL",
+      "WAC",
+      "XLVII",
+      "fourth-year",
+      "post-season"
+    ],
+    "McMackin": [
+      "FBS",
+      "NCAA",
+      "WAC",
+      "fourth-year"
+    ],
+    "NCAA": [
+      "AFL",
+      "AWCHA",
+      "DC",
+      "FBS",
+      "ISU",
+      "MCI",
+      "McDonough",
+      "McMackin",
+      "NFL",
+      "WAC",
+      "XLVII",
+      "fourth-year"
+    ],
+    "WAC": [
+      "FBS",
+      "McMackin",
+      "NCAA",
+      "fourth-year"
+    ],
+    "fourth-year": [
+      "FBS",
+      "McMackin",
+      "NCAA",
+      "WAC"
+    ],
+    "guest-starring": [
+      "prime-time"
+    ],
+    "prime-time": [
+      "guest-starring"
+    ],
+    "AM": [
+      "McHenry",
+      "WCGO",
+      "WKKD",
+      "WMCW",
+      "WONX",
+      "WPW"
+    ],
+    "McHenry": [
+      "AM",
+      "WCGO",
+      "WKKD",
+      "WMCW",
+      "WONX",
+      "WPW"
+    ],
+    "WCGO": [
+      "AM",
+      "McHenry",
+      "WKKD",
+      "WMCW",
+      "WONX",
+      "WPW"
+    ],
+    "WKKD": [
+      "AM",
+      "McHenry",
+      "WCGO",
+      "WMCW",
+      "WONX",
+      "WPW"
+    ],
+    "WMCW": [
+      "AM",
+      "McHenry",
+      "WCGO",
+      "WKKD",
+      "WONX",
+      "WPW"
+    ],
+    "WONX": [
+      "AM",
+      "McHenry",
+      "WCGO",
+      "WKKD",
+      "WMCW",
+      "WPW"
+    ],
+    "WPW": [
+      "AM",
+      "McHenry",
+      "WCGO",
+      "WKKD",
+      "WMCW",
+      "WONX"
+    ],
+    "CW": [
+      "KidsClick",
+      "TV",
+      "long-form",
+      "over-the-air",
+      "short-form"
+    ],
+    "KidsClick": [
+      "CW",
+      "TV",
+      "long-form",
+      "over-the-air",
+      "short-form"
+    ],
+    "long-form": [
+      "CW",
+      "KidsClick",
+      "TV",
+      "over-the-air",
+      "short-form"
+    ],
+    "over-the-air": [
+      "CW",
+      "KidsClick",
+      "TV",
+      "long-form",
+      "short-form"
+    ],
+    "short-form": [
+      "CW",
+      "KidsClick",
+      "TV",
+      "long-form",
+      "over-the-air"
+    ],
+    "A152": [
+      "north-east",
+      "south-east"
+    ],
+    "south-east": [
+      "A152",
+      "north-east"
+    ],
+    "DNA": [
+      "long-lived",
+      "phase-variable",
+      "re-infect",
+      "re-infection",
+      "site-specific"
+    ],
+    "long-lived": [
+      "DNA",
+      "phase-variable",
+      "re-infect",
+      "re-infection",
+      "site-specific"
+    ],
+    "phase-variable": [
+      "DNA",
+      "long-lived",
+      "re-infect",
+      "re-infection",
+      "site-specific"
+    ],
+    "re-infect": [
+      "DNA",
+      "long-lived",
+      "phase-variable",
+      "re-infection",
+      "site-specific"
+    ],
+    "re-infection": [
+      "DNA",
+      "long-lived",
+      "phase-variable",
+      "re-infect",
+      "site-specific"
+    ],
+    "site-specific": [
+      "DNA",
+      "long-lived",
+      "phase-variable",
+      "re-infect",
+      "re-infection"
+    ],
+    "A56": [
+      "B6383"
+    ],
+    "B6383": [
+      "A56"
+    ],
+    "XIII": [
+      "XX"
+    ],
+    "XX": [
+      "XIII"
+    ],
+    "ACA": [
+      "ACCA",
+      "ACM",
+      "CMA",
+      "CMT",
+      "MGM",
+      "TV",
+      "major-awards"
+    ],
+    "ACCA": [
+      "ACA",
+      "ACM",
+      "CMA",
+      "CMT",
+      "MGM",
+      "TV",
+      "major-awards"
+    ],
+    "ACM": [
+      "ACA",
+      "ACCA",
+      "CMA",
+      "CMT",
+      "MGM",
+      "TV",
+      "major-awards"
+    ],
+    "CMA": [
+      "ACA",
+      "ACCA",
+      "ACM",
+      "CMT",
+      "MGM",
+      "TV",
+      "major-awards"
+    ],
+    "CMT": [
+      "ACA",
+      "ACCA",
+      "ACM",
+      "CMA",
+      "MGM",
+      "TV",
+      "major-awards"
+    ],
+    "major-awards": [
+      "ACA",
+      "ACCA",
+      "ACM",
+      "CMA",
+      "CMT",
+      "MGM",
+      "TV"
+    ],
+    "PJ": [
+      "TV",
+      "co-produced",
+      "co-stars",
+      "singer-songwriter"
+    ],
+    "co-stars": [
+      "CBS",
+      "PJ",
+      "TV",
+      "co-produced"
+    ],
+    "care-for-life": [
+      "not-for-profit"
+    ],
+    "not-for-profit": [
+      "care-for-life"
+    ],
+    "McCown": [
+      "NFL"
+    ],
+    "NFL": [
+      "AFL",
+      "EAS",
+      "FBS",
+      "ISU",
+      "McCown",
+      "NCAA",
+      "XLVII",
+      "all-time",
+      "first-round"
+    ],
+    "KSHD": [
+      "FAA",
+      "IATA",
+      "ICAO",
+      "LID",
+      "SHD"
+    ],
+    "SHD": [
+      "FAA",
+      "IATA",
+      "ICAO",
+      "KSHD",
+      "LID"
+    ],
+    "thirty-three": [
+      "US"
+    ],
+    "BCS": [
+      "USC"
+    ],
+    "USC": [
+      "BCS"
+    ],
+    "bulls-eye": [
+      "II",
+      "multi-instrumentalist",
+      "self-titled"
+    ],
+    "multi-instrumentalist": [
+      "II",
+      "bulls-eye",
+      "self-titled"
+    ],
+    "self-titled": [
+      "II",
+      "bulls-eye",
+      "multi-instrumentalist"
+    ],
+    "four-day": [
+      "multi-sport"
+    ],
+    "multi-sport": [
+      "four-day"
+    ],
+    "ELCA": [
+      "UELCA"
+    ],
+    "UELCA": [
+      "ELCA"
+    ],
+    "RITA": [
+      "USA"
+    ],
+    "McFarland": [
+      "McFarlands"
+    ],
+    "McFarlands": [
+      "McFarland"
+    ],
+    "BMX": [
+      "CD",
+      "EP",
+      "SM1",
+      "UK",
+      "US"
+    ],
+    "CD": [
+      "BMX",
+      "CTS",
+      "EP",
+      "GirderMusic",
+      "LP",
+      "PSA",
+      "SM1",
+      "UK",
+      "US",
+      "ex-husband",
+      "re-issue",
+      "re-issued",
+      "re-recording"
+    ],
+    "EP": [
+      "BMX",
+      "CD",
+      "SM1",
+      "UK",
+      "US",
+      "mini-album"
+    ],
+    "SM1": [
+      "BMX",
+      "CD",
+      "EP",
+      "UK",
+      "US"
+    ],
+    "CA": [
+      "company-owned"
+    ],
+    "company-owned": [
+      "CA"
+    ],
+    "EA": [
+      "second-largest"
+    ],
+    "second-largest": [
+      "EA",
+      "TJX",
+      "USA",
+      "off-price"
+    ],
+    "manga-how-tos": [
+      "co-produced"
+    ],
+    "LaZar": [
+      "McBroom",
+      "co-written"
+    ],
+    "McBroom": [
+      "LaZar",
+      "co-written"
+    ],
+    "composer": [
+      "EMI",
+      "GoldenEye",
+      "HWV",
+      "film-maker",
+      "tank-chase"
+    ],
+    "film-maker": [
+      "composer"
+    ],
+    "co-founded": [
+      "post-punk"
+    ],
+    "post-punk": [
+      "co-founded"
+    ],
+    "MLS": [
+      "SC",
+      "USL"
+    ],
+    "USL": [
+      "MLS",
+      "SC"
+    ],
+    "thirty-minute": [
+      "ABC",
+      "NBC"
+    ],
+    "BAFTA": [
+      "BBC",
+      "TV"
+    ],
+    "BBC": [
+      "BAFTA",
+      "CBC",
+      "MTX",
+      "NFB",
+      "TV",
+      "UK",
+      "co-wrote",
+      "factory-based",
+      "micro-local",
+      "money-for-competitions-entry",
+      "non-profit"
+    ],
+    "DC": [
+      "MCI",
+      "McDonough",
+      "NCAA",
+      "long-term"
+    ],
+    "MCI": [
+      "DC",
+      "McDonough",
+      "NCAA"
+    ],
+    "McDonough": [
+      "DC",
+      "MCI",
+      "NCAA"
+    ],
+    "VF": [
+      "US",
+      "USA"
+    ],
+    "UFC": [
+      "post-fight"
+    ],
+    "post-fight": [
+      "UFC"
+    ],
+    "MacLucas": [
+      "MacLugash",
+      "so-named"
+    ],
+    "MacLugash": [
+      "MacLucas",
+      "so-named"
+    ],
+    "so-named": [
+      "MacLucas",
+      "MacLugash"
+    ],
+    "late-night": [
+      "NBC"
+    ],
+    "AFL": [
+      "FBS",
+      "ISU",
+      "NBA",
+      "NCAA",
+      "NFL",
+      "VooDoo",
+      "XLVII",
+      "multi-purpose"
+    ],
+    "ISU": [
+      "AFL",
+      "FBS",
+      "NCAA",
+      "NFL",
+      "XLVII"
+    ],
+    "XLVII": [
+      "AFL",
+      "FBS",
+      "ISU",
+      "NCAA",
+      "NFL"
+    ],
+    "AutoZone": [
+      "CST",
+      "ESPN",
+      "FBS",
+      "post-season"
+    ],
+    "CST": [
+      "AutoZone",
+      "ESPN",
+      "FBS",
+      "post-season"
+    ],
+    "ESPN": [
+      "AutoZone",
+      "CST",
+      "FBS",
+      "post-season"
+    ],
+    "post-season": [
+      "AutoZone",
+      "CST",
+      "ESPN",
+      "FBS"
+    ],
+    "AAH": [
+      "AQ",
+      "far-reaching"
+    ],
+    "AQ": [
+      "AAH",
+      "far-reaching"
+    ],
+    "far-reaching": [
+      "AAH",
+      "AQ"
+    ],
+    "FLEC": [
+      "PM",
+      "little-known"
+    ],
+    "PM": [
+      "FLEC",
+      "little-known"
+    ],
+    "little-known": [
+      "FLEC",
+      "PM"
+    ],
+    "LNBP": [
+      "NBA"
+    ],
+    "DuBois": [
+      "II",
+      "MechWarrior",
+      "PlayStation"
+    ],
+    "MechWarrior": [
+      "DuBois",
+      "II",
+      "PlayStation"
+    ],
+    "PlayStation": [
+      "DuBois",
+      "II",
+      "MechWarrior"
+    ],
+    "MP": [
+      "by-election"
+    ],
+    "by-election": [
+      "MP"
+    ],
+    "high-rise": [
+      "row-housing",
+      "single-family",
+      "south-western"
+    ],
+    "row-housing": [
+      "high-rise",
+      "single-family",
+      "south-western"
+    ],
+    "single-family": [
+      "high-rise",
+      "row-housing",
+      "south-western"
+    ],
+    "south-western": [
+      "high-rise",
+      "row-housing",
+      "single-family"
+    ],
+    "FC": [
+      "AC"
+    ],
+    "HWV": [
+      "composer"
+    ],
+    "B1A4": [
+      "MBC"
+    ],
+    "MBC": [
+      "B1A4"
+    ],
+    "PSA": [
+      "CD"
+    ],
+    "HRSG": [
+      "generator"
+    ],
+    "McGreevey": [
+      "majority-elected"
+    ],
+    "majority-elected": [
+      "McGreevey"
+    ],
+    "ACO": [
+      "FIA"
+    ],
+    "FIA": [
+      "ACO"
+    ],
+    "re-elected": [
+      "four-year"
+    ],
+    "made-for-television": [
+      "CBS",
+      "II",
+      "year-old"
+    ],
+    "year-old": [
+      "CBS",
+      "II",
+      "made-for-television"
+    ],
+    "III": [
+      "II"
+    ],
+    "ODB": [
+      "SCOOP",
+      "US",
+      "WSOP"
+    ],
+    "SCOOP": [
+      "ODB",
+      "US",
+      "WSOP"
+    ],
+    "WSOP": [
+      "ODB",
+      "SCOOP",
+      "US"
+    ],
+    "grapefruit-flavored": [
+      "tequila-based"
+    ],
+    "tequila-based": [
+      "grapefruit-flavored"
+    ],
+    "co-financed": [
+      "co-produces",
+      "sci-fi"
+    ],
+    "co-produces": [
+      "co-financed",
+      "sci-fi"
+    ],
+    "sci-fi": [
+      "co-financed",
+      "co-produces"
+    ],
+    "HVT": [
+      "MDV"
+    ],
+    "MDV": [
+      "HVT"
+    ],
+    "ever-present": [
+      "UK",
+      "line-up"
+    ],
+    "line-up": [
+      "UK",
+      "US",
+      "ever-present"
+    ],
+    "CTR": [
+      "IBM"
+    ],
+    "IBM": [
+      "CTR"
+    ],
+    "NFU": [
+      "well-being"
+    ],
+    "well-being": [
+      "NFU"
+    ],
+    "ISBN": [
+      "PBS",
+      "non-profits"
+    ],
+    "PBS": [
+      "ISBN",
+      "non-profits"
+    ],
+    "non-profits": [
+      "ISBN",
+      "PBS"
+    ],
+    "NJPW": [
+      "PPV",
+      "WCW",
+      "pay-per-view"
+    ],
+    "PPV": [
+      "NJPW",
+      "WCW",
+      "pay-per-view"
+    ],
+    "WCW": [
+      "NJPW",
+      "PPV",
+      "pay-per-view"
+    ],
+    "pay-per-view": [
+      "NJPW",
+      "PPV",
+      "WCW"
+    ],
+    "DaimlerChrysler": [
+      "high-volume",
+      "low-priced"
+    ],
+    "high-volume": [
+      "DaimlerChrysler",
+      "low-priced"
+    ],
+    "low-priced": [
+      "DaimlerChrysler",
+      "high-volume"
+    ],
+    "ex-husband": [
+      "CD"
+    ],
+    "HP": [
+      "DJ",
+      "HQ",
+      "hybrid"
+    ],
+    "HQ": [
+      "DJ",
+      "HP",
+      "hybrid"
+    ],
+    "hybrid": [
+      "DJ",
+      "HP",
+      "HQ",
+      "sheep-goat"
+    ],
+    "EFL": [
+      "FA",
+      "play-off"
+    ],
+    "play-off": [
+      "EFL",
+      "FA"
+    ],
+    "RT": [
+      "SAC"
+    ],
+    "SAC": [
+      "RT"
+    ],
+    "sheep-goat": [
+      "hybrid"
+    ],
+    "horse-drawn": [
+      "USA"
+    ],
+    "AWCHA": [
+      "NCAA"
+    ],
+    "PC": [
+      "co-founder"
+    ],
+    "co-founder": [
+      "PC"
+    ],
+    "AFC": [
+      "KNVB",
+      "PEC",
+      "VAK410"
+    ],
+    "KNVB": [
+      "AFC",
+      "PEC",
+      "VAK410"
+    ],
+    "PEC": [
+      "AFC",
+      "KNVB",
+      "VAK410"
+    ],
+    "VAK410": [
+      "AFC",
+      "KNVB",
+      "PEC"
+    ],
+    "A484": [
+      "evidence"
+    ],
+    "evidence": [
+      "A484"
+    ],
+    "first-round": [
+      "NFL"
+    ],
+    "VooDoo": [
+      "AFL",
+      "NBA",
+      "multi-purpose"
+    ],
+    "multi-purpose": [
+      "AFL",
+      "NBA",
+      "VooDoo"
+    ],
+    "all-star": [
+      "blue-collar",
+      "co-starring"
+    ],
+    "blue-collar": [
+      "all-star",
+      "co-starring"
+    ],
+    "co-starring": [
+      "all-star",
+      "blue-collar"
+    ],
+    "CTS": [
+      "CD",
+      "LP"
+    ],
+    "LP": [
+      "CD",
+      "CTS"
+    ],
+    "four-star": [
+      "highest-ranking"
+    ],
+    "highest-ranking": [
+      "four-star"
+    ],
+    "DI": [
+      "ITV",
+      "UK"
+    ],
+    "MST": [
+      "long-distance"
+    ],
+    "long-distance": [
+      "MST"
+    ],
+    "CFB": [
+      "CYTR",
+      "IATA",
+      "ICAO",
+      "RCAF",
+      "YTR"
+    ],
+    "CYTR": [
+      "CFB",
+      "IATA",
+      "ICAO",
+      "RCAF",
+      "YTR"
+    ],
+    "RCAF": [
+      "CFB",
+      "CYTR",
+      "IATA",
+      "ICAO",
+      "YTR"
+    ],
+    "YTR": [
+      "CFB",
+      "CYTR",
+      "IATA",
+      "ICAO",
+      "RCAF"
+    ],
+    "MILF": [
+      "US",
+      "first-week"
+    ],
+    "first-week": [
+      "MILF",
+      "US"
+    ],
+    "GirderMusic": [
+      "CD",
+      "re-issue",
+      "re-issued",
+      "re-recording"
+    ],
+    "re-issue": [
+      "CD",
+      "GirderMusic",
+      "re-issued",
+      "re-recording"
+    ],
+    "re-issued": [
+      "CD",
+      "GirderMusic",
+      "re-issue",
+      "re-recording"
+    ],
+    "re-recording": [
+      "CD",
+      "GirderMusic",
+      "re-issue",
+      "re-issued"
+    ],
+    "SOVAS": [
+      "VH",
+      "VandenHeuvel"
+    ],
+    "VH": [
+      "SOVAS",
+      "VandenHeuvel"
+    ],
+    "VandenHeuvel": [
+      "SOVAS",
+      "VH"
+    ],
+    "C4H9": [
+      "TBTO"
+    ],
+    "TBTO": [
+      "C4H9"
+    ],
+    "McConaughey": [
+      "comedy-drama",
+      "planner"
+    ],
+    "planner": [
+      "McConaughey",
+      "comedy-drama"
+    ],
+    "coal-fired": [
+      "II",
+      "four-chimney",
+      "inner-city",
+      "long-recognized"
+    ],
+    "four-chimney": [
+      "II",
+      "coal-fired",
+      "inner-city",
+      "long-recognized"
+    ],
+    "inner-city": [
+      "II",
+      "coal-fired",
+      "four-chimney",
+      "long-recognized"
+    ],
+    "long-recognized": [
+      "II",
+      "coal-fired",
+      "four-chimney",
+      "inner-city"
+    ],
+    "McNairy": [
+      "MCU",
+      "direct-to-video",
+      "spin-off"
+    ],
+    "direct-to-video": [
+      "MCU",
+      "McNairy",
+      "spin-off"
+    ],
+    "co-general": [
+      "vice-president"
+    ],
+    "vice-president": [
+      "co-general"
+    ],
+    "SL": [
+      "W198",
+      "gull-wing",
+      "two-seat"
+    ],
+    "W198": [
+      "SL",
+      "gull-wing",
+      "two-seat"
+    ],
+    "gull-wing": [
+      "SL",
+      "W198",
+      "two-seat"
+    ],
+    "two-seat": [
+      "SL",
+      "W198",
+      "gull-wing"
+    ],
+    "DX11": [
+      "OPZ",
+      "OPZII",
+      "TX81Z",
+      "V50",
+      "YM2414",
+      "YM2424",
+      "YS200",
+      "Z3",
+      "eight-channel",
+      "mid-market",
+      "modulation-based"
+    ],
+    "OPZ": [
+      "DX11",
+      "OPZII",
+      "TX81Z",
+      "V50",
+      "YM2414",
+      "YM2424",
+      "YS200",
+      "Z3",
+      "eight-channel",
+      "mid-market",
+      "modulation-based"
+    ],
+    "OPZII": [
+      "DX11",
+      "OPZ",
+      "TX81Z",
+      "V50",
+      "YM2414",
+      "YM2424",
+      "YS200",
+      "Z3",
+      "eight-channel",
+      "mid-market",
+      "modulation-based"
+    ],
+    "TX81Z": [
+      "DX11",
+      "OPZ",
+      "OPZII",
+      "V50",
+      "YM2414",
+      "YM2424",
+      "YS200",
+      "Z3",
+      "eight-channel",
+      "mid-market",
+      "modulation-based"
+    ],
+    "V50": [
+      "DX11",
+      "OPZ",
+      "OPZII",
+      "TX81Z",
+      "YM2414",
+      "YM2424",
+      "YS200",
+      "Z3",
+      "eight-channel",
+      "mid-market",
+      "modulation-based"
+    ],
+    "YM2414": [
+      "DX11",
+      "OPZ",
+      "OPZII",
+      "TX81Z",
+      "V50",
+      "YM2424",
+      "YS200",
+      "Z3",
+      "eight-channel",
+      "mid-market",
+      "modulation-based"
+    ],
+    "YM2424": [
+      "DX11",
+      "OPZ",
+      "OPZII",
+      "TX81Z",
+      "V50",
+      "YM2414",
+      "YS200",
+      "Z3",
+      "eight-channel",
+      "mid-market",
+      "modulation-based"
+    ],
+    "YS200": [
+      "DX11",
+      "OPZ",
+      "OPZII",
+      "TX81Z",
+      "V50",
+      "YM2414",
+      "YM2424",
+      "Z3",
+      "eight-channel",
+      "mid-market",
+      "modulation-based"
+    ],
+    "Z3": [
+      "DX11",
+      "OPZ",
+      "OPZII",
+      "TX81Z",
+      "V50",
+      "YM2414",
+      "YM2424",
+      "YS200",
+      "eight-channel",
+      "mid-market",
+      "modulation-based"
+    ],
+    "eight-channel": [
+      "DX11",
+      "OPZ",
+      "OPZII",
+      "TX81Z",
+      "V50",
+      "YM2414",
+      "YM2424",
+      "YS200",
+      "Z3",
+      "mid-market",
+      "modulation-based"
+    ],
+    "mid-market": [
+      "DX11",
+      "OPZ",
+      "OPZII",
+      "TX81Z",
+      "V50",
+      "YM2414",
+      "YM2424",
+      "YS200",
+      "Z3",
+      "eight-channel",
+      "modulation-based"
+    ],
+    "modulation-based": [
+      "DX11",
+      "OPZ",
+      "OPZII",
+      "TX81Z",
+      "V50",
+      "YM2414",
+      "YM2424",
+      "YS200",
+      "Z3",
+      "eight-channel",
+      "mid-market"
+    ],
+    "mini-album": [
+      "EP"
+    ],
+    "ACE": [
+      "flash-frozen",
+      "par-baked"
+    ],
+    "flash-frozen": [
+      "ACE",
+      "par-baked"
+    ],
+    "par-baked": [
+      "ACE",
+      "flash-frozen"
+    ],
+    "mini-series": [
+      "TV"
+    ],
+    "NFB": [
+      "BBC",
+      "CBC",
+      "UK",
+      "co-wrote"
+    ],
+    "MOON": [
+      "THE",
+      "WALK"
+    ],
+    "THE": [
+      "MOON",
+      "WALK"
+    ],
+    "WALK": [
+      "MOON",
+      "THE"
+    ],
+    "joint-record": [
+      "FA",
+      "top-flight"
+    ],
+    "top-flight": [
+      "FA",
+      "joint-record"
+    ],
+    "JJ": [
+      "McTeer",
+      "close-fisted",
+      "co-wrote",
+      "ill-meaning"
+    ],
+    "McTeer": [
+      "JJ",
+      "close-fisted",
+      "co-wrote",
+      "ill-meaning"
+    ],
+    "close-fisted": [
+      "JJ",
+      "McTeer",
+      "co-wrote",
+      "ill-meaning"
+    ],
+    "ill-meaning": [
+      "JJ",
+      "McTeer",
+      "close-fisted",
+      "co-wrote"
+    ],
+    "joint-first": [
+      "FA"
+    ],
+    "bro-country": [
+      "co-written"
+    ],
+    "EMB": [
+      "PADC",
+      "PAF",
+      "PASF"
+    ],
+    "PADC": [
+      "EMB",
+      "PAF",
+      "PASF"
+    ],
+    "PAF": [
+      "EMB",
+      "PADC",
+      "PASF"
+    ],
+    "PASF": [
+      "EMB",
+      "PADC",
+      "PAF"
+    ],
+    "EMI": [
+      "GoldenEye",
+      "composer",
+      "tank-chase"
+    ],
+    "GoldenEye": [
+      "EMI",
+      "composer",
+      "tank-chase"
+    ],
+    "tank-chase": [
+      "EMI",
+      "GoldenEye",
+      "composer"
+    ],
+    "micro-local": [
+      "BBC",
+      "non-profit"
+    ],
+    "money-for-competitions-entry": [
+      "BBC"
+    ],
+    "OK": [
+      "McCartney",
+      "U2"
+    ],
+    "U2": [
+      "McCartney",
+      "OK"
+    ],
+    "CIA": [
+      "co-author",
+      "co-written"
+    ],
+    "co-author": [
+      "CIA",
+      "co-written"
+    ],
+    "free-swimming": [
+      "re-suspended",
+      "well-known"
+    ],
+    "re-suspended": [
+      "free-swimming",
+      "well-known"
+    ],
+    "well-known": [
+      "free-swimming",
+      "half-a-millionaire",
+      "re-suspended",
+      "strong-willed"
+    ],
+    "WTA": [
+      "calendar-year",
+      "season-ending",
+      "twenty-five"
+    ],
+    "calendar-year": [
+      "WTA",
+      "season-ending",
+      "twenty-five"
+    ],
+    "season-ending": [
+      "WTA",
+      "calendar-year",
+      "twenty-five"
+    ],
+    "twenty-five": [
+      "WTA",
+      "calendar-year",
+      "season-ending"
+    ],
+    "TJX": [
+      "USA",
+      "off-price",
+      "second-largest"
+    ],
+    "off-price": [
+      "TJX",
+      "USA",
+      "second-largest"
+    ],
+    "MTX": [
+      "BBC",
+      "factory-based"
+    ],
+    "factory-based": [
+      "BBC",
+      "MTX"
+    ],
+    "UCW": [
+      "UWE"
+    ],
+    "UWE": [
+      "UCW"
+    ],
+    "McCamant": [
+      "decision-making",
+      "new-construction",
+      "privately-owned"
+    ],
+    "decision-making": [
+      "McCamant",
+      "new-construction",
+      "privately-owned"
+    ],
+    "new-construction": [
+      "McCamant",
+      "decision-making",
+      "privately-owned"
+    ],
+    "privately-owned": [
+      "McCamant",
+      "decision-making",
+      "new-construction"
+    ],
+    "ex-pro": [
+      "FA"
+    ],
+    "BC": [
+      "NATO",
+      "land-based"
+    ],
+    "land-based": [
+      "BC",
+      "NATO"
+    ],
+    "half-a-millionaire": [
+      "strong-willed",
+      "well-known"
+    ],
+    "strong-willed": [
+      "half-a-millionaire",
+      "well-known"
+    ],
+    "four-lane": [
+      "non-commercial"
+    ],
+    "non-commercial": [
+      "four-lane"
+    ],
+    "EAS": [
+      "NFL",
+      "all-time"
+    ],
+    "all-time": [
+      "EAS",
+      "NFL"
+    ]
+  },
+  "edge_weights": {
+    "PPTH|TV": 1,
+    "GB|ITV": 1,
+    "GB|TV": 1,
+    "GB|UK": 1,
+    "ITV|TV": 2,
+    "ITV|UK": 2,
+    "TV|UK": 1,
+    "grass-like|sap-suckers": 1,
+    "grass-like|strap-shaped": 1,
+    "sap-suckers|strap-shaped": 1,
+    "US|runner-up": 1,
+    "best-selling|singer-songwriter": 1,
+    "McCartney|multi-artist": 1,
+    "GMT|UK": 1,
+    "GMT|UT1": 1,
+    "GMT|UTC": 1,
+    "UK|UT1": 1,
+    "UK|UTC": 1,
+    "UT1|UTC": 1,
+    "DBE|longest-running": 1,
+    "NBA|SuperSonics": 1,
+    "DeMunn|McBride": 1,
+    "DeMunn|science-fiction": 1,
+    "McBride|science-fiction": 1,
+    "after-dinner|mint-flavored": 1,
+    "long-running|semi-regular": 1,
+    "WBA|hard-hitting": 1,
+    "WBA|super-heavyweight": 1,
+    "hard-hitting|super-heavyweight": 1,
+    "co-produced|co-production": 1,
+    "co-produced|co-written": 2,
+    "co-produced|comedy-drama": 1,
+    "co-produced|coming-of-age": 1,
+    "co-production|co-written": 1,
+    "co-production|comedy-drama": 1,
+    "co-production|coming-of-age": 1,
+    "co-written|comedy-drama": 1,
+    "co-written|coming-of-age": 2,
+    "comedy-drama|coming-of-age": 1,
+    "editor-in-chief|peer-reviewed": 1,
+    "ClinicalKey|RELX": 1,
+    "ClinicalKey|ScienceDirect": 1,
+    "ClinicalKey|citation": 1,
+    "ClinicalKey|data-management": 1,
+    "RELX|ScienceDirect": 1,
+    "RELX|citation": 1,
+    "RELX|data-management": 1,
+    "ScienceDirect|citation": 1,
+    "ScienceDirect|data-management": 1,
+    "citation|data-management": 1,
+    "SNL|slow-tempo": 1,
+    "ALF|NBC": 1,
+    "co-producing|co-written": 1,
+    "co-producing|co-wrote": 1,
+    "co-producing|singer-songwriter": 1,
+    "co-written|co-wrote": 1,
+    "co-written|singer-songwriter": 1,
+    "co-wrote|singer-songwriter": 1,
+    "DJ|hip-hop": 1,
+    "CHIP|HFP": 1,
+    "CHIP|no-cost": 1,
+    "HFP|no-cost": 1,
+    "CHIP|SCHIP": 1,
+    "TV|voice-dubbing": 1,
+    "CBS|TNT": 1,
+    "CBS|guest-starred": 1,
+    "TNT|guest-starred": 1,
+    "DGSI|IATA": 1,
+    "DGSI|ICAO": 1,
+    "DGSI|KMS": 1,
+    "IATA|ICAO": 4,
+    "IATA|KMS": 1,
+    "ICAO|KMS": 1,
+    "CDP|census-designated": 2,
+    "ODI|T20I": 1,
+    "BT|co-owner": 1,
+    "FA|shoot-out": 1,
+    "McChord|neo-noir": 1,
+    "McChord|science-fiction": 1,
+    "neo-noir|science-fiction": 1,
+    "CSN|four-year": 1,
+    "CSN|two-year": 1,
+    "four-year|two-year": 1,
+    "NIST|ground-breaking": 1,
+    "VI|ground-breaking": 1,
+    "live-action|longest-lasting": 1,
+    "co-written|live-action": 1,
+    "MGM|multi-use": 1,
+    "CE|see-gi-ri": 1,
+    "II|SS": 1,
+    "DMC|LL": 1,
+    "DMC|MTV": 1,
+    "DMC|McDaniels": 1,
+    "DMC|hip-hop": 1,
+    "LL|MTV": 1,
+    "LL|McDaniels": 1,
+    "LL|hip-hop": 1,
+    "MTV|McDaniels": 1,
+    "MTV|hip-hop": 1,
+    "McDaniels|hip-hop": 1,
+    "AC|DJ": 1,
+    "AC|DMC": 1,
+    "AC|MC": 1,
+    "AC|US": 1,
+    "AC|world-wide": 1,
+    "DJ|DMC": 1,
+    "DJ|MC": 1,
+    "DJ|US": 1,
+    "DJ|world-wide": 1,
+    "DMC|MC": 1,
+    "DMC|US": 1,
+    "DMC|world-wide": 1,
+    "MC|US": 1,
+    "MC|world-wide": 1,
+    "US|world-wide": 1,
+    "four-chambered|hard-shelled": 1,
+    "AXIS|USA": 1,
+    "AXIS|mid-sized": 1,
+    "USA|mid-sized": 1,
+    "McCartney|second-most": 1,
+    "McCartney|singer-songwriter": 1,
+    "second-most|singer-songwriter": 1,
+    "FM|KBSO": 1,
+    "MW|non-ferrous": 1,
+    "FY2015|HZL": 1,
+    "FY2015|PLC": 1,
+    "HZL|PLC": 1,
+    "REC|co-written": 1,
+    "REC|found-footage": 1,
+    "co-written|found-footage": 1,
+    "DVD|stand-up": 1,
+    "comedy-drama|middle-aged": 1,
+    "TDSB|UTEP": 1,
+    "co-produced|self-penned": 1,
+    "co-produced|singer-songwriter": 1,
+    "self-penned|singer-songwriter": 1,
+    "CBS|FBI": 1,
+    "CBS|II": 2,
+    "CBS|short-lived": 1,
+    "FBI|II": 1,
+    "FBI|short-lived": 1,
+    "II|short-lived": 1,
+    "KBE|non-stop": 1,
+    "co-wrote|short-lived": 1,
+    "CBC|NewsRadio": 1,
+    "CBC|five-part": 1,
+    "CBC|stand-up": 1,
+    "NewsRadio|five-part": 1,
+    "NewsRadio|stand-up": 1,
+    "five-part|stand-up": 1,
+    "black-and-white|book-sized": 1,
+    "four-piece|two-person": 1,
+    "McBride|McKinnon": 1,
+    "McBride|co-production": 1,
+    "McBride|computer-animated": 1,
+    "McKinnon|co-production": 1,
+    "McKinnon|computer-animated": 1,
+    "co-production|computer-animated": 1,
+    "MW|generator": 1,
+    "DeLuna|DeWyze": 1,
+    "DeLuna|singer-songwriter": 1,
+    "DeWyze|singer-songwriter": 1,
+    "hyper-visual|left-over": 1,
+    "MTV|spin-off": 1,
+    "KTH|XVI": 1,
+    "DVD|DuckTales": 1,
+    "DVD|TaleSpin": 1,
+    "DVD|created-for-syndication": 1,
+    "DVD|mid-to-late": 1,
+    "DVD|two-hour": 1,
+    "DuckTales|TaleSpin": 1,
+    "DuckTales|created-for-syndication": 1,
+    "DuckTales|mid-to-late": 1,
+    "DuckTales|two-hour": 1,
+    "TaleSpin|created-for-syndication": 1,
+    "TaleSpin|mid-to-late": 1,
+    "TaleSpin|two-hour": 1,
+    "created-for-syndication|mid-to-late": 1,
+    "created-for-syndication|two-hour": 1,
+    "mid-to-late|two-hour": 1,
+    "NBA|pre-show": 1,
+    "FAA|IATA": 2,
+    "FAA|ICAO": 2,
+    "FAA|KVPZ": 1,
+    "FAA|LID": 2,
+    "FAA|VPZ": 1,
+    "IATA|KVPZ": 1,
+    "IATA|LID": 2,
+    "IATA|VPZ": 1,
+    "ICAO|KVPZ": 1,
+    "ICAO|LID": 2,
+    "ICAO|VPZ": 1,
+    "KVPZ|LID": 1,
+    "KVPZ|VPZ": 1,
+    "LID|VPZ": 1,
+    "ARIA|KC": 1,
+    "ARIA|number-one": 1,
+    "ARIA|one-week": 1,
+    "KC|number-one": 1,
+    "KC|one-week": 1,
+    "number-one|one-week": 1,
+    "ag-gag|anti-whistleblower": 1,
+    "VP|newly-vacated": 1,
+    "VP|vice-presidential": 1,
+    "newly-vacated|vice-presidential": 1,
+    "McCormick|co-creator": 1,
+    "McCormick|long-time": 1,
+    "McCormick|oft-muffled": 1,
+    "co-creator|long-time": 1,
+    "co-creator|oft-muffled": 1,
+    "long-time|oft-muffled": 1,
+    "PR|multi-member": 1,
+    "PR|single-member": 1,
+    "multi-member|single-member": 1,
+    "PD|social-liberal": 1,
+    "north-east|south-west": 1,
+    "DeBarge|co-wrote": 1,
+    "MBE|co-star": 1,
+    "MBE|longest-serving": 1,
+    "co-star|longest-serving": 1,
+    "CDP|south-southeast": 1,
+    "census-designated|south-southeast": 1,
+    "eighth-grader|runner-up": 1,
+    "USA|black-and-white": 1,
+    "CFTM|DT": 1,
+    "CFTM|TVA": 1,
+    "CFTM|highest-circulating": 1,
+    "CFTM|largest-circulating": 1,
+    "DT|TVA": 1,
+    "DT|highest-circulating": 1,
+    "DT|largest-circulating": 1,
+    "TVA|highest-circulating": 1,
+    "TVA|largest-circulating": 1,
+    "highest-circulating|largest-circulating": 1,
+    "ARCA|NASCAR": 1,
+    "TV|co-starred": 1,
+    "TV|made-for": 1,
+    "co-starred|made-for": 1,
+    "ABC|MCU": 1,
+    "CEO|OH": 1,
+    "CEO|non-developed": 1,
+    "OH|non-developed": 1,
+    "ABA|JD": 1,
+    "ABA|SC": 1,
+    "ABA|full-time": 1,
+    "ABA|long-term": 1,
+    "ABA|non-profit": 1,
+    "JD|SC": 1,
+    "JD|full-time": 1,
+    "JD|long-term": 1,
+    "JD|non-profit": 1,
+    "SC|full-time": 1,
+    "SC|long-term": 1,
+    "SC|non-profit": 1,
+    "full-time|long-term": 1,
+    "full-time|non-profit": 1,
+    "long-term|non-profit": 1,
+    "FAL|FN": 1,
+    "FAL|NATO": 1,
+    "FN|NATO": 1,
+    "FBS|McMackin": 1,
+    "FBS|NCAA": 2,
+    "FBS|WAC": 1,
+    "FBS|fourth-year": 1,
+    "McMackin|NCAA": 1,
+    "McMackin|WAC": 1,
+    "McMackin|fourth-year": 1,
+    "NCAA|WAC": 1,
+    "NCAA|fourth-year": 1,
+    "WAC|fourth-year": 1,
+    "guest-starring|prime-time": 1,
+    "AM|McHenry": 1,
+    "AM|WCGO": 1,
+    "AM|WKKD": 1,
+    "AM|WMCW": 1,
+    "AM|WONX": 1,
+    "AM|WPW": 1,
+    "McHenry|WCGO": 1,
+    "McHenry|WKKD": 1,
+    "McHenry|WMCW": 1,
+    "McHenry|WONX": 1,
+    "McHenry|WPW": 1,
+    "WCGO|WKKD": 1,
+    "WCGO|WMCW": 1,
+    "WCGO|WONX": 1,
+    "WCGO|WPW": 1,
+    "WKKD|WMCW": 1,
+    "WKKD|WONX": 1,
+    "WKKD|WPW": 1,
+    "WMCW|WONX": 1,
+    "WMCW|WPW": 1,
+    "WONX|WPW": 1,
+    "CW|KidsClick": 1,
+    "CW|TV": 1,
+    "CW|long-form": 1,
+    "CW|over-the-air": 1,
+    "CW|short-form": 1,
+    "KidsClick|TV": 1,
+    "KidsClick|long-form": 1,
+    "KidsClick|over-the-air": 1,
+    "KidsClick|short-form": 1,
+    "TV|long-form": 1,
+    "TV|over-the-air": 1,
+    "TV|short-form": 1,
+    "long-form|over-the-air": 1,
+    "long-form|short-form": 1,
+    "over-the-air|short-form": 1,
+    "McCartney|UK": 1,
+    "McCartney|US": 1,
+    "UK|US": 2,
+    "A152|north-east": 1,
+    "A152|south-east": 1,
+    "north-east|south-east": 1,
+    "DNA|long-lived": 1,
+    "DNA|phase-variable": 1,
+    "DNA|re-infect": 1,
+    "DNA|re-infection": 1,
+    "DNA|site-specific": 1,
+    "long-lived|phase-variable": 1,
+    "long-lived|re-infect": 1,
+    "long-lived|re-infection": 1,
+    "long-lived|site-specific": 1,
+    "phase-variable|re-infect": 1,
+    "phase-variable|re-infection": 1,
+    "phase-variable|site-specific": 1,
+    "re-infect|re-infection": 1,
+    "re-infect|site-specific": 1,
+    "re-infection|site-specific": 1,
+    "A56|B6383": 1,
+    "XIII|XX": 1,
+    "ACA|ACCA": 1,
+    "ACA|ACM": 1,
+    "ACA|CMA": 1,
+    "ACA|CMT": 1,
+    "ACA|MGM": 1,
+    "ACA|TV": 1,
+    "ACA|major-awards": 1,
+    "ACCA|ACM": 1,
+    "ACCA|CMA": 1,
+    "ACCA|CMT": 1,
+    "ACCA|MGM": 1,
+    "ACCA|TV": 1,
+    "ACCA|major-awards": 1,
+    "ACM|CMA": 1,
+    "ACM|CMT": 1,
+    "ACM|MGM": 1,
+    "ACM|TV": 1,
+    "ACM|major-awards": 1,
+    "CMA|CMT": 1,
+    "CMA|MGM": 1,
+    "CMA|TV": 1,
+    "CMA|major-awards": 1,
+    "CMT|MGM": 1,
+    "CMT|TV": 1,
+    "CMT|major-awards": 1,
+    "MGM|TV": 1,
+    "MGM|major-awards": 1,
+    "TV|major-awards": 1,
+    "PJ|TV": 1,
+    "PJ|co-produced": 1,
+    "PJ|co-stars": 1,
+    "TV|co-produced": 1,
+    "TV|co-stars": 1,
+    "co-produced|co-stars": 1,
+    "care-for-life|not-for-profit": 1,
+    "McCown|NFL": 1,
+    "FAA|KSHD": 1,
+    "FAA|SHD": 1,
+    "IATA|KSHD": 1,
+    "IATA|SHD": 1,
+    "ICAO|KSHD": 1,
+    "ICAO|SHD": 1,
+    "KSHD|LID": 1,
+    "KSHD|SHD": 1,
+    "LID|SHD": 1,
+    "US|thirty-three": 1,
+    "BCS|USC": 1,
+    "II|bulls-eye": 1,
+    "II|multi-instrumentalist": 1,
+    "II|self-titled": 1,
+    "bulls-eye|multi-instrumentalist": 1,
+    "bulls-eye|self-titled": 1,
+    "multi-instrumentalist|self-titled": 1,
+    "four-day|multi-sport": 1,
+    "ELCA|UELCA": 1,
+    "RITA|USA": 1,
+    "McFarland|McFarlands": 1,
+    "BMX|CD": 1,
+    "BMX|EP": 1,
+    "BMX|SM1": 1,
+    "BMX|UK": 1,
+    "BMX|US": 1,
+    "CD|EP": 1,
+    "CD|SM1": 1,
+    "CD|UK": 2,
+    "CD|US": 1,
+    "EP|SM1": 1,
+    "EP|UK": 1,
+    "EP|US": 1,
+    "SM1|UK": 1,
+    "SM1|US": 1,
+    "CA|company-owned": 1,
+    "EA|second-largest": 1,
+    "co-produced|manga-how-tos": 1,
+    "LaZar|McBroom": 1,
+    "LaZar|co-written": 1,
+    "McBroom|co-written": 1,
+    "composer|film-maker": 1,
+    "co-founded|post-punk": 1,
+    "MLS|SC": 1,
+    "MLS|USL": 1,
+    "SC|USL": 1,
+    "ABC|NBC": 1,
+    "ABC|thirty-minute": 1,
+    "NBC|thirty-minute": 1,
+    "BAFTA|BBC": 1,
+    "BAFTA|TV": 1,
+    "BBC|TV": 2,
+    "DC|MCI": 1,
+    "DC|McDonough": 1,
+    "DC|NCAA": 1,
+    "MCI|McDonough": 1,
+    "MCI|NCAA": 1,
+    "McDonough|NCAA": 1,
+    "US|USA": 1,
+    "US|VF": 1,
+    "USA|VF": 1,
+    "UFC|post-fight": 1,
+    "MacLucas|MacLugash": 1,
+    "MacLucas|so-named": 1,
+    "MacLugash|so-named": 1,
+    "NBC|late-night": 1,
+    "AFL|FBS": 1,
+    "AFL|ISU": 1,
+    "AFL|NCAA": 1,
+    "AFL|NFL": 1,
+    "AFL|XLVII": 1,
+    "FBS|ISU": 1,
+    "FBS|NFL": 1,
+    "FBS|XLVII": 1,
+    "ISU|NCAA": 1,
+    "ISU|NFL": 1,
+    "ISU|XLVII": 1,
+    "NCAA|NFL": 1,
+    "NCAA|XLVII": 1,
+    "NFL|XLVII": 1,
+    "AutoZone|CST": 1,
+    "AutoZone|ESPN": 1,
+    "AutoZone|FBS": 1,
+    "AutoZone|post-season": 1,
+    "CST|ESPN": 1,
+    "CST|FBS": 1,
+    "CST|post-season": 1,
+    "ESPN|FBS": 1,
+    "ESPN|post-season": 1,
+    "FBS|post-season": 1,
+    "AAH|AQ": 1,
+    "AAH|far-reaching": 1,
+    "AQ|far-reaching": 1,
+    "FLEC|PM": 1,
+    "FLEC|little-known": 1,
+    "PM|little-known": 1,
+    "LNBP|NBA": 1,
+    "DuBois|II": 1,
+    "DuBois|MechWarrior": 1,
+    "DuBois|PlayStation": 1,
+    "II|MechWarrior": 1,
+    "II|PlayStation": 1,
+    "MechWarrior|PlayStation": 1,
+    "MP|by-election": 1,
+    "high-rise|row-housing": 1,
+    "high-rise|single-family": 1,
+    "high-rise|south-western": 1,
+    "row-housing|single-family": 1,
+    "row-housing|south-western": 1,
+    "single-family|south-western": 1,
+    "AC|FC": 1,
+    "HWV|composer": 1,
+    "B1A4|MBC": 1,
+    "CD|PSA": 1,
+    "HRSG|generator": 1,
+    "McGreevey|majority-elected": 1,
+    "ACO|FIA": 1,
+    "four-year|re-elected": 1,
+    "CBS|made-for-television": 1,
+    "CBS|year-old": 1,
+    "II|made-for-television": 1,
+    "II|year-old": 1,
+    "made-for-television|year-old": 1,
+    "II|III": 1,
+    "ABC|TV": 1,
+    "ODB|SCOOP": 1,
+    "ODB|US": 1,
+    "ODB|WSOP": 1,
+    "SCOOP|US": 1,
+    "SCOOP|WSOP": 1,
+    "US|WSOP": 1,
+    "grapefruit-flavored|tequila-based": 1,
+    "co-financed|co-produces": 1,
+    "co-financed|sci-fi": 1,
+    "co-produces|sci-fi": 1,
+    "HVT|MDV": 1,
+    "UK|ever-present": 1,
+    "UK|line-up": 1,
+    "ever-present|line-up": 1,
+    "CTR|IBM": 1,
+    "NFU|well-being": 1,
+    "ISBN|PBS": 1,
+    "ISBN|non-profits": 1,
+    "PBS|non-profits": 1,
+    "NJPW|PPV": 1,
+    "NJPW|WCW": 1,
+    "NJPW|pay-per-view": 1,
+    "PPV|WCW": 1,
+    "PPV|pay-per-view": 1,
+    "WCW|pay-per-view": 1,
+    "PJ|singer-songwriter": 1,
+    "DaimlerChrysler|high-volume": 1,
+    "DaimlerChrysler|low-priced": 1,
+    "high-volume|low-priced": 1,
+    "CD|ex-husband": 1,
+    "DJ|HP": 1,
+    "DJ|HQ": 1,
+    "DJ|hybrid": 1,
+    "HP|HQ": 1,
+    "HP|hybrid": 1,
+    "HQ|hybrid": 1,
+    "EFL|FA": 1,
+    "EFL|play-off": 1,
+    "FA|play-off": 1,
+    "RT|SAC": 1,
+    "hybrid|sheep-goat": 1,
+    "USA|horse-drawn": 1,
+    "AWCHA|NCAA": 1,
+    "PC|co-founder": 1,
+    "AFC|KNVB": 1,
+    "AFC|PEC": 1,
+    "AFC|VAK410": 1,
+    "KNVB|PEC": 1,
+    "KNVB|VAK410": 1,
+    "PEC|VAK410": 1,
+    "A484|evidence": 1,
+    "NFL|first-round": 1,
+    "AFL|NBA": 1,
+    "AFL|VooDoo": 1,
+    "AFL|multi-purpose": 1,
+    "NBA|VooDoo": 1,
+    "NBA|multi-purpose": 1,
+    "VooDoo|multi-purpose": 1,
+    "all-star|blue-collar": 1,
+    "all-star|co-starring": 1,
+    "blue-collar|co-starring": 1,
+    "CD|CTS": 1,
+    "CD|LP": 1,
+    "CTS|LP": 1,
+    "four-star|highest-ranking": 1,
+    "DI|ITV": 1,
+    "DI|UK": 1,
+    "MST|long-distance": 1,
+    "CFB|CYTR": 1,
+    "CFB|IATA": 1,
+    "CFB|ICAO": 1,
+    "CFB|RCAF": 1,
+    "CFB|YTR": 1,
+    "CYTR|IATA": 1,
+    "CYTR|ICAO": 1,
+    "CYTR|RCAF": 1,
+    "CYTR|YTR": 1,
+    "IATA|RCAF": 1,
+    "IATA|YTR": 1,
+    "ICAO|RCAF": 1,
+    "ICAO|YTR": 1,
+    "RCAF|YTR": 1,
+    "MILF|US": 1,
+    "MILF|first-week": 1,
+    "US|first-week": 1,
+    "CD|GirderMusic": 1,
+    "CD|re-issue": 1,
+    "CD|re-issued": 1,
+    "CD|re-recording": 1,
+    "GirderMusic|re-issue": 1,
+    "GirderMusic|re-issued": 1,
+    "GirderMusic|re-recording": 1,
+    "re-issue|re-issued": 1,
+    "re-issue|re-recording": 1,
+    "re-issued|re-recording": 1,
+    "SOVAS|VH": 1,
+    "SOVAS|VandenHeuvel": 1,
+    "VH|VandenHeuvel": 1,
+    "C4H9|TBTO": 1,
+    "McConaughey|comedy-drama": 1,
+    "McConaughey|planner": 1,
+    "comedy-drama|planner": 1,
+    "II|coal-fired": 1,
+    "II|four-chimney": 1,
+    "II|inner-city": 1,
+    "II|long-recognized": 1,
+    "coal-fired|four-chimney": 1,
+    "coal-fired|inner-city": 1,
+    "coal-fired|long-recognized": 1,
+    "four-chimney|inner-city": 1,
+    "four-chimney|long-recognized": 1,
+    "inner-city|long-recognized": 1,
+    "MCU|McNairy": 1,
+    "MCU|direct-to-video": 1,
+    "MCU|spin-off": 1,
+    "McNairy|direct-to-video": 1,
+    "McNairy|spin-off": 1,
+    "direct-to-video|spin-off": 1,
+    "co-general|vice-president": 1,
+    "SL|W198": 1,
+    "SL|gull-wing": 1,
+    "SL|two-seat": 1,
+    "W198|gull-wing": 1,
+    "W198|two-seat": 1,
+    "gull-wing|two-seat": 1,
+    "DX11|OPZ": 1,
+    "DX11|OPZII": 1,
+    "DX11|TX81Z": 1,
+    "DX11|V50": 1,
+    "DX11|YM2414": 1,
+    "DX11|YM2424": 1,
+    "DX11|YS200": 1,
+    "DX11|Z3": 1,
+    "DX11|eight-channel": 1,
+    "DX11|mid-market": 1,
+    "DX11|modulation-based": 1,
+    "OPZ|OPZII": 1,
+    "OPZ|TX81Z": 1,
+    "OPZ|V50": 1,
+    "OPZ|YM2414": 1,
+    "OPZ|YM2424": 1,
+    "OPZ|YS200": 1,
+    "OPZ|Z3": 1,
+    "OPZ|eight-channel": 1,
+    "OPZ|mid-market": 1,
+    "OPZ|modulation-based": 1,
+    "OPZII|TX81Z": 1,
+    "OPZII|V50": 1,
+    "OPZII|YM2414": 1,
+    "OPZII|YM2424": 1,
+    "OPZII|YS200": 1,
+    "OPZII|Z3": 1,
+    "OPZII|eight-channel": 1,
+    "OPZII|mid-market": 1,
+    "OPZII|modulation-based": 1,
+    "TX81Z|V50": 1,
+    "TX81Z|YM2414": 1,
+    "TX81Z|YM2424": 1,
+    "TX81Z|YS200": 1,
+    "TX81Z|Z3": 1,
+    "TX81Z|eight-channel": 1,
+    "TX81Z|mid-market": 1,
+    "TX81Z|modulation-based": 1,
+    "V50|YM2414": 1,
+    "V50|YM2424": 1,
+    "V50|YS200": 1,
+    "V50|Z3": 1,
+    "V50|eight-channel": 1,
+    "V50|mid-market": 1,
+    "V50|modulation-based": 1,
+    "YM2414|YM2424": 1,
+    "YM2414|YS200": 1,
+    "YM2414|Z3": 1,
+    "YM2414|eight-channel": 1,
+    "YM2414|mid-market": 1,
+    "YM2414|modulation-based": 1,
+    "YM2424|YS200": 1,
+    "YM2424|Z3": 1,
+    "YM2424|eight-channel": 1,
+    "YM2424|mid-market": 1,
+    "YM2424|modulation-based": 1,
+    "YS200|Z3": 1,
+    "YS200|eight-channel": 1,
+    "YS200|mid-market": 1,
+    "YS200|modulation-based": 1,
+    "Z3|eight-channel": 1,
+    "Z3|mid-market": 1,
+    "Z3|modulation-based": 1,
+    "eight-channel|mid-market": 1,
+    "eight-channel|modulation-based": 1,
+    "mid-market|modulation-based": 1,
+    "EP|mini-album": 1,
+    "DC|long-term": 1,
+    "CBS|co-stars": 1,
+    "ACE|flash-frozen": 1,
+    "ACE|par-baked": 1,
+    "flash-frozen|par-baked": 1,
+    "TV|mini-series": 1,
+    "BBC|CBC": 1,
+    "BBC|NFB": 1,
+    "BBC|UK": 1,
+    "BBC|co-wrote": 1,
+    "CBC|NFB": 1,
+    "CBC|UK": 1,
+    "CBC|co-wrote": 1,
+    "NFB|UK": 1,
+    "NFB|co-wrote": 1,
+    "UK|co-wrote": 1,
+    "MOON|THE": 1,
+    "MOON|WALK": 1,
+    "THE|WALK": 1,
+    "FA|joint-record": 1,
+    "FA|top-flight": 1,
+    "joint-record|top-flight": 1,
+    "JJ|McTeer": 1,
+    "JJ|close-fisted": 1,
+    "JJ|co-wrote": 1,
+    "JJ|ill-meaning": 1,
+    "McTeer|close-fisted": 1,
+    "McTeer|co-wrote": 1,
+    "McTeer|ill-meaning": 1,
+    "close-fisted|co-wrote": 1,
+    "close-fisted|ill-meaning": 1,
+    "co-wrote|ill-meaning": 1,
+    "FA|joint-first": 1,
+    "bro-country|co-written": 1,
+    "EMB|PADC": 1,
+    "EMB|PAF": 1,
+    "EMB|PASF": 1,
+    "PADC|PAF": 1,
+    "PADC|PASF": 1,
+    "PAF|PASF": 1,
+    "US|line-up": 1,
+    "EMI|GoldenEye": 1,
+    "EMI|composer": 1,
+    "EMI|tank-chase": 1,
+    "GoldenEye|composer": 1,
+    "GoldenEye|tank-chase": 1,
+    "composer|tank-chase": 1,
+    "US|co-written": 1,
+    "BBC|micro-local": 1,
+    "BBC|non-profit": 1,
+    "micro-local|non-profit": 1,
+    "BBC|money-for-competitions-entry": 1,
+    "McCartney|OK": 1,
+    "McCartney|U2": 1,
+    "OK|U2": 1,
+    "CIA|co-author": 1,
+    "CIA|co-written": 1,
+    "co-author|co-written": 1,
+    "free-swimming|re-suspended": 1,
+    "free-swimming|well-known": 1,
+    "re-suspended|well-known": 1,
+    "WTA|calendar-year": 1,
+    "WTA|season-ending": 1,
+    "WTA|twenty-five": 1,
+    "calendar-year|season-ending": 1,
+    "calendar-year|twenty-five": 1,
+    "season-ending|twenty-five": 1,
+    "TJX|USA": 1,
+    "TJX|off-price": 1,
+    "TJX|second-largest": 1,
+    "USA|off-price": 1,
+    "USA|second-largest": 1,
+    "off-price|second-largest": 1,
+    "BBC|MTX": 1,
+    "BBC|factory-based": 1,
+    "MTX|factory-based": 1,
+    "UCW|UWE": 1,
+    "McCamant|decision-making": 1,
+    "McCamant|new-construction": 1,
+    "McCamant|privately-owned": 1,
+    "decision-making|new-construction": 1,
+    "decision-making|privately-owned": 1,
+    "new-construction|privately-owned": 1,
+    "FA|ex-pro": 1,
+    "BC|NATO": 1,
+    "BC|land-based": 1,
+    "NATO|land-based": 1,
+    "half-a-millionaire|strong-willed": 1,
+    "half-a-millionaire|well-known": 1,
+    "strong-willed|well-known": 1,
+    "four-lane|non-commercial": 1,
+    "EAS|NFL": 1,
+    "EAS|all-time": 1,
+    "NFL|all-time": 1
+  }
+}

@@ -1,0 +1,14 @@
+name: hybrid
+dataset: multihop_rag
+retriever:
+  use_dense: true
+  use_bm25: true
+  use_graph: false
+  top_k: 10
+pipeline:
+  use_context_planner: false
+  use_retrieval_evaluator: false
+  use_evidence_composer: true
+  use_judge: false
+  use_repair: false
+mode: retrieval_only

@@ -1,0 +1,34 @@
+query_type_accuracy:
+  description: "query_type 分类是否正确"
+  threshold: 0.85
+  high: "query_type 完全匹配问题语义"
+  medium: "query_type 基本合理但有更优选择"
+  low: "query_type 明显错误"
+
+retrieval_plan_completeness:
+  description: "retrieval_plan 是否包含必要的检索策略"
+  threshold: 0.80
+  high: "包含了所有必要策略，无冗余"
+  medium: "缺少一种可选策略但影响不大"
+  low: "缺少关键策略(如 multi_hop 缺 graph_expand)"
+
+budget_appropriateness:
+  description: "context_budget 是否与问题复杂度匹配"
+  threshold: 0.75
+  high: "预算合理，既不浪费也不短缺"
+  medium: "预算偏高或偏低但不严重影响结果"
+  low: "预算严重不当导致截断或浪费"
+
+rewrite_quality:
+  description: "rewritten_query 是否优于原问题"
+  threshold: 0.70
+  high: "改写后检索效果明显提升"
+  medium: "改写有一定帮助"
+  low: "改写后检索效果不如原问题"
+
+judge_focus_relevance:
+  description: "judge_focus 是否覆盖了关键质量维度"
+  threshold: 0.80
+  high: "覆盖了所有关键维度"
+  medium: "覆盖了主要维度但遗漏一个"
+  low: "遗漏多个关键维度"

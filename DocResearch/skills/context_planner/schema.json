@@ -1,0 +1,24 @@
+{
+  "name": "context_planner",
+  "version": "0.2.0",
+  "description": "Plan retrieval context: question type, retrieval strategy, budget, risk level, judge focus.",
+  "inputs": ["question", "use_llm"],
+  "outputs": ["query_type", "intent", "rewritten_query", "retrieval_plan", "top_k_dense", "top_k_bm25", "graph_hops", "use_reranker", "context_budget", "need_code_blocks", "need_tables", "risk_level", "expected_evidence", "judge_focus"],
+  "fields": {
+    "query_type": {"type": "Literal[fact, concept, multi_hop, comparison, code_understanding, troubleshooting]", "description": "问题类型"},
+    "intent": {"type": "str", "description": "问题意图简要描述"},
+    "rewritten_query": {"type": "str", "description": "改写后的查询用于检索"},
+    "retrieval_plan": {"type": "List[Literal[dense, bm25, graph_expand]]", "description": "检索策略组合"},
+    "top_k_dense": {"type": "int", "description": "dense 检索 top-k", "default": 12},
+    "top_k_bm25": {"type": "int", "description": "bm25 检索 top-k", "default": 12},
+    "graph_hops": {"type": "int", "description": "图扩展跳数", "default": 1},
+    "use_reranker": {"type": "bool", "description": "是否使用重排", "default": true},
+    "context_budget": {"type": "int", "description": "上下文 token 预算", "default": 3500},
+    "need_code_blocks": {"type": "bool", "description": "是否需要代码块", "default": false},
+    "need_tables": {"type": "bool", "description": "是否需要表格", "default": false},
+    "metadata_filters": {"type": "dict", "description": "元数据过滤条件", "default": {}},
+    "risk_level": {"type": "Literal[low, medium, citation_sensitive]", "description": "风险级别", "default": "citation_sensitive"},
+    "expected_evidence": {"type": "List[str]", "description": "期望的证据类型", "default": []},
+    "judge_focus": {"type": "List[str]", "description": "Judge 应关注维度", "default": []}
+  }
+}

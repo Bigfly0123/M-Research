@@ -1,0 +1,14 @@
+{
+  "name": "repair_router",
+  "version": "0.2.0",
+  "description": "Route repair action based on failure_type using REPAIR_POLICY and REPAIR_NODE_MAP.",
+  "inputs": ["failure_type", "repair_count", "max_repair_count", "judge_result"],
+  "outputs": ["repair_action", "repair_reason", "next_node", "updated_state_patch", "failure_type"],
+  "fields": {
+    "repair_action": {"type": "str", "description": "修复动作"},
+    "repair_reason": {"type": "str", "description": "修复理由"},
+    "next_node": {"type": "str", "description": "下一节点"},
+    "updated_state_patch": {"type": "dict", "description": "状态更新补丁", "default": {}},
+    "failure_type": {"type": "str", "description": "原始故障类型", "default": ""}
+  }
+}

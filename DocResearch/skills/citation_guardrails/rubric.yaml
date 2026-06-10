@@ -1,0 +1,23 @@
+existence_check:
+  description: "引用格式是否正确且存在"
+  high: "答案包含合法格式的引用"
+  medium: "引用格式部分不规范"
+  low: "无引用或格式全错"
+
+alignment_check:
+  description: "引用是否对齐到 context_pack"
+  high: "所有引用 ID 存在于 pack"
+  medium: "少量引用不存在于 pack"
+  low: "大量或全部引用不在 pack"
+
+support_check:
+  description: "长句是否有引用支撑"
+  high: "所有长句(>20字)有引用"
+  medium: "少量长句缺乏引用"
+  low: "大量长句无引用支撑"
+
+action_correctness:
+  description: "判定动作 (pass/repair/block) 是否正确"
+  high: "动作判定与实际情况完全匹配"
+  medium: "判定大致合理但偏宽松或严格"
+  low: "判定明显错误"

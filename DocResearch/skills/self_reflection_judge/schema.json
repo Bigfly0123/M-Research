@@ -1,0 +1,17 @@
+{
+  "name": "self_reflection_judge",
+  "version": "0.2.0",
+  "description": "Evaluate answer quality on 4 dimensions with failure diagnosis and repair action.",
+  "inputs": ["question", "answer", "context_pack", "used_citations", "unsupported_claims", "use_llm"],
+  "outputs": ["pass_", "answer_relevance", "citation_support", "faithfulness", "context_sufficiency", "failure_type", "repair_action", "reason"],
+  "fields": {
+    "pass_": {"type": "bool", "description": "是否通过审查", "default": true},
+    "answer_relevance": {"type": "float", "description": "答案相关性 0.0-1.0", "default": 0.0},
+    "citation_support": {"type": "float", "description": "引用支撑度 0.0-1.0", "default": 0.0},
+    "faithfulness": {"type": "float", "description": "忠实度 0.0-1.0", "default": 0.0},
+    "context_sufficiency": {"type": "float", "description": "上下文充分性 0.0-1.0", "default": 0.0},
+    "failure_type": {"type": "Literal[none, retrieval_miss, weak_evidence, citation_error, hallucination, incomplete_answer, context_noise]", "description": "失败类型", "default": "none"},
+    "repair_action": {"type": "Optional[str]", "description": "修复动作", "default": null},
+    "reason": {"type": "str", "description": "评估理由", "default": ""}
+  }
+}

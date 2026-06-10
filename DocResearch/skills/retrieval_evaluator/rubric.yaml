@@ -1,0 +1,27 @@
+evidence_quality_accuracy:
+  description: "evidence_quality 分级是否准确"
+  threshold: 0.80
+  high: "quality 分级与实际检索质量完全匹配"
+  medium: "quality 分级偏差一级"
+  low: "quality 分级严重偏离实际"
+
+confidence_calibration:
+  description: "confidence 分数是否校准良好"
+  threshold: 0.70
+  high: "confidence 与实际检索命中率高度相关"
+  medium: "confidence 有一定相关性但存在偏差"
+  low: "confidence 与实际质量无关"
+
+action_appropriateness:
+  description: "recommended_action 是否是最佳行动"
+  threshold: 0.85
+  high: "行动选择最优(如 weak→graph_expand)"
+  medium: "行动可行但非最优"
+  low: "行动选择错误(如 strong→rewrite_query)"
+
+missing_evidence_completeness:
+  description: "missing_evidence 是否识别了关键缺失"
+  threshold: 0.70
+  high: "识别了所有关键缺失证据"
+  medium: "识别了部分缺失"
+  low: "遗漏了重要缺失证据或误判"

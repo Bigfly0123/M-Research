@@ -1,0 +1,13 @@
+{
+  "name": "answer_generator",
+  "version": "0.2.0",
+  "description": "Generate grounded answer with citations from evidence pack, with rule-based citation validation.",
+  "inputs": ["question", "context_pack", "query_type"],
+  "outputs": ["answer", "used_citations", "unsupported_claims", "confidence"],
+  "fields": {
+    "answer": {"type": "str", "description": "带引用的答案文本"},
+    "used_citations": {"type": "List[str]", "description": "使用的 citation_id", "default": []},
+    "unsupported_claims": {"type": "List[str]", "description": "无支撑的声明", "default": []},
+    "confidence": {"type": "Literal[high, medium, low]", "description": "答案置信度", "default": "medium"}
+  }
+}

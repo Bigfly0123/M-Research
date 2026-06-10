@@ -1,0 +1,16 @@
+name: techdocqa_baseline_vector
+dataset: techdocqa
+corpus_path: data/processed/techdocqa/chunks.jsonl
+index_dir: data/indexes/techdocqa
+retriever:
+  use_dense: true
+  use_bm25: false
+  use_graph: false
+  top_k: 10
+pipeline:
+  use_context_planner: false
+  use_retrieval_evaluator: false
+  use_evidence_composer: false
+  use_judge: false
+  use_repair: false
+mode: retrieval_only

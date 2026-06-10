@@ -95,12 +95,11 @@ data: [DONE]\n\n
 🔑 chat_endpoint 核心逻辑:
 
 async def event_generator():
-    """
+  
     SSE 事件生成器
-    
     这是 Python 的异步生成器函数,可以逐个 yield 数据。
     每次 yield 都会立即发送给前端,不需要等待全部完成。
-    """
+
     
     # 1. 初始化状态
     initial_state = {

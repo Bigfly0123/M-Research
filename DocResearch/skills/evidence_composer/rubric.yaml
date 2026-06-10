@@ -1,0 +1,31 @@
+deduplication_completeness:
+  description: "去重是否完全，无遗漏重复"
+  high: "所有重复 chunk 被正确去除"
+  medium: "大部分重复被去除，遗漏少量"
+  low: "存在明显重复未被去除"
+
+role_classification_accuracy:
+  description: "evidence role 分类是否准确"
+  threshold: 0.80
+  high: "role 分类与文本语义完全匹配"
+  medium: "role 分类基本合理，少量偏差"
+  low: "role 分类大量错误"
+
+budget_compliance:
+  description: "总 token 是否在 budget 内"
+  high: "total_context_tokens <= context_budget"
+  medium: "轻微超出 budget (<5%)"
+  low: "严重超出 budget"
+
+priority_preservation:
+  description: "高优先级角色是否被保留"
+  high: "definition/procedure/code 全部保留"
+  medium: "少量高优先级因 budget 被截断"
+  low: "高优先级被丢弃而低优先级被保留"
+
+coverage:
+  description: "context_pack 是否覆盖了回答所需的关键证据"
+  threshold: 0.75
+  high: "关键证据全部在 pack 中"
+  medium: "覆盖了大部分关键证据"
+  low: "缺失多个关键证据"

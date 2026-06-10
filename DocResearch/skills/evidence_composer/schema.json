@@ -1,0 +1,25 @@
+{
+  "name": "evidence_composer",
+  "version": "0.2.0",
+  "description": "Organize retrieved chunks into citation-ready context pack with dedup, role classification, budget truncation.",
+  "inputs": ["chunks", "question", "context_budget"],
+  "outputs": ["context_pack", "dropped_chunks", "total_context_tokens"],
+  "fields": {
+    "EvidenceItem": {
+      "citation_id": {"type": "str", "description": "引用 ID"},
+      "chunk_id": {"type": "str", "description": "原始 chunk ID"},
+      "source": {"type": "str", "description": "来源文档", "default": ""},
+      "section_path": {"type": "List[str]", "description": "章节路径", "default": []},
+      "evidence_text": {"type": "str", "description": "原始文本", "default": ""},
+      "compressed_text": {"type": "Optional[str]", "description": "压缩后文本", "default": null},
+      "role": {"type": "Literal[definition, procedure, comparison, example, code, limitation]", "description": "证据角色", "default": "definition"},
+      "support_score": {"type": "float", "description": "支撑分数", "default": 0.0}
+    },
+    "ContextPack": {
+      "status": {"type": "Literal[ok, warn, fail]", "description": "状态", "default": "ok"},
+      "context_pack": {"type": "List[EvidenceItem]", "description": "证据包", "default": []},
+      "dropped_chunks": {"type": "List[dict]", "description": "被丢弃的 chunk", "default": []},
+      "total_context_tokens": {"type": "int", "description": "实际使用 token 数", "default": 0}
+    }
+  }
+}

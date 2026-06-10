@@ -1,0 +1,32 @@
+citation_compliance:
+  description: "答案中的引用是否合法且存在于 context_pack"
+  threshold: 0.90
+  high: "所有引用合法且正确引用"
+  medium: "少量引用不存在于 pack"
+  low: "大量非法引用或无引用"
+
+faithfulness:
+  description: "答案是否仅基于证据，无幻觉"
+  threshold: 0.85
+  high: "所有声明有证据支撑"
+  medium: "少量声明缺乏直接支撑"
+  low: "存在明显幻觉或外部知识"
+
+answer_completeness:
+  description: "答案是否完整回答了问题"
+  threshold: 0.75
+  high: "全面回答了问题的所有方面"
+  medium: "回答了主要方面但遗漏部分"
+  low: "回答不完整或回避了关键问题"
+
+confidence_calibration:
+  description: "confidence 是否与答案质量匹配"
+  high: "confidence 准确反映实际质量"
+  medium: "confidence 有偏差但不误导"
+  low: "confidence 严重失准"
+
+evidence_chain_clarity:
+  description: "multi-hop 问题的证据链是否清晰"
+  high: "逐步展示完整证据链"
+  medium: "展示了部分链条"
+  low: "未展示推理过程"

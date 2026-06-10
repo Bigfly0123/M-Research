@@ -1,0 +1,24 @@
+routing_accuracy:
+  description: "repair_action 是否是 failure_type 的最佳修复策略"
+  threshold: 0.90
+  high: "路由到最优修复策略"
+  medium: "路由到可行策略但非最优"
+  low: "路由到错误策略"
+
+node_mapping_correctness:
+  description: "next_node 是否是 repair_action 的正确目标"
+  high: "节点映射完全正确"
+  medium: "映射大致正确"
+  low: "映射错误"
+
+termination_safety:
+  description: "修复次数达上限时是否安全终止"
+  high: "及时终止，避免无限循环"
+  medium: "多修复一轮后终止"
+  low: "超过上限继续修复"
+
+decision_completeness:
+  description: "RepairDecision 各字段是否完整"
+  high: "所有字段都有合理值"
+  medium: "关键字段完整，次要字段缺失"
+  low: "关键字段缺失"

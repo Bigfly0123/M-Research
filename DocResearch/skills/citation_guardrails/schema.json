@@ -1,0 +1,14 @@
+{
+  "name": "citation_guardrails",
+  "version": "0.2.0",
+  "description": "Three-level citation validation: existence, alignment, support. Block/repair/pass decision.",
+  "inputs": ["answer", "context_pack"],
+  "outputs": ["pass_", "invalid_citations", "unsupported_claims", "action", "reason"],
+  "fields": {
+    "pass_": {"type": "bool", "description": "是否通过", "default": true},
+    "invalid_citations": {"type": "List[str]", "description": "无效引用列表", "default": []},
+    "unsupported_claims": {"type": "List[str]", "description": "无引用支撑的声明", "default": []},
+    "action": {"type": "Literal[pass, repair, block]", "description": "判定动作", "default": "pass"},
+    "reason": {"type": "str", "description": "判定理由", "default": ""}
+  }
+}
