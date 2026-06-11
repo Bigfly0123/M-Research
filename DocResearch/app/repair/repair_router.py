@@ -53,6 +53,23 @@ def route_repair(
     t0 = time.perf_counter()
     fallback_used = False
 
+    # [Phase 3] 检查 judge decision: 只有 HARD_FAIL 才 repair
+    judge_decision = "HARD_FAIL"
+    if judge_result:
+        judge_decision = judge_result.get("decision", "HARD_FAIL")
+
+    if judge_decision == "SOFT_WARN" or judge_decision == "PASS":
+        # SOFT_WARN 或 PASS → 不 repair，直接结束
+        decision = RepairDecision(
+            repair_action="none",
+            repair_reason=f"Judge decision={judge_decision}, 不触发 repair",
+            next_node="end",
+            failure_type=failure_type or "none",
+        )
+        elapsed = int((time.perf_counter() - t0) * 1000)
+        trace = _build_trace(failure_type or "none", "none", "end", repair_count, fallback_used, elapsed)
+        return RepairOutput(status="ok", decision=decision, trace=trace, next_action="end")
+
     if failure_type is None or failure_type == "none":
         decision = RepairDecision(
             repair_action="none",

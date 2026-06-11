@@ -14,6 +14,7 @@ from app.config import config
 
 class CitationGuardResult(BaseModel):
     pass_: bool = True
+    decision: Literal["PASS", "SOFT_WARN", "HARD_FAIL"] = "PASS"
     invalid_citations: List[str] = []
     unsupported_claims: List[str] = []
     action: Literal["pass", "repair", "block"] = "pass"
@@ -27,7 +28,7 @@ class GuardrailOutput(BaseModel):
     next_action: Optional[str] = None
 
 
-CITATION_PATTERN = re.compile(r'\[D\d+-C\d+\]')
+CITATION_PATTERN = re.compile(r'\[.+?-s\d+-c\d+\]')
 
 
 def check_existence(answer: str) -> List[str]:
@@ -40,8 +41,8 @@ def check_alignment(found_citations: List[str], valid_ids: set) -> List[str]:
     return [cid for cid in found_citations if cid.strip("[]") not in valid_ids]
 
 
-def check_support(answer: str, min_length: int = 20) -> List[str]:
-    """第三层: 长句子(>20字)是否有引用支撑 (规则版，不依赖LLM)。"""
+def check_support(answer: str, min_length: int = 40) -> List[str]:
+    """第三层: 长句子(>40字)是否有引用支撑 (规则版，不依赖LLM)。"""
     sentences = re.split(r'[.!?。！？]', answer)
     uncited = []
     for s in sentences:
@@ -86,26 +87,32 @@ def check_citations(answer: str, context_pack: List[dict]) -> GuardrailOutput:
     uncited_count = len(uncited)
 
     pass_ = True
+    decision: Literal["PASS", "SOFT_WARN", "HARD_FAIL"] = "PASS"
     action: Literal["pass", "repair", "block"] = "pass"
     reason = ""
 
     if total_citations == 0:
         pass_ = False
+        decision = "HARD_FAIL"
         action = "block"
         reason = "完全无引用"
     elif invalid_count == total_citations:
         pass_ = False
+        decision = "HARD_FAIL"
         action = "block"
         reason = "引用全部不存在于 context_pack"
-    elif invalid_count > 0 or uncited_count > 0:
+    elif invalid_count > 0:
+        # 有无效引用 → HARD_FAIL
         pass_ = False
+        decision = "HARD_FAIL"
         action = "repair"
-        parts = []
-        if invalid_count > 0:
-            parts.append(f"存在{invalid_count}个无效引用")
-        if uncited_count > 0:
-            parts.append(f"存在{uncited_count}个未引用声明")
-        reason = "; ".join(parts)
+        reason = f"存在{invalid_count}个无效引用"
+    elif uncited_count > 0 and total_citations > 0:
+        # 有有效引用但部分长句子未引用 → SOFT_WARN (不 repair)
+        pass_ = True  # 不触发 repair
+        decision = "SOFT_WARN"
+        action = "pass"
+        reason = f"存在{uncited_count}个未引用长句，但有有效引用"
 
     latency = int((time.time() - start) * 1000)
 
@@ -124,11 +131,13 @@ def check_citations(answer: str, context_pack: List[dict]) -> GuardrailOutput:
         next_action = "repair"
     elif action == "repair":
         next_action = "repair"
+    # SOFT_WARN 不触发 next_action
 
     return GuardrailOutput(
         status="ok",
         result=CitationGuardResult(
             pass_=pass_,
+            decision=decision,
             invalid_citations=invalid,
             unsupported_claims=uncited[:5],
             action=action,

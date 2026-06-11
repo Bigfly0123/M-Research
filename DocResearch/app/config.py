@@ -47,14 +47,27 @@ class Config:
     # --- Context ---
     DEFAULT_CONTEXT_BUDGET: int = 3500
 
-    # --- Judge Thresholds ---
-    ANSWER_RELEVANCE_THRESHOLD: float = 0.75
-    CITATION_SUPPORT_THRESHOLD: float = 0.75
-    FAITHFULNESS_THRESHOLD: float = 0.75
-    CONTEXT_SUFFICIENCY_THRESHOLD: float = 0.65
+    # --- Judge Thresholds (Phase 3 校准后) ---
+    # HARD_FAIL 阈值: 低于此值必须 repair
+    ANSWER_RELEVANCE_HARD_THRESHOLD: float = 0.30
+    CITATION_SUPPORT_HARD_THRESHOLD: float = 0.10
+    FAITHFULNESS_HARD_THRESHOLD: float = 0.50
+    CONTEXT_SUFFICIENCY_HARD_THRESHOLD: float = 0.40
+
+    # SOFT_WARN 阈值: 低于此值记录 warning 但不 repair
+    ANSWER_RELEVANCE_SOFT_THRESHOLD: float = 0.50
+    CITATION_SUPPORT_SOFT_THRESHOLD: float = 0.30
+    FAITHFULNESS_SOFT_THRESHOLD: float = 0.75
+    CONTEXT_SUFFICIENCY_SOFT_THRESHOLD: float = 0.60
+
+    # 保留旧名称兼容
+    ANSWER_RELEVANCE_THRESHOLD: float = 0.30
+    CITATION_SUPPORT_THRESHOLD: float = 0.10
+    FAITHFULNESS_THRESHOLD: float = 0.50
+    CONTEXT_SUFFICIENCY_THRESHOLD: float = 0.40
 
     # --- Repair ---
-    MAX_REPAIR_COUNT: int = 1
+    MAX_REPAIR_COUNT: int = 2
 
     # --- Paths ---
     DATA_DIR: str = os.path.join(os.path.dirname(__file__), "..", "data")

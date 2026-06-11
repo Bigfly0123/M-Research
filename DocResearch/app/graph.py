@@ -140,52 +140,85 @@ def citation_guardrails(state: AgentState) -> dict:
 
 
 def self_reflection_judge(state: AgentState) -> dict:
-    """节点7: 自省审查。"""
+    """节点7: 自省审查 (Phase 3 校准版)。"""
     start = time.time()
     question = state["question"]
     answer = state.get("answer", "")
     context_pack = state.get("context_pack", [])
     used_citations = state.get("used_citations", [])
-    output = judge_answer(question, answer, context_pack, used_citations=used_citations)
+    unsupported_claims = state.get("unsupported_claims", [])
+    output = judge_answer(
+        question, answer, context_pack,
+        used_citations=used_citations,
+        unsupported_claims=unsupported_claims,
+    )
     latency = int((time.time() - start) * 1000)
-    repair_count = state.get("repair_count", 0)
+
     if output.result is None:
         return {
             "judge_result": {},
             "failure_type": "none",
             "repair_action": "",
-            "repair_count": repair_count,
             "trace": [{"node": "self_reflection_judge", "output": "fail", "latency_ms": latency}],
         }
-    if not output.result.pass_:
+
+    # [Phase 3] 只在 HARD_FAIL 时设置 failure_type，让 repair_router 处理
+    repair_count = state.get("repair_count", 0)
+    # 用 judge decision 更新 guardrail_pass (反映最终质量判断)
+    judge_pass = not output.result.should_repair
+    if output.result.should_repair:
+        # HARD_FAIL → 递增 repair_count 并设置 failure_type
         repair_count += 1
-    return {
-        "judge_result": output.result.model_dump(),
-        "failure_type": output.result.failure_type,
-        "repair_action": output.result.repair_action or "",
-        "repair_count": repair_count,
-        "trace": [{"node": "self_reflection_judge", "output": f"pass={output.result.pass_}, failure={output.result.failure_type}", "latency_ms": latency}],
-    }
+        return {
+            "judge_result": output.result.model_dump(),
+            "failure_type": output.result.failure_type,
+            "repair_action": output.result.repair_action or "",
+            "repair_count": repair_count,
+            "guardrail_pass": False,
+            "trace": [{"node": "self_reflection_judge", "output": f"decision={output.result.decision}, failure={output.result.failure_type}", "latency_ms": latency}],
+        }
+    else:
+        # PASS 或 SOFT_WARN → 不触发 repair
+        return {
+            "judge_result": output.result.model_dump(),
+            "failure_type": "none",
+            "repair_action": "",
+            "repair_count": repair_count,
+            "guardrail_pass": True,
+            "trace": [{"node": "self_reflection_judge", "output": f"decision={output.result.decision}, warnings={output.result.warnings}", "latency_ms": latency}],
+        }
 
 
 def repair_router(state: AgentState) -> str:
-    """条件边: 根据 failure_type 和 repair_count 决定下一节点。"""
+    """条件边: 根据 judge decision 和 failure_type 决定下一节点 (Phase 3 校准版)。"""
     failure_type = state.get("failure_type", "")
     repair_count = state.get("repair_count", 0)
     max_repair = state.get("max_repair_count", config.MAX_REPAIR_COUNT)
+    judge_result = state.get("judge_result", {})
 
-    if not failure_type or failure_type == "pass":
+    # 无 failure 或 PASS/SOFT_WARN → 结束
+    if not failure_type or failure_type == "none" or failure_type == "pass":
         return END
+
+    # 检查 judge decision
+    judge_decision = judge_result.get("decision", "HARD_FAIL")
+    if judge_decision in ("PASS", "SOFT_WARN"):
+        return END
+
+    # HARD_FAIL 且未超过最大修复次数 → repair
     if repair_count >= max_repair:
         return END
 
+    # 检查 guardrail 是否有 block
     if not state.get("guardrail_pass", True):
         guardrail_result = state.get("guardrail_result", {})
         guardrail_action = guardrail_result.get("action", "")
-        if guardrail_action and guardrail_action != "pass":
+        guardrail_decision = guardrail_result.get("decision", "")
+        # 只有 HARD_FAIL 类型的 guardrail 才触发 repair
+        if guardrail_decision == "HARD_FAIL" and guardrail_action and guardrail_action != "pass":
             return GUARDRAIL_NODE_MAP.get(guardrail_action, "evidence_composer")
 
-    decision = route_repair(failure_type, repair_count, max_repair, state.get("judge_result"))
+    decision = route_repair(failure_type, repair_count, max_repair, judge_result)
     return decision.next_node if decision.next_node != "end" else END
 
 

@@ -16,7 +16,7 @@ from app.config import config
 
 
 class EvidenceItem(BaseModel):
-    """证据项 schema (指南模块06专属设计)。"""
+    """证据项 schema (Phase 3 增强版)。"""
     citation_id: str
     chunk_id: str
     source: str = ""
@@ -24,6 +24,7 @@ class EvidenceItem(BaseModel):
     evidence_text: str = ""
     compressed_text: Optional[str] = None
     role: Literal["definition", "procedure", "comparison", "example", "code", "limitation"] = "definition"
+    evidence_tier: Literal["primary", "supporting", "context_only"] = "primary"
     support_score: float = 0.0
 
 
@@ -37,7 +38,24 @@ class ContextPack(BaseModel):
     next_action: Optional[str] = None
 
 
-ROLE_PRIORITY = {"definition": 0, "procedure": 1, "code": 2, "comparison": 3, "example": 4, "limitation": 5}
+def classify_evidence_tier(chunk: dict, question: str, rank: int, total: int) -> str:
+    """[Phase 3] 证据分层: primary / supporting / context_only。
+
+    - primary: top-ranked chunks 或直接回答问题的高分 chunks
+    - supporting: 中等分数，提供背景或补充信息
+    - context_only: 低分 chunks，仅供 LLM 理解上下文
+    """
+    score = chunk.get("final_score", 0.0)
+
+    # Top 30% 且分数较高 → primary
+    if rank <= max(2, total // 3) and score > 0.3:
+        return "primary"
+    # 中间 40% → supporting
+    elif rank <= max(4, total * 7 // 10) and score > 0.1:
+        return "supporting"
+    # 剩余 → context_only
+    else:
+        return "context_only"
 
 
 def deduplicate(chunks: List[dict]) -> tuple:
@@ -104,8 +122,9 @@ def compose_context_pack(
     pack = []
     used_tokens = 0
     all_dropped = list(dup_dropped)
+    total_kept = len(kept)
 
-    for chunk in kept:
+    for rank, chunk in enumerate(kept, 1):
         cid = chunk.get("chunk_id", "")
         compressed = compress_chunk(chunk.get("text", ""), question, max_tokens=500)
         tokens = len(compressed) // 3
@@ -122,6 +141,8 @@ def compose_context_pack(
         section = chunk.get("section", chunk.get("metadata", {}).get("section", ""))
         section_path = section.split(" > ") if section else []
 
+        tier = classify_evidence_tier(chunk, question, rank, total_kept)
+
         item = EvidenceItem(
             citation_id=cid,
             chunk_id=cid,
@@ -130,6 +151,7 @@ def compose_context_pack(
             evidence_text=chunk.get("text", ""),
             compressed_text=compressed,
             role=classify_role(chunk, question),
+            evidence_tier=tier,
             support_score=chunk.get("final_score", 0.0),
         )
         pack.append(item)
@@ -138,12 +160,18 @@ def compose_context_pack(
     status = "ok" if len(pack) >= 3 else ("warn" if pack else "fail")
     latency = int((time.time() - start) * 1000)
 
+    # 统计 evidence tier 分布
+    tier_counts = {"primary": 0, "supporting": 0, "context_only": 0}
+    for item in pack:
+        tier_counts[item.evidence_tier] += 1
+
     trace = {
         "module": "EvidenceComposer",
         "pack_size": len(pack),
         "dropped_count": len(all_dropped),
         "total_tokens": used_tokens,
         "budget": context_budget,
+        "tier_distribution": tier_counts,
         "fallback_used": False,
         "latency_ms": latency,
     }

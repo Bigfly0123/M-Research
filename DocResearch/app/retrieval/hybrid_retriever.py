@@ -535,11 +535,19 @@ class HybridGraphRetriever:
 
         overlap = len(dense_doc_ids & bm25_doc_ids) / max(len(dense_doc_ids | bm25_doc_ids), 1)
 
+        # [Phase 3] 增强 BM25 弱信号检测 (dense_strong_bm25_weak 分支)
+        bm25_very_weak = bm25_top1 < 0.3 or (bm25_gap < 0.08 and bm25_top5_avg < 0.35)
+        dense_strong = dense_top1 > 0.45 and dense_gap > 0.1
+
         # 决策逻辑
         if bm25_confident and not dense_confident:
             # BM25 强势，Dense 弱 -> BM25 主导
             weights = {"dense": 0.25, "bm25": 0.65, "graph": 0.10}
             label = "bm25_dominant"
+        elif dense_strong and bm25_very_weak:
+            # [Phase 3] Dense 很强 + BM25 很弱 -> 几乎纯 Dense (StratRAG 场景)
+            weights = {"dense": 0.90, "bm25": 0.00, "graph": 0.10}
+            label = "dense_strong_bm25_weak"
         elif dense_confident and not bm25_confident:
             # Dense 强势，BM25 弱 -> Dense 主导 (极少 BM25)
             weights = {"dense": 0.80, "bm25": 0.10, "graph": 0.10}

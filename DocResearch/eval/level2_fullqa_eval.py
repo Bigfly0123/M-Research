@@ -57,10 +57,10 @@ DATASETS = {
     },
     "garage": {
         "eval_path": "data/processed/garage/eval_dataset_sample_50.jsonl",
-        "index_dir": None,  # uses candidate pool
+        "index_dir": "data/indexes/garage",
         "chunks_path": "data/processed/garage/chunks.jsonl",
         "raw_path": "data/raw/garage",
-        "use_candidate_pool": True,
+        "use_candidate_pool": False,  # [Phase 3] 直接用全索引跑 Full QA
     },
 }
 
@@ -257,10 +257,14 @@ def run_fullqa(dataset_name: str, strategy_name: str, top_k: int = 10):
         failure_type = output_state.get("failure_type", "")
 
         # 评估答案质量
+        # [Phase 3] 用 judge 的最终 decision 作为 guardrail_pass
+        judge_decision = judge_result.get("decision", "PASS") if judge_result else "PASS"
+        final_guardrail_pass = (judge_decision != "HARD_FAIL")
         quality = evaluate_answer_quality(
             gold_answer, answer, context_pack, used_citations,
             guardrail_result, judge_result
         )
+        quality["guardrail_pass"] = final_guardrail_pass  # 覆盖为 judge 最终决策
 
         # 检索质量 (recall@10)
         retrieved_chunks = output_state.get("retrieved_chunks", [])

@@ -20,7 +20,7 @@ graph = create_graph()
 
 # 读 2 条 TechDocQA 样本
 with open("data/processed/techdocqa/eval_dataset_sample_42.jsonl", "r", encoding="utf-8") as f:
-    samples = [json.loads(l) for l in f][:2]
+    samples = [json.loads(l) for l in f][:2]  # quick test
 
 for i, row in enumerate(samples):
     question = row.get("question", "")
@@ -70,6 +70,8 @@ for i, row in enumerate(samples):
         failure = result.get("failure_type", "")
         repair = result.get("repair_count", 0)
         guardrail_pass = result.get("guardrail_pass", True)
+        decision = judge.get("decision", "UNKNOWN")
+        warnings = judge.get("warnings", [])
 
         # 检索 recall
         chunks = result.get("retrieved_chunks", [])
@@ -90,8 +92,8 @@ for i, row in enumerate(samples):
         print(f"  Recall@10: {recall:.2f}, docs: {ret_docs[:5]}")
         print(f"  Answer ({len(answer)} chars): {answer[:200]}...")
         print(f"  Citations: {citations[:5]}")
+        print(f"  Decision: {decision}, warnings: {warnings}")
         print(f"  Guardrail pass: {guardrail_pass}")
-        print(f"  Judge: {json.dumps(judge, ensure_ascii=False)[:200]}")
         print(f"  Failure: {failure}, Repair: {repair}")
         print(f"  Latency: {latency}ms")
     except Exception as e:
