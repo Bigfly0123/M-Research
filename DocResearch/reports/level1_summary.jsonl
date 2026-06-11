@@ -1,0 +1,6 @@
+{"dataset": "garage", "strategy": "dense_only", "n": 50, "gold_doc_recall@5": 1.0, "gold_doc_recall@10": 1.0, "all_gold_hit@10": 1.0, "gold_chunk_recall@10": 1.0, "mrr@10": 0.98, "avg_latency_ms": 432}
+{"dataset": "garage", "strategy": "bm25_only", "n": 50, "gold_doc_recall@5": 0.96, "gold_doc_recall@10": 0.96, "all_gold_hit@10": 0.96, "gold_chunk_recall@10": 0.96, "mrr@10": 0.8907, "avg_latency_ms": 0}
+{"dataset": "garage", "strategy": "hybrid", "n": 50, "gold_doc_recall@5": 0.96, "gold_doc_recall@10": 0.96, "all_gold_hit@10": 0.96, "gold_chunk_recall@10": 0.96, "mrr@10": 0.95, "avg_latency_ms": 427}
+{"dataset": "garage", "strategy": "hybrid_graph", "n": 50, "gold_doc_recall@5": 0.96, "gold_doc_recall@10": 0.96, "all_gold_hit@10": 0.96, "gold_chunk_recall@10": 0.96, "mrr@10": 0.95, "avg_latency_ms": 437}
+{"dataset": "garage", "strategy": "adaptive_hybrid", "n": 50, "gold_doc_recall@5": 0.96, "gold_doc_recall@10": 0.98, "all_gold_hit@10": 0.98, "gold_chunk_recall@10": 0.98, "mrr@10": 0.9633, "avg_latency_ms": 426}
+{"dataset": "garage", "strategy": "selective_graph", "n": 50, "gold_doc_recall@5": 0.96, "gold_doc_recall@10": 0.98, "all_gold_hit@10": 0.98, "gold_chunk_recall@10": 0.98, "mrr@10": 0.9533, "avg_latency_ms": 442}

@@ -24,6 +24,7 @@ def get_embeddings():
 
     if mode == "api":
         from langchain_community.embeddings import DashScopeEmbeddings
+
         logger.info(f"Using DashScope API embedding: {config.EMBEDDING_MODEL}")
         return DashScopeEmbeddings(
             model=config.EMBEDDING_MODEL,
@@ -31,6 +32,7 @@ def get_embeddings():
         )
     elif mode == "local":
         from langchain_huggingface import HuggingFaceEmbeddings
+
         logger.info(f"Using local embedding: {config.EMBEDDING_MODEL}")
         return HuggingFaceEmbeddings(model_name=config.EMBEDDING_MODEL)
     else:
@@ -58,17 +60,46 @@ class DenseRetrieverFAISS:
                 "chunk_id": c.get("chunk_id", ""),
                 "doc_id": c.get("doc_id", ""),
                 "source": c.get("source_path", ""),
-                "section": " > ".join(c.get("section_path", [])) if isinstance(c.get("section_path"), list) else str(c.get("section_path", "")),
+                "section": " > ".join(c.get("section_path", []))
+                if isinstance(c.get("section_path"), list)
+                else str(c.get("section_path", "")),
                 "element_type": c.get("element_type", "text"),
             }
             for c in chunks
         ]
+        valid_texts, valid_metadatas = [], []
+        for text, meta in zip(texts, metadatas):
+            if text and len(text.strip()) > 0:
+                valid_texts.append(text[:8000])
+                valid_metadatas.append(meta)
+        if not valid_texts:
+            logger.warning("No valid texts to index")
+            return
         os.makedirs(persist_dir, exist_ok=True)
-        self.index = FAISS.from_texts(
-            texts=texts,
-            embedding=self.embeddings,
-            metadatas=metadatas,
-        )
+        # 分批构建索引避免内存超限
+        batch_size = 200
+        if len(valid_texts) <= batch_size:
+            self.index = FAISS.from_texts(
+                texts=valid_texts,
+                embedding=self.embeddings,
+                metadatas=valid_metadatas,
+            )
+        else:
+            logger.info(
+                f"Building FAISS index in batches: {len(valid_texts)} texts, batch_size={batch_size}"
+            )
+            self.index = FAISS.from_texts(
+                texts=valid_texts[:batch_size],
+                embedding=self.embeddings,
+                metadatas=valid_metadatas[:batch_size],
+            )
+            for start in range(batch_size, len(valid_texts), batch_size):
+                end = min(start + batch_size, len(valid_texts))
+                logger.info(f"  Adding batch {start}-{end}")
+                self.index.add_texts(
+                    texts=valid_texts[start:end],
+                    metadatas=valid_metadatas[start:end],
+                )
         self.index.save_local(persist_dir)
 
     def load_index(self, persist_dir: str) -> bool:
@@ -94,15 +125,17 @@ class DenseRetrieverFAISS:
         chunks = []
         for i, (doc, score) in enumerate(results):
             norm_score = 1.0 / (1.0 + float(score))
-            chunks.append(RetrievedChunk(
-                chunk_id=doc.metadata.get("chunk_id", f"D-{i}"),
-                text=doc.page_content,
-                source=doc.metadata.get("source", ""),
-                section=doc.metadata.get("section", ""),
-                element_type=doc.metadata.get("element_type", "text"),
-                retrieval_sources=["dense"],
-                dense_score=norm_score,
-                metadata=doc.metadata,
-            ))
+            chunks.append(
+                RetrievedChunk(
+                    chunk_id=doc.metadata.get("chunk_id", f"D-{i}"),
+                    text=doc.page_content,
+                    source=doc.metadata.get("source", ""),
+                    section=doc.metadata.get("section", ""),
+                    element_type=doc.metadata.get("element_type", "text"),
+                    retrieval_sources=["dense"],
+                    dense_score=norm_score,
+                    metadata=doc.metadata,
+                )
+            )
 
         return chunks

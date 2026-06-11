@@ -96,3 +96,17 @@ temp/
 
 # PDF 测试文件（如果需要的话）
 *.pdf
+
+# DocResearch 索引文件 (FAISS/BM25/Graph, 太大不适合 GitHub)
+DocResearch/data/indexes/*/faiss_index/
+DocResearch/data/indexes/*/bm25_*.pkl
+DocResearch/data/indexes/*/*/faiss_index/
+DocResearch/data/indexes/*/*/bm25_*.pkl
+DocResearch/data/indexes/*/*/graph_index.json
+DocResearch/data/indexes/multihop_rag/graph_index.json
+
+# DocResearch .streamlit 配置
+DocResearch/.streamlit/
+
+# 标准错误日志
+DocResearch/stderr.log

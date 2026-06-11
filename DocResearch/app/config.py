@@ -16,20 +16,24 @@ class Config:
 
     # --- LLM ---
     OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY", "")
-    OPENAI_API_BASE: str = os.getenv("OPENAI_API_BASE", "https://dashscope.aliyuncs.com/compatible-mode/v1")
+    OPENAI_API_BASE: str = os.getenv(
+        "OPENAI_API_BASE", "https://dashscope.aliyuncs.com/compatible-mode/v1"
+    )
     FAST_MODEL: str = os.getenv("FAST_MODEL", "qwen-max")
     SMART_MODEL: str = os.getenv("SMART_MODEL", "deepseek-r1")
 
     # --- Embedding ---
     EMBEDDING_MODE: str = os.getenv("EMBEDDING_MODE", "api")
     EMBEDDING_MODEL: str = os.getenv("EMBEDDING_MODEL", "text-embedding-v3")
-    DASHSCOPE_API_KEY: str = os.getenv("DASHSCOPE_API_KEY", os.getenv("OPENAI_API_KEY", ""))
+    DASHSCOPE_API_KEY: str = os.getenv(
+        "DASHSCOPE_API_KEY", os.getenv("OPENAI_API_KEY", "")
+    )
 
     # --- Retrieval ---
     DENSE_BACKEND: str = os.getenv("DENSE_BACKEND", "faiss")
-    DENSE_TOP_K: int = 20
-    BM25_TOP_K: int = 20
-    GRAPH_TOP_K: int = 20
+    DENSE_TOP_K: int = 40
+    BM25_TOP_K: int = 40
+    GRAPH_TOP_K: int = 40
     FINAL_TOP_K: int = 10
     USE_RERANK: bool = True
     RERANKER_MODEL: str = "cross-encoder/ms-marco-MiniLM-L-6-v2"

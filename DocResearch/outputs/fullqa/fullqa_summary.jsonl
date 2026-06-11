@@ -1,0 +1,1 @@
+{"dataset": "techdocqa", "strategy": "hybrid", "n": 42, "has_answer_rate": 1.0, "avg_citation_precision": 0.9286, "avg_citation_coverage": 0.1714, "avg_faithfulness": 1.0, "guardrail_pass_rate": 0.0, "avg_repair_count": 2.0, "avg_latency_ms": 22083}
