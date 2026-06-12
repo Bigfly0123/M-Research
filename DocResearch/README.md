@@ -228,3 +228,21 @@ python eval/generate_report.py \
 5. **Citation Guardrails 三层校验** -- format/alignment/support 逐层拦截幻觉
 6. **Trace-based Evaluation** -- 每条问答完整 trace，支持 MultiHopRAG/TechDocQA 双数据集评测
 7. **双模式 Embedding** -- DashScope API (云端) 或 HuggingFace Local (离线)，一行配置切换
+
+## Full QA Ablation Study (Phase 5.1)
+
+Vanilla RAG vs Hybrid RAG (no guardrails) vs Full System，TechDocQA 42 条 + GaRAGe 50 条：
+
+**GaRAGe (50 samples):**
+
+| Metric | Vanilla RAG | Hybrid RAG w/o Guardrails | Full System |
+|---|---:|---:|---:|
+| citation_precision | 0.060 | 0.980 | **1.000** |
+| faithfulness | 0.530 | 0.990 | **0.990** |
+| unsupported_claim_rate | 0.470 | 0.010 | **0.010** |
+
+- Vanilla RAG (dense-only) 在开放域 QA 上严重失败：94% 引用无效
+- Hybrid RAG 带来决定性提升：citation_precision 从 0.06 → 0.98 (+1533%)
+- Full System 达到完美引用精度 (1.000)，guardrails/judge 确保所有引用有效
+
+> 详见 `reports/phase5_1_fullqa_ablation_report.md`

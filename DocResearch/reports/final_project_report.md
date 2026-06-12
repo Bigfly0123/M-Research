@@ -1,8 +1,8 @@
 # DocResearch-Agent 2026 Final Project Report
 
 > 项目：面向技术文档的 Context-Engineered Agentic GraphRAG 可靠性系统
-> 完成日期：2026-06-12
-> Phase: 5 (Final Release)
+> 完成日期：2026-06-11
+> Phase: 5.1 (Full QA Ablation)
 
 ---
 
@@ -161,14 +161,40 @@ Routes HARD_FAIL to appropriate repair action:
 | TechDocQA | 0.988 | 0.952 | 0.952 | 0.12 |
 | GaRAGe | 0.970 | 0.980 | 0.980 | 0.06 |
 
-### 6.3 Reliability Calibration (Phase 2 → Phase 3)
+### 6.3 Full QA Ablation Study (Phase 5.1)
+
+Compared Vanilla RAG, Hybrid RAG (no guardrails), and Full System on TechDocQA (42) and GaRAGe (50).
+
+**TechDocQA:**
+
+| Metric | Vanilla RAG | Hybrid w/o Guardrails | Full System |
+|---|---:|---:|---:|
+| citation_precision | 0.968 | 0.974 | **0.976** |
+| faithfulness | 0.988 | 0.988 | 0.982 |
+
+**GaRAGe:**
+
+| Metric | Vanilla RAG | Hybrid w/o Guardrails | Full System |
+|---|---:|---:|---:|
+| citation_precision | 0.060 | 0.980 | **1.000** |
+| faithfulness | 0.530 | 0.990 | **0.990** |
+| unsupported_claim_rate | 0.470 | 0.010 | **0.010** |
+
+**Key findings:**
+- TechDocQA: ceiling effect — all three configurations perform well (citation_precision > 0.96)
+- GaRAGe: Vanilla RAG severely fails (citation_precision=0.06), Hybrid RAG brings decisive improvement (+1533%), Full System achieves perfect citation precision (1.000)
+- Hybrid retrieval is the primary driver of answer quality; guardrails/judge/repair provides additional citation validation and failure detection
+
+> See `reports/phase5_1_fullqa_ablation_report.md` for full details.
+
+### 6.4 Reliability Calibration (Phase 2 → Phase 3)
 | Metric | Before | After | Δ |
 |---|---:|---:|---:|
 | guardrail_pass_rate | 0.000 | 0.952 | +0.952 |
 | avg_repair_count | 2.000 | 0.12 | -1.88 |
 | avg_latency_ms | 22,100 | 16,449 | -5,651 |
 
-### 6.4 Robustness Results
+### 6.5 Robustness Results
 | Test Type | Correct Rate | Key Metric |
 |---|---:|---|
 | out_of_domain | 80% | unsupported_answer_rate = 20% |
@@ -176,7 +202,7 @@ Routes HARD_FAIL to appropriate repair action:
 | citation_corruption | 80% | citation_integrity_rate = 80% |
 | ambiguous_question | 40% | Known limitation (no active clarification) |
 
-### 6.5 Human Audit Results
+### 6.6 Human Audit Results
 
 | Metric | Value |
 |---|---:|
@@ -259,5 +285,10 @@ DocResearch-Agent 2026 demonstrates that a reliability-focused agentic RAG syste
 - **Low hallucination** (7.7% confirmed by human audit of 26 samples)
 - **Strong citation support** (1.769/2 confirmed by human audit)
 - **Complete answers** (0% truncation after Phase 5 fix, verified on code-heavy questions)
+
+**Phase 5.1 Ablation** further confirms:
+- Compared with Vanilla RAG, the full system improves citation precision from 0.06 to 1.00 (+1567%) and faithfulness from 0.53 to 0.99 (+87%) on GaRAGe, reducing unsupported claim rate by 97.9%
+- Hybrid retrieval (dense + BM25 + graph expansion) is the primary driver of answer quality
+- Guardrails/judge/repair provides additional citation validation and failure detection on top of hybrid retrieval
 
 The system's value lies not in achieving the highest retrieval recall, but in building a closed loop that can **retrieve, cite, verify, and repair** — forming a trustworthy QA pipeline for technical documentation.

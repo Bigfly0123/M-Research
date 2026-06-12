@@ -1,7 +1,7 @@
 # Final Evaluation Summary: DocResearch-Agent 2026
 
-> 汇总日期: 2026-06-12 (Phase 5 Updated)
-> 覆盖: Phase 1~5 所有评测结果
+> 汇总日期: 2026-06-11 (Phase 5.1 Updated)
+> 覆盖: Phase 1~5.1 所有评测结果
 
 ---
 
@@ -141,7 +141,46 @@ Human audit confirms that the system is generally well-grounded and rarely hallu
 
 ---
 
-## 6. Final Verdict
+## 6. Full QA Ablation Study (Phase 5.1)
+
+### TechDocQA (42 samples)
+
+| Metric | Vanilla RAG | Hybrid RAG w/o Guardrails | Full System |
+|---|---:|---:|---:|
+| citation_precision | 0.9683 | 0.9735 | **0.9762** |
+| faithfulness | 0.9881 | 0.9881 | 0.9821 |
+| unsupported_claim_rate | 0.0119 | 0.0119 | 0.0179 |
+| avg_answer_length | 318 | 354 | 334 |
+| avg_latency_ms | 14,355 | 21,294 | 21,924 |
+
+### GaRAGe (50 samples)
+
+| Metric | Vanilla RAG | Hybrid RAG w/o Guardrails | Full System |
+|---|---:|---:|---:|
+| citation_precision | 0.0600 | 0.9800 | **1.0000** |
+| faithfulness | 0.5300 | 0.9900 | **0.9900** |
+| unsupported_claim_rate | 0.4700 | 0.0100 | **0.0100** |
+| avg_answer_length | 321 | 521 | 542 |
+| avg_latency_ms | 6,214 | 13,941 | 14,496 |
+
+### Relative Improvement (Full System vs Vanilla RAG)
+
+| Dataset | Metric | Δ (Absolute) | Δ (Relative) |
+|---|---|---:|---:|
+| TechDocQA | Citation Precision | +0.008 | +0.8% |
+| GaRAGe | Citation Precision | +0.940 | +1567% |
+| GaRAGe | Faithfulness | +0.460 | +87% |
+| GaRAGe | Unsupported Claim Rate | -0.460 | -97.9% |
+
+### Ablation Key Findings
+1. TechDocQA 天花板效应：三种配置均表现优异（citation_precision > 0.96），dense retrieval 已能覆盖大部分正确上下文
+2. GaRAGe 决定性提升：Vanilla RAG citation_precision=0.06 → Hybrid RAG=0.98 → Full System=1.00，证明 hybrid retrieval 是开放域 QA 的核心
+3. Faithfulness 评分方法差异：Vanilla/Hybrid 使用 rule-based 近似，Full System 使用 LLM judge 实际打分
+4. 综合结论：Hybrid retrieval 是 answer quality 的主要驱动力，guardrails/judge/repair 闭环提供引用校验和 failure detection
+
+---
+
+## 7. Final Verdict
 
 DocResearch-Agent 2026 已完成从 "能检索" 到 "能引用、能审查、能修复、能安全失败" 的完整可靠性闭环。人工审计确认了自动指标的可信度，并在 Phase 5 修复了截断问题。
 

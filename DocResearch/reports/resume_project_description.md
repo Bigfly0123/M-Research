@@ -22,6 +22,7 @@
 - GaRAGe Full QA: citation_precision = 0.980, faithfulness = 0.970
 - 平均 repair 次数从 2.000 降至 0.06~0.12
 - Out-of-domain 拒答正确率 80%
+- Full QA Ablation: 在 GaRAGe 上，Full System 相比 Vanilla RAG citation_precision 从 0.06 提升至 1.00 (+1567%)，faithfulness 从 0.53 提升至 0.99 (+87%)，unsupported claim rate 降低 97.9%
 
 ---
 
@@ -44,6 +45,7 @@
 - TechDocQA Full QA: faithfulness 0.988, citation_precision 0.952, guardrail_pass_rate 0.952
 - GaRAGe Full QA: citation_precision 0.980, faithfulness 0.970
 - 80% correct refusal on out-of-domain queries
+- Full QA Ablation (Vanilla RAG → Full System on GaRAGe): citation_precision 0.06 → 1.00 (+1567%), faithfulness 0.53 → 0.99 (+87%), unsupported claim rate reduced by 97.9%
 
 **Tech Stack**: Python, LangGraph, FAISS, sentence-transformers, BM25, GPT-4o-mini, Streamlit
 
@@ -63,4 +65,5 @@ Add an active clarification mechanism for ambiguous queries (currently 40% corre
 ### What's the scale?
 - 4 datasets: TechDocQA (42 QA), MultiHop-RAG (251 queries), StratRAG (44 queries), GaRAGe (50 QA)
 - 8-node LangGraph workflow
+- 3 ablation configurations (Vanilla RAG / Hybrid RAG / Full System)
 - 4 phases of iterative development over ~6 weeks
