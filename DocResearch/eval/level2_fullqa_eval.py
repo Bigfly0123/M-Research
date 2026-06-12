@@ -33,6 +33,27 @@ from dotenv import load_dotenv
 load_dotenv(PROJECT_ROOT / ".env")
 
 
+def check_answer_completion(answer: str) -> dict:
+    """[Phase 5] Check if answer appears truncated (code/list endings)."""
+    if not answer:
+        return {"is_truncated": False, "truncation_signal": None}
+    stripped = answer.rstrip()
+    # Check for obvious truncation signals
+    signals = []
+    if stripped.endswith(("import ", "from ", "def ", "class ", "return ", "elif ", "else:", "try:", "except ")):
+        signals.append("ends_with_statement_keyword")
+    if stripped.endswith((",", ":", "(", "[", "{")) and not stripped.endswith("."):
+        signals.append("ends_with_open_delimiter")
+    # Unbalanced code blocks
+    if stripped.count("```") % 2 != 0:
+        signals.append("unclosed_code_block")
+    # Very short but has code markers
+    if len(stripped) < 100 and ("def " in stripped or "class " in stripped or "```" in stripped):
+        signals.append("code_started_but_incomplete")
+    is_truncated = len(signals) > 0
+    return {"is_truncated": is_truncated, "truncation_signal": signals[0] if signals else None}
+
+
 def load_jsonl(path: Path) -> List[dict]:
     rows = []
     with path.open("r", encoding="utf-8") as f:
@@ -229,6 +250,7 @@ def run_fullqa(dataset_name: str, strategy_name: str, top_k: int = 10):
     total_has_answer = 0
     total_latency = 0
     total_repair = 0
+    total_truncated = 0  # [Phase 5]
 
     for i, row in enumerate(eval_rows):
         question = row.get("question", "")
@@ -252,7 +274,7 @@ def run_fullqa(dataset_name: str, strategy_name: str, top_k: int = 10):
                 "dataset": dataset_name,
                 "query_id": row.get("query_id", row.get("question_id", f"q_{i}")),
                 "query": question[:200],
-                "gold_answer": gold_answer[:200] if gold_answer else "",
+                "gold_answer": gold_answer[:500] if gold_answer else "",
                 "error": str(e),
                 "metrics": {"latency_ms": int((time.time() - start) * 1000)},
             })
@@ -281,6 +303,9 @@ def run_fullqa(dataset_name: str, strategy_name: str, top_k: int = 10):
         )
         quality["guardrail_pass"] = final_guardrail_pass  # 覆盖为 judge 最终决策
 
+        # [Phase 5] Answer completion check
+        completion = check_answer_completion(answer)
+
         # 检索质量 (recall@10)
         retrieved_chunks = output_state.get("retrieved_chunks", [])
         retrieved_doc_ids = []
@@ -305,17 +330,19 @@ def run_fullqa(dataset_name: str, strategy_name: str, top_k: int = 10):
         total_guardrail_pass += int(quality["guardrail_pass"])
         total_latency += latency_ms
         total_repair += repair_count
+        if completion["is_truncated"]:
+            total_truncated = total_truncated + 1  # [Phase 5]
 
         result = {
             "dataset": dataset_name,
             "query_id": row.get("query_id", row.get("question_id", f"q_{i}")),
             "query": question[:200],
-            "gold_answer": gold_answer[:200] if gold_answer else "",
+            "gold_answer": gold_answer[:500] if gold_answer else "",
             "gold_doc_ids": gold_doc_ids,
             "retrieval_strategy": strategy_name,
             "retrieved_doc_ids": retrieved_doc_ids[:top_k],
             "retrieval_recall": round(recall, 4),
-            "answer": answer[:500] if answer else "",
+            "answer": answer,  # [Phase 5] save full answer (was [:500])
             "citations": used_citations,
             "unsupported_claims": unsupported_claims,
             "guardrail_pass": guardrail_pass,
@@ -324,6 +351,7 @@ def run_fullqa(dataset_name: str, strategy_name: str, top_k: int = 10):
             "failure_type": failure_type,
             "repair_count": repair_count,
             "quality": quality,
+            "answer_completion": completion,  # [Phase 5]
             "metrics": {
                 "latency_ms": latency_ms,
                 "recall@10": round(recall, 4),
@@ -349,6 +377,7 @@ def run_fullqa(dataset_name: str, strategy_name: str, top_k: int = 10):
         "avg_faithfulness": round(total_faithfulness / n, 4) if n else 0,
         "guardrail_pass_rate": round(total_guardrail_pass / n, 4) if n else 0,
         "avg_repair_count": round(total_repair / n, 2) if n else 0,
+        "truncated_rate": round(total_truncated / n, 4) if n else 0,  # [Phase 5]
         "avg_latency_ms": round(total_latency / n) if n else 0,
     }
 

@@ -1,10 +1,6 @@
-# M-Research
+# DocResearch-Agent 2026
 
-> Multi-dataset Research on Retrieval-Augmented Generation (RAG) systems.
-
-## Main Project: DocResearch-Agent 2026
-
-**Context-Engineered Agentic GraphRAG for reliable technical document QA.**
+> Context-Engineered Agentic GraphRAG for reliable technical document QA.
 
 DocResearch-Agent is a full-pipeline Agentic RAG system that goes beyond naive retrieve-then-generate. It implements an 8-node LangGraph workflow with adaptive retrieval, evidence composition, citation guardrails, self-reflection judging, and corrective repair — forming a closed loop from query understanding to grounded, cited, verified answers.
 
@@ -100,24 +96,26 @@ Final Answer + Citations
 
 **TechDocQA** (42 samples):
 
-| Metric | Before Phase 3 | After Phase 3 | Target |
-|---|---:|---:|---:|
-| has_answer_rate | 1.000 | 1.000 | >= 0.950 |
-| citation_precision | 0.929 | **0.976** | >= 0.850 |
-| faithfulness | 1.000 | **1.000** | >= 0.950 |
-| guardrail_pass_rate | 0.000 | **0.976** | >= 0.400 |
-| avg_repair_count | 2.000 | **0.07** | < 0.800 |
-| avg_latency | 22.1s | **16.3s** | < 15.0s |
+| Metric | Value |
+|---|---:|
+| has_answer_rate | 1.000 |
+| citation_precision | **0.952** |
+| faithfulness | **0.988** |
+| guardrail_pass_rate | 0.952 |
+| has_primary_cited_rate | 0.738 |
+| avg_repair_count | 0.12 |
+| avg_latency | 16.4s |
 
 **GaRAGe** (50 samples):
 
-| Metric | Value | Target |
-|---|---:|---:|
-| citation_precision | **1.000** | >= 0.850 |
-| faithfulness | **0.970** | >= 0.900 |
-| guardrail_pass_rate | **1.000** | — |
-| avg_repair_count | **0.04** | < 1.000 |
-| avg_latency | **11.7s** | < 20.0s |
+| Metric | Value |
+|---|---:|
+| citation_precision | **0.980** |
+| faithfulness | **0.970** |
+| guardrail_pass_rate | 0.980 |
+| has_primary_cited_rate | 0.980 |
+| avg_repair_count | 0.06 |
+| avg_latency | 11.6s |
 
 > Phase 3 calibration reduced unnecessary repairs by **96.5%** while maintaining answer quality.
 
@@ -130,6 +128,18 @@ Final Answer + Citations
 | Citation integrity | 80% | Normal queries maintain valid citations |
 | Ambiguous questions | 40% | Known limitation (no active clarification) |
 
+### Human Audit (26 samples, Phase 5 Verified)
+
+| Metric | Value |
+|---|---:|
+| Hallucination rate | **7.7%** (only 2/26 samples) |
+| Avg citation support | **1.769 / 2** |
+| Avg correctness | 1.423 / 2 |
+| Perfect sample rate | 42.3% |
+| Truncation rate | **0%** (after Phase 5 fix) |
+
+> Human audit confirms low hallucination and strong citation support. Automatic metrics are reliable.
+
 > See [Demo Cases](DocResearch/reports/demo_cases.md) for 5 representative examples.
 > See [Final Report](DocResearch/reports/final_project_report.md) for complete project summary.
 
@@ -138,7 +148,7 @@ Final Answer + Citations
 ## Project Structure
 
 ```
-M-Research/
+DocResearch-Agent/
 ├── DocResearch/              ← Main project: Agentic GraphRAG system
 │   ├── app/                  ← Core system (LangGraph workflow)
 │   │   ├── context/          ← Context Planner
@@ -219,9 +229,10 @@ python scripts/test_fullqa.py
 | Report | Description |
 |---|---|
 | [Final Project Report](DocResearch/reports/final_project_report.md) | **Complete project summary** (recommended starting point) |
-| [Final Eval Summary](DocResearch/reports/final_eval_summary.md) | All evaluation results across Phase 1–4 |
+| [Final Eval Summary](DocResearch/reports/final_eval_summary.md) | All evaluation results across Phase 1–5 |
 | [Demo Cases](DocResearch/reports/demo_cases.md) | 5 representative examples showcasing system capabilities |
 | [Phase 3 Reliability Report](DocResearch/reports/docresearch_phase3_reliability_report.md) | Judge/Repair calibration details |
+| [Phase 4 Human Audit Report](DocResearch/reports/phase4_human_audit_report.md) | Human audit of 26 samples with detailed results |
 | [Phase 4 Robustness Report](DocResearch/reports/phase4_robustness_report.md) | Out-of-domain, evidence insufficiency, ambiguity tests |
 | [Resume Description](DocResearch/reports/resume_project_description.md) | CN/EN project description for resume |
 | [12 Module Guides](docs/docresearch_12_module_guides/) | Architecture documentation for each module |
@@ -246,3 +257,13 @@ python scripts/test_fullqa.py
 2. **Phase 2**: Reranker root-cause fix, adaptive hybrid, selective graph, Level 1/2 eval
 3. **Phase 3**: Judge/Repair calibration, evidence tier classification, Full QA stabilization
 4. **Phase 4**: Robustness eval, primary_evidence_coverage, human audit, demo cases, final report
+5. **Phase 5**: Truncation fix, human audit integration, demo polish, release preparation
+
+---
+
+## Limitations
+
+- **Ambiguous questions**: No active clarification mechanism (40% correct). Future work.
+- **Citation coverage**: LLM tends to cite only 1-2 chunks per answer (0.15-0.16 raw coverage).
+- **Open-domain retrieval**: GaRAGe safe refusals (30%) when evidence is not in the index.
+- **Domain boundary**: OOD queries with vocabulary overlap may escape detection (20% failure rate).

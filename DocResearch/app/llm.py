@@ -15,6 +15,7 @@ def get_llm(model_type: str = "fast") -> ChatOpenAI:
         return ChatOpenAI(
             model=config.FAST_MODEL,
             temperature=0.7,
+            max_tokens=4096,  # [Phase 5] ensure sufficient output length
             base_url=config.OPENAI_API_BASE,
             api_key=config.OPENAI_API_KEY,
         )
@@ -22,6 +23,7 @@ def get_llm(model_type: str = "fast") -> ChatOpenAI:
         return ChatOpenAI(
             model=config.SMART_MODEL,
             temperature=0,
+            max_tokens=4096,  # [Phase 5] ensure sufficient output length
             base_url=config.OPENAI_API_BASE,
             api_key=config.OPENAI_API_KEY,
         )
