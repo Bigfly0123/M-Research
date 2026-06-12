@@ -1,0 +1,35 @@
+{
+  "total": 20,
+  "by_type": {
+    "out_of_domain": {
+      "count": 5,
+      "correct_behavior_rate": 0.8,
+      "avg_latency_ms": 16559,
+      "refusal_rate": 0.0,
+      "unsupported_answer_rate": 0.2
+    },
+    "insufficient_evidence": {
+      "count": 5,
+      "correct_behavior_rate": 0.8,
+      "avg_latency_ms": 14523,
+      "soft_warn_or_hard_fail_rate": 0.8,
+      "hard_fail_detection_rate": 0.6
+    },
+    "ambiguous_question": {
+      "count": 5,
+      "correct_behavior_rate": 0.4,
+      "avg_latency_ms": 12298,
+      "scope_clarification_rate": 0.4,
+      "unsafe_answer_rate": 0.6
+    },
+    "citation_corruption": {
+      "count": 5,
+      "correct_behavior_rate": 0.8,
+      "avg_latency_ms": 11761,
+      "citation_integrity_rate": 0.8,
+      "pass_rate": 0.8
+    }
+  },
+  "overall_correct_behavior_rate": 0.7,
+  "avg_latency_ms": 13785
+}

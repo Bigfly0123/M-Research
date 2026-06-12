@@ -1,0 +1,15 @@
+[
+  {
+    "dataset": "techdocqa",
+    "question_id": "",
+    "question": "",
+    "answer": "",
+    "citations": [],
+    "answer_correctness": null,
+    "citation_support": null,
+    "answer_completeness": null,
+    "hallucination": null,
+    "error_type": null,
+    "human_note": ""
+  }
+]

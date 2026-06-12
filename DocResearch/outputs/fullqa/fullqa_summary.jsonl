@@ -1,1 +1,1 @@
-{"dataset": "garage", "strategy": "hybrid", "n": 50, "has_answer_rate": 1.0, "avg_citation_precision": 1.0, "avg_citation_coverage": 0.152, "avg_faithfulness": 0.97, "guardrail_pass_rate": 0.0, "avg_repair_count": 0.04, "avg_latency_ms": 11665}
+{"dataset": "techdocqa", "strategy": "hybrid", "n": 42, "has_answer_rate": 1.0, "avg_citation_precision": 0.9524, "avg_citation_coverage": 0.1576, "avg_primary_evidence_coverage": 0.2095, "avg_faithfulness": 0.9881, "guardrail_pass_rate": 0.9524, "avg_repair_count": 0.12, "avg_latency_ms": 16449}

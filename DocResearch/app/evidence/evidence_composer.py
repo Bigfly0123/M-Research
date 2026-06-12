@@ -47,11 +47,11 @@ def classify_evidence_tier(chunk: dict, question: str, rank: int, total: int) ->
     """
     score = chunk.get("final_score", 0.0)
 
-    # Top 30% 且分数较高 → primary
-    if rank <= max(2, total // 3) and score > 0.3:
+    # [Phase 4] 放宽 primary 阈值: top 50% 且 score > 0.2 → primary
+    if rank <= max(3, total * 5 // 10) and score > 0.2:
         return "primary"
-    # 中间 40% → supporting
-    elif rank <= max(4, total * 7 // 10) and score > 0.1:
+    # 中间 30% → supporting
+    elif rank <= max(5, total * 8 // 10) and score > 0.1:
         return "supporting"
     # 剩余 → context_only
     else:

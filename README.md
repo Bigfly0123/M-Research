@@ -121,6 +121,18 @@ Final Answer + Citations
 
 > Phase 3 calibration reduced unnecessary repairs by **96.5%** while maintaining answer quality.
 
+### Phase 4: Robustness Eval (20 samples)
+
+| Test Type | Correct Rate | Key Finding |
+|---|---:|---|
+| Out-of-domain | 80% | System detects most OOD queries via Judge |
+| Insufficient evidence | 80% | HARD_FAIL/SOFT_WARN when docs lack answer |
+| Citation integrity | 80% | Normal queries maintain valid citations |
+| Ambiguous questions | 40% | Known limitation (no active clarification) |
+
+> See [Demo Cases](DocResearch/reports/demo_cases.md) for 5 representative examples.
+> See [Final Report](DocResearch/reports/final_project_report.md) for complete project summary.
+
 ---
 
 ## Project Structure
@@ -206,11 +218,13 @@ python scripts/test_fullqa.py
 
 | Report | Description |
 |---|---|
-| [Phase 2 Eval Report](DocResearch/reports/docresearch_phase2_eval_report.md) | Level 1 + Level 2 evaluation results |
-| [Phase 3 Plan](docs/DocResearch_Phase3_Reliability_Calibration_Plan.md) | Reliability calibration plan |
+| [Final Project Report](DocResearch/reports/final_project_report.md) | **Complete project summary** (recommended starting point) |
+| [Final Eval Summary](DocResearch/reports/final_eval_summary.md) | All evaluation results across Phase 1–4 |
+| [Demo Cases](DocResearch/reports/demo_cases.md) | 5 representative examples showcasing system capabilities |
+| [Phase 3 Reliability Report](DocResearch/reports/docresearch_phase3_reliability_report.md) | Judge/Repair calibration details |
+| [Phase 4 Robustness Report](DocResearch/reports/phase4_robustness_report.md) | Out-of-domain, evidence insufficiency, ambiguity tests |
+| [Resume Description](DocResearch/reports/resume_project_description.md) | CN/EN project description for resume |
 | [12 Module Guides](docs/docresearch_12_module_guides/) | Architecture documentation for each module |
-| [TechDocQA Reports](DocResearch/reports/techdocqa/) | Per-strategy retrieval results |
-| [MultiHop-RAG Reports](DocResearch/reports/multihop_rag/) | Multi-hop retrieval analysis |
 
 ---
 
@@ -231,3 +245,4 @@ python scripts/test_fullqa.py
 1. **Phase 1**: Core retrieval pipeline (dense + BM25 + hybrid + graph), initial evaluation
 2. **Phase 2**: Reranker root-cause fix, adaptive hybrid, selective graph, Level 1/2 eval
 3. **Phase 3**: Judge/Repair calibration, evidence tier classification, Full QA stabilization
+4. **Phase 4**: Robustness eval, primary_evidence_coverage, human audit, demo cases, final report

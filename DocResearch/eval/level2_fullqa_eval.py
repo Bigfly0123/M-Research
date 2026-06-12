@@ -127,6 +127,15 @@ def evaluate_answer_quality(
     cited_ids = set(used_citations)
     citation_coverage = len(ctx_ids & cited_ids) / max(len(ctx_ids), 1)
 
+    # 2b. [Phase 4] Primary evidence coverage: 只统计 primary evidence 的引用覆盖
+    primary_items = [item for item in context_pack if item.get("evidence_tier") == "primary"]
+    primary_count = len(primary_items)
+    cited_primary = len([item for item in primary_items
+                         if item.get("citation_id", item.get("chunk_id", "")) in cited_ids])
+    primary_evidence_coverage = cited_primary / max(primary_count, 1) if primary_count > 0 else 0.0
+    # [Phase 4] has_primary_cited: 至少有一个 primary evidence 被引用 (更实用的指标)
+    has_primary_cited = cited_primary > 0
+
     # 3. 答案非空
     has_answer = len(generated_answer.strip()) > 10
 
@@ -155,6 +164,10 @@ def evaluate_answer_quality(
         "answer_length": len(generated_answer),
         "citation_precision": round(citation_precision, 4),
         "citation_coverage": round(citation_coverage, 4),
+        "primary_evidence_coverage": round(primary_evidence_coverage, 4),
+        "has_primary_cited": has_primary_cited,
+        "primary_evidence_count": primary_count,
+        "cited_primary_count": cited_primary,
         "guardrail_pass": bool(guardrail_pass),
         "faithfulness": round(faithfulness, 4),
         "judge_scores": judge_scores,
@@ -209,6 +222,8 @@ def run_fullqa(dataset_name: str, strategy_name: str, top_k: int = 10):
     total_correct = 0
     total_citation_precision = 0
     total_citation_coverage = 0
+    total_primary_evidence_coverage = 0
+    total_has_primary_cited = 0
     total_faithfulness = 0
     total_guardrail_pass = 0
     total_has_answer = 0
@@ -284,6 +299,8 @@ def run_fullqa(dataset_name: str, strategy_name: str, top_k: int = 10):
         total_has_answer += int(quality["has_answer"])
         total_citation_precision += quality["citation_precision"]
         total_citation_coverage += quality["citation_coverage"]
+        total_primary_evidence_coverage += quality["primary_evidence_coverage"]
+        total_has_primary_cited += int(quality.get("has_primary_cited", quality["cited_primary_count"] > 0))
         total_faithfulness += quality["faithfulness"]
         total_guardrail_pass += int(quality["guardrail_pass"])
         total_latency += latency_ms
@@ -327,6 +344,8 @@ def run_fullqa(dataset_name: str, strategy_name: str, top_k: int = 10):
         "has_answer_rate": round(total_has_answer / n, 4) if n else 0,
         "avg_citation_precision": round(total_citation_precision / n, 4) if n else 0,
         "avg_citation_coverage": round(total_citation_coverage / n, 4) if n else 0,
+        "avg_primary_evidence_coverage": round(total_primary_evidence_coverage / n, 4) if n else 0,
+        "has_primary_cited_rate": round(total_has_primary_cited / n, 4) if n else 0,
         "avg_faithfulness": round(total_faithfulness / n, 4) if n else 0,
         "guardrail_pass_rate": round(total_guardrail_pass / n, 4) if n else 0,
         "avg_repair_count": round(total_repair / n, 2) if n else 0,
